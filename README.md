@@ -46,11 +46,13 @@ in lieu of running Pelican directly, but that seems like more work than the peli
 
 ### Elegant
 
-Elegant is available as a submodule. It likely needs to be installed, e.g.
+Elegant is installed as a submodule, which is unfortunate because parts of it need to be customized.
 
-    pelican-themes -i pelican-themes\elegant
+1. I'm overriding custom.css, especially to provide styling for the SVG elements.
 
-It's likely that there's a more straight-forward way to keep everything in sync (e.g. changing the theme to `pelican-themes/elegant`).
+2. I want to edit out the searchbox until I get search working (see below).
+
+These changes make it a bit harder to simply download the latest theme changes.
 
 ### Elegant (Search)
 
@@ -59,3 +61,35 @@ Search is not yet working. The outdated documentation is for Tipue search; there
 ### extract_toc (plugin)
 
 [extract_toc](https://github.com/getpelican/pelican-plugins/blob/master/extract_toc/extract_toc.py) is a Pelican plugin that hasn't yet been exported to a standalone Python package. For now, it is simply copy-and-pasted into a folder, but in the future, it should be installed via requirements.txt when it is a standard Pelican plugin.
+
+### Color Scheme
+
+The basic Elegant color scheme is something like:
+
+* #maroon - Titles
+* #dimgray - Categories
+* #3875d7 - Anchors
+* Dark gray or black - Text
+* Offwhite - Background
+
+For charts and graphs, the following color schemes are suggested:
+
+* #008080 (Complimentary)
+* #008000, #000080, (Tridic)
+* #408000, #008080, #400080 (Tretradic)
+
+### SVG Images
+
+Since SVG images don't allow CSS styling, use <object type="image/svg+xml" data="images/name-of-image.svg" class="svg"> to include SVG images inline. pelican-themes/elegant/static/css/custom.css contains the custom for SVG images.
+
+### Mermaid Diagrams
+
+Mermaid diagrams can be included like this:
+
+```mermaid
+graph TB
+A --> B
+B --> C
+```
+
+Currently, color styling hasn't been applied to Mermaid images.

@@ -46,7 +46,6 @@ MARKDOWN = {
         },
         'markdown.extensions.toc': {},
         'md_mermaid' : {},
-        'd3ext' : {},
     },
 }
 
@@ -57,10 +56,9 @@ AUTHORS = {
         'blurb' : 'The Art and Science of Software Development',
         'avatar' : 'https://www.gravatar.com/avatar/1ada374ef69844ee2b619c4921891d53?s=512&d=identicon'
     },
-#    a18cc4de9b361fbd9cad611d7d042c5c
 }
 
-THEME = 'elegant'
+THEME = 'pelican-themes/elegant'
 
 LANDING_PAGE_TITLE = 'Welcome'
 RECENT_ARTICLES_COUNT = 10

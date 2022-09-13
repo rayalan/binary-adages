@@ -2,6 +2,8 @@ beautifulsoup4==4.11.1
 #ghp-import==2.1.0
 invoke==1.7.1
 markdown==3.4.1
+#md-mermaid==0.1.1
+git+https://github.com/rayalan/md_mermaid@apr/md-config#md-mermaid
 pelican==4.8.0
 #pelican-avatar==1.0.2
 pelican-neighbors==1.2.0
