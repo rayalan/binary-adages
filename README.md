@@ -33,6 +33,16 @@ Resources
 - [Elegant documentation](https://github.com/Pelican-Elegant/elegant)
 - [Pelican](https://getpelican.com/)
 
+Categories
+----------
+
+Currently the following categories exist:
+
+- _practices and principles_: Reflections on practices or principles of software development.
+- _projects_: A writeup and retrospective on projects I've done.
+- _technology experience reviews_: Experiences and insights about software technologies, libraries, products, and such from using them.
+- _crossover reviews_: Ideas and insights about software development from being a consumer.
+
 Caveats
 -------
 

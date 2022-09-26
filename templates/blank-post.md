@@ -5,4 +5,6 @@ tags: tag1, tag2
 subtitle: The Quip
 status: hidden|published|draft
 
+[TOC]
+
 Page text goes here.

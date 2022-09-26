@@ -1,5 +1,5 @@
 title: Blog Revamp
-date: 2022-06-01
+date: 2022-06-06
 category: projects
 tags: ablog, python, js, mermaid, markdown, restructured-text, svg, charts
 subtitle: How hard can it be?
@@ -13,8 +13,8 @@ It's been about five years since my last attempt at a blog, in which I think I w
 
 In no particular order, my goal was to:
 
-1. Revisit the technology selection (especially [ablog](https://ablog.readthedocs.io/)).
-2. Use a DevOps-oriented approach (e.g. text, source control)
+1. Revisit the technology selection (especially [ABlog](https://ablog.readthedocs.io/)).
+2. Use a DevOps-oriented approach (e.g. text, source control).
 3. Trivially include [mermaid.js](https://mermaid-js.github.io/mermaid/#/) diagrams.
 4. Trivially include simple charts.
 5. Hone and improve my skills.
@@ -36,9 +36,9 @@ For the project, I want to find the right balance between getting it setup enoug
 
 Finally, I wanted to revisit the technology selection because for a few reasons:
 
-* For as rarely as I write, I find ablog and [Sphinx](https://www.sphinx-doc.org/en/master/) to be a bit too complicated for my tastes.
-* I last picked the technology stack for my blog five years agoFive years have passed since I picked a, and now I know more and the tech landscape has changed.
-* ablog is no longer with its original developer and almost entirely in maintenance mode. I've hit a few sharp edges when trying to integrate it with other Sphinx plugins, and I don't really want to keep dealing with that.
+* For as rarely as I write, I find ABlog and [Sphinx](https://www.sphinx-doc.org/en/master/) to be a bit too complicated for my tastes.
+* I last picked the technology stack for my blog five years ago; now I know more and the tech landscape has changed.
+* ABlog is no longer with its original developer and almost entirely in maintenance mode. I've hit a few sharp edges when trying to integrate it with other Sphinx plugins, and I don't really want to keep dealing with that.
 
 # Execution
 
