@@ -14,13 +14,16 @@ Is that too strong a statement? There certainly are other candidates such as:
 
 But time uniquely permeates the software development.
 
-# Handling time
+# Coding time
 
-In writing software:
+In writing software, time is rarely easy:
+
 * Finding out the true time is non-trivial. Maybe the system clock (or the possibly hijacked browser) can't be trusted. Or maybe they just aren't synced NIST time. Or maybe one wants to figure out the latency between a client and server and isn't sure both clocks are synced.
 * Periodically someone forgets to store data in UTC, which leads to fun and easy-to-get-wrong timezone manipulation operations.
 * Or perhaps one needs to be able to reliably plot events on a timeline, including that 1980 October 26 1:01a record happened before or after day lights savings time ended? And periodically governments change the rules around time, so a locale that practices daylight savings time now might not in a year -- or five years ago.
 * Even questions like "What does it mean for event A to happen before event B?" get weird in computer systems. If I receive event A before event B, does that mean event A happened first? What if event B was sent first, but was lost, and only arrived an hour later? What if I'm working in a distributed system where I only know about one of the events?
+
+And don't get me started on trying to write tests that involve time. Benchmarks are predictable until they aren't. Tests work fine until that one moment when an operation didn't take as long as expected resulting in equality instead of an ordered sequence. Or someone sticks in a `if is_daylights_savings_time` check that makes it through code review, resulting in  mysteriously test failure four months later.
 
 # State
 
