@@ -192,6 +192,7 @@ Topics: Retrospectives at different levels. - developer vs. manager vs. executiv
 - Conventional wisdom - is anybody actually doing it? Is no one is actually doing it, is it actually the right way to do software? If you want to be world-class, you need to defy conventional wisdom. Standard operating procedures will only get you...standard results.
 - Selection bias - gradually narrowing
 - Tenets; architectural principles, design principles + practices
+- Debate principles (see draft from other blog)
 
 About me
   - Engineering philosophy
