@@ -193,6 +193,14 @@ Topics: Retrospectives at different levels. - developer vs. manager vs. executiv
 - Selection bias - gradually narrowing
 - Tenets; architectural principles, design principles + practices
 - Debate principles (see draft from other blog)
+- The importance of vocabulary.
+- Pscological safety - never having to explain yourself vs. the ability to speak until you've explained yourself.
+- How do you calibrate yourself to a job?
+- the complexity of tech world
+  - what do certifications tell you?
+  - The value of certifications vs. the value of someone who can learn
+  - the value of tasks vs. the value of determining which approach needs to be taken and thus which tasks need to be done. Doing the right thing vs. doing the thing right.
+  - madman or export
 
 About me
   - Engineering philosophy
@@ -233,7 +241,7 @@ About me
   - What am I most proud of?
     - Billing project work
   - What am I looking for?
-    - See
+    - See (link, link)
   - Tell us about a time when things didn't go as planned.
   - Tell us about a time when you disagreed with someone.
   - what do you think makes a great developer?
@@ -242,5 +250,7 @@ About me
   - What are your ambitions?
   - Diversity (woman hiring by 15%)
 
+
 Fun references:
   - https://www.youtube.com/watch?v=hEUO6pjwFOo
+  About me video: https://www.youtube.com/watch?v=ugQEiZG19Rs

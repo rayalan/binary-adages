@@ -9,7 +9,10 @@ status: published
 
 # Intro
 
-Claim: 95% of what I've learned about great management comes from two managers and a book[^wander].
+> 95% of what I've learned about great management comes from two managers and a book[^wander].
+> Me, reflecting about my management style
+
+[^wander]: I don't even remember the book, but it introduced me to [management by wandering around](https://www.mindtools.com/a79izhx/management-by-wandering-around-mbwa). _First, Break All The Rules_ by Don Clifton also deserves a hat tip for articulating many of these ideas.
 
 I've had plenty of bosses over the years -- some good, a few too busy to pay attention to me, a few not so good[^horror]. And I've probably read -- or at least skimmed -- dozens of books on leadership.
 
@@ -38,7 +41,7 @@ In other words, Ella got where I was coming from and supported me getting a chan
 
 [^hindsight]: In hindsight, I probably could have accepted Ella's offer and then gone to the interview anyway, so Ella's response may have also just been good negotiation to make sure she got a real yes.
 
-[^choice]: As it turned out, the other interview was catastrophically bad -- like, EEOC violating bad -- so at the end of the day, the job choice was pretty easy.
+[^choice]: As it turned out, the other interview was catastrophically bad -- like, the hiring manager flagrantly violating EEOC with off-hand comments to me during the interview bad -- so at the end of the day, the job choice was pretty easy.
 
 ## Ella and waf
 
@@ -57,6 +60,16 @@ I ended up build a [waf-based system](https://waf.io/book/) for the application.
 ## Christmas party
 
 The final memory I have of Ella from that first year is the company Christmas Party. I'd only been working with Ella a few months at that point, but she made a point to greet my wife and I, and to tell my wife how much she appreciated my presence and contributions at the company. I particularly recall the warmth in her comments and how much I enjoyed that kind of reinforcement.
+
+## Emma, individualized
+
+> "Why do you work here?"
+
+I don't recall how long it took for Emma to ask that question after she started managing me. Under a month. Possibly the second time we met.
+
+_"I don't care why you work here, but I need to know why in order to be a good manager."_
+
+The question led into a really good conversation about what I valued directly (e.g. respect of co-workers) and how often what a company is willing to pay is an accurate signal of how much they value and respect a person's work. This was the first of many good conversations with Emma. Beyond that, I learned that Emma cared about tailoring her management style on an individual basis. Case in point, I mentioned that I'd never gotten one of the company's "notable contribution"[^coin] thank yous (and we both knew that I'd more than earned a few). Not too long later, the company CEO dropped by to give me one. I can't prove Emma instigated the recognition, but it sure seems likely.
 
 ## Emma and the questions
 
@@ -98,7 +111,7 @@ If I can create a team where I'm not necessary, that's fantastic. One of the bes
 * Manage by wandering around (perhaps virtually), chatting, and building relationships.
 * Let others leverage their strengths to build the team. I'm not a natural encourager or connector, so let others with those talents take the lead. While I do need grow, I don't need to do all the work myself and I don't need to be the one with all the answers (especially if I'm trying to make myself unnecessary).
 * Be thoughtfully present.
-    * Can I tell you the unique contributions of each team members?
+    * Can I tell you the unique contributions of each team members? Do the reviews I write reflect that I'm touch with the employee's successes, growth, and ambitions?
     * Can I tell you how I'm utilizing their individual strengths and passions in how I've allocated work?
     * When confronted with someone's weakness, am I immediately reacting to that weakness, or am I seeking to understand what is leading to the expression of that weakness?
     * If anything I'm going to write on someone's review will surprise them, then I'm failing as a manager and need to adjust.
@@ -106,13 +119,9 @@ If I can create a team where I'm not necessary, that's fantastic. One of the bes
 
 [^review]: While yes, problem employees do exist, most of the time, most people respond really well to good management. So starting with the assumption that it's on me to do better covers most situations really well.
 
-So I strive
-
-- A failing employee is first a reflection on me
-- Be present - can I write thoughtful reviews?
-- Let others do what they do best to build up the team
-
 This certainly isn't an exhaustive list; much of this is shaped by what I'm naturally weak at and thus needs extra attention. For example, I naturally bring about organization and structure; what I need to focus on is relationships and spontaneity. So managing by wandering around helps provide those opportunities and "structures" unstructured time for me.
+
+But in a nutshell, that captures an awful lot of what I've learned from my best managers. After all, good management is really pretty simple most of the time -- the only hard part is living it out consistently.
 
 # Soapbox Bonus
 
@@ -128,7 +137,7 @@ Too cynical? Perhaps.
 
 Maybe I'll do a more in-depth reflection about the organizational challenges around great managers in the future.
 
-[^wander]: I don't even remember the book, but it introduced me to [management by wandering around](https://www.mindtools.com/a79izhx/management-by-wandering-around-mbwa). _First, Break All The Rules_ by Don Clifton also deserves a hat tip for articulating many of these ideas.
+
 
 [^horror]: Maybe I'll do a follow-up along the lines of the _[Bike Lesson](https://www.goodreads.com/en/book/show/1310108)_, where I share the invaluable lessons I learned from watching my bosses do it wrong.
 
