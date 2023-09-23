@@ -7,7 +7,7 @@ status: published
 
 [TOC]
 
-All too often, integrating with a third-party technology is a pain: The product doesn't reliably work, the documentation is inadequate, the solution lacks essential concepts, the customer support disappears once the purchase has been made, and so on. Most developers have felt this pain, I think, whether it is using an open source library or a purchased solution.
+All too often, integrating with a third-party technology is a pain: the product doesn't reliably work, the documentation is inadequate, the solution lacks essential concepts, the customer support disappears once the purchase has been made, and so on. Most developers have felt this pain, I think, whether it is using an open source library or a purchased solution.
 
 Thus on the rare occasions when a company knocks it out of the park with an effective product that is a joy to work with technically, I want to reflect on how that win was achieved -- and what lessons I can learn.
 
@@ -18,7 +18,7 @@ Today I'm reviewing [Stripe](https://stripe.com/). As background, I've worked wi
 My three big takeaways from Stripe:
 
 * _Excellence matters_: Across the board, Stripe is an excellent product. Given a choice, they seem to prefer to do the essentials well, rather than having more features with a less solid experience. The result is that while I did, at times, want more from the product, I was confident that what I had to work with was rock solid.
-* _Intertwine process with product_: The "things" Stripe produced (such as APIs, features, and documentation) also enabled processes (such as onboarding, prototyping, testing) to work well.
+* _Intertwine process with product_: The "things" Stripe produced (such as APIs, features, and documentation) also enabled processes (such as onboarding, prototyping, and testing) to work well.
 * _Integrate multiple disciplines_: Stripe reflects excellence in the disciplines of development, architecture, user experience, quality assurance, customer support, business intelligence, and law. I'm pretty sure they aren't hiring individuals who have mastered all these fields; rather, they are effectively integrating expertise from many different people.
 
 # Strengths
@@ -41,11 +41,11 @@ Stripe makes it easy to understand what it is capable of, how it works (e.g. eve
 * Ideas can be quickly prototyped and verified.
 * Any concerns or uncertainties can be turned into specific technical questions for Stripe to answer -- and those answers can then be tested to make sure they produce the desired result.
 
-With many products (including several of Stripe's competitors that I looked at), it was not possible to properly validate the functionality before purchase. With Stripe, I had vetted the functionality and architecturally designed about 95% of the billing project by the time Stripe was settled on as a vendor. Because of good documentation and strong alignment between the documentation and Stripe functionality, that initial design was an accurate high-fidelity design to what ended up being implemented.
+With many products (including several of Stripe's competitors that I considered), it was not possible to properly validate the functionality before purchase. With Stripe, I had vetted the functionality and architecturally designed about 95% of the billing project by the time Stripe was settled on as a vendor. Because of good documentation and strong alignment between the documentation and Stripe functionality, that initial design was an accurate high-fidelity design of what ended up being implemented.
 
 ### Onboarding / Initial Implementation
 
-After selecting Stripe, the next big area is the initial implementation and rollout of Stripe. In The Billing Project, this work involved everything from accounting audit processes to rolling out a new customer service solution (including training them on it). The big win here was that, overwhelmingly, Stripe JustWorked. The software behaved the same for the sandbox as it did in production. It scaled well. There weren't weird hiccups. When strange circumstances arose, there was a trail of events and logs to understand what happened.
+After selecting Stripe, the next big challenge is the initial implementation and rollout of Stripe. In The Billing Project, this work involved everything from accounting audit processes to rolling out a new customer service solution (including training the representatives on it). The big win here was that, overwhelmingly, Stripe JustWorked. The software behaved the same for the sandbox as it did in production. It scaled well. There weren't weird hiccups. When strange circumstances arose, there was a trail of events and logs to understand what happened.
 
 !!! note "Aside"
 
@@ -70,7 +70,7 @@ I've covered why the Stripe process was so enjoyable. But what qualities made it
 
 ### Documentation
 
-Stripe does a really good job -- among the best I've seen -- at its documentation across multiple angles: The introduction to the concepts, the initial implementation, and then the technical reference for any additional -- perhaps more complex -- work. They recently open sourced their documentation system, [Markdoc](https://markdoc.dev/). The fact that they have a customized documentation language gives a sense of how much they invested in thinking through their documentation. Besides the completeness and solid organization, touches such as code samples in most common languages along with solid open source library support made it easy to use Stripe.
+Stripe does a really good job -- among the best I've seen -- at its documentation across multiple angles: the introduction to the concepts, the initial implementation, and then the technical reference for any additional -- perhaps more complex -- work. They recently open sourced their documentation system, [Markdoc](https://markdoc.dev/). The fact that they have a customized documentation language gives a sense of how much they invested in thinking through their documentation. Besides the completeness and solid organization, touches such as code samples in most common languages along with solid open source library support made it easy to use Stripe.
 
 ### Appropriate Abstraction
 
@@ -78,11 +78,11 @@ The second observation I'll make is that, generally, Stripe found ways to approp
 
 ### Reliability
 
-I've previously mentioned the JustWorked characteristic of Stripe as it scaled upward. Beyond that, though, Stripe had clearly thought through their common failure modes and how to minimize the customer impact. For example, it wasn't uncommon to get an e-mail telling us that access to some set of data for audits would be delayed longer than usual (typically 2 days instead of 1). That notification wasn't great, but Stripe was quick and upfront to tell us when the delays occurred -- and the data accessibility wasn't on the critical path to the rest of Stripe's capabilities. It probably helped that originally, that data typically took 3 days to become available, but over time, Stripe improved it so that it was typically available within a day. Likewise, the handful of times that something went wrong (e.g. a tax law miscalculation), Stripe was quick to own the mistake, give a clear statement of impact, and work with my company to make it right. Sure, I'd prefer not to ever have anything go wrong, but that's likely impossible with the complexity of what Stripe is dealing with. If flawless isn't possible, Stripe's approach of contained fallout, good ownership, and amazing reliability is a close second.
+I've previously mentioned the JustWorked characteristic of Stripe as it scaled upward. Beyond that, though, Stripe had clearly thought through their common failure modes and how to minimize the customer impact. For example, it wasn't uncommon to get an e-mail telling us that access to some set of data for audits would be delayed longer than usual (typically 2 days instead of 1). That notification wasn't great, but Stripe was quick and upfront to tell us when the delays occurred -- and the data accessibility wasn't on the critical path to the rest of Stripe's capabilities. It probably helped that, originally, this data typically took 3 days to become available, but over time, Stripe improved it so that it was typically available within a day. Likewise, the handful of times that something went wrong (e.g., a tax law miscalculation), Stripe was quick to own the mistake, give a clear statement of impact, and work with my company to make it right. Sure, I'd prefer not to ever have anything go wrong, but that's likely impossible with the complexity of what Stripe is dealing with. If flawless isn't possible, Stripe's approach of contained fallout, good ownership, and amazing reliability is a close second.
 
 ### Customer Support
 
-Stripe's customer support was consistently friendly, responsive, and able to understand/resolve concerns and questions. Some of the questions that I threw at them were fairly complex, and they were able to get meaningful responses, often from the development teams. I didn't always like the answer (e.g. no, we're not changing that behavior), but I was confident that they understood the concern and why it wasn't user friendly. In many ways, this behavior seems like it should be a baseline, especially when customer support is a paid feature, but too often customer support is more like an [Eliza instance](https://en.wikipedia.org/wiki/ELIZA) than an actual person. Again, doing the basics with excellence gets high marks here.
+Stripe's customer support was consistently friendly, responsive, and able to understand/resolve concerns and questions. Some of the questions that I threw at them were fairly complex, and they were able to get meaningful responses, often from the development teams. I didn't always like the answer (e.g., no, we're not changing that behavior), but I was confident that they understood the concern and why it wasn't user friendly. In many ways, this behavior seems like it should be a baseline, especially when customer support is a paid feature, but too often customer support is more like an [Eliza instance](https://en.wikipedia.org/wiki/ELIZA) than an actual person. Again, doing the basics with excellence gets high marks here.
 
 ### Testability and Debugging
 
@@ -90,7 +90,7 @@ Stripe has also clearly thought through the engineering challenges around testin
 
 * The fully functional sandbox, which can be spun up in minutes for prototyping, for example, is not just good for sales and prototyping, but provides a reliable way to almost completely test code prior to release. (Stripe has been gradually adding capabilities, so it may now be fully testable.) The sandbox can be configured via the API, which facilitates a configuration-as-code approach.
 * The webhooks have automatic retry (up to 3 days in production), which makes it very easy to recover from outages in the receiving system. That is, start with the requirements that (a) webhook handling be idempotent and (b) that the webhook response is only a 200 if all parts of the handler successfully complete. Then Stripe will keep retrying the webhook until it succeeds or expires, which gives a long window to recover. As a bonus, Stripe will e-mail if it detects a sudden spike in the error rate.
-* Stripe provides an excellent set of event and call logs for each object (e.g. invoice, account, customer). These are sufficient to reconstruct the story of how some scenario or another ended up happening. They are also fantastic for reporting bugs to Stripe - "See event log X12345 where Y, then 10s later event log X54321 where Y' -- how is that possible?"
+* Stripe provides an excellent set of event and call logs for each object (e.g., invoice, account, customer). These are sufficient to reconstruct the story of how some scenario or another ended up happening. They are also fantastic for reporting bugs to Stripe - "See event log X12345 where Y, then 10s later event log X54321 where Y' -- how is that possible?"
 
 ### Improvements, Legacy Support, and TLC
 
@@ -108,7 +108,7 @@ I learned a lot more about how to make a good product from Stripe, but I'll note
 
 As one might expect from my review so far, Stripe nails so much. I'd overwhelmingly recommend using Stripe. That said, there are a few points that keep me from giving it an A+:
 
-* _Complex scenarios_: My experience was that when it comes to the intersection of multiple features (e.g. taxes plus schedules plus prorations), Stripe too often had not adequately considered the proper behavior or tested outcomes. I realize this is nit-picky -- most customers clearly aren't leveraging multiple features simultaneously in their billing systems -- and stems from so much that Stripe does well, but I wish they would go just a bit further.
+* _Complex scenarios_: My experience was that, when it comes to the intersection of multiple features (e.g. taxes plus schedules plus prorations), Stripe too often had not adequately considered the proper behavior or tested outcomes. I realize this is nit-picky -- most customers clearly aren't leveraging multiple features simultaneously in their billing systems -- and stems from so much that Stripe does well, but I wish they would go just a bit further.
 * _Documentation of complex behaviors_: While Stripe's documentation is fantastic, both for introducing topics and providing references, complex behaviors involving three or four features are often underdocumented and difficult to reconstruct.
 * _Development speed_: Stripe is cautious in adding new features. Given their dedication to quality, the unforgiving nature of financial transactions, their excellent abstractions, and wanting practical real-world feedback, I get why development sometimes seems slow on obvious features. That said, I wish they'd move a bit faster at times.
 * _Pricing model_: My experience with Stripe is that complex technical bugs didn't get attention without paid customer support. I'm sure there is good business rationale behind this choice, but I would rather see a company that considered product excellence to include complete documentation and bug fixes as part of the product itself.

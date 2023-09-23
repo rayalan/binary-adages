@@ -26,7 +26,7 @@ a -->|shapes| sd[Software development]
 ep -->|shapes| sd
 ```
 
-Here's a few resources that have significantly shaped how I approach software[^material]:
+Here are a few resources that have significantly shaped how I approach software[^material]:
 
 - [The DevOps Handbook](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002) (or see [this excellent summary](https://medium.com/@stefanthorpe/the-devops-handbook-series-part-1-establishing-the-three-ways-c36e8f98fb56)).
 - [Choose boring technology](https://mcfunley.com/choose-boring-technology).
@@ -40,6 +40,6 @@ Know a job that might be a good fit[^curious]? See my more in-depth [profile]({f
 
 [^nightmare]: To be fair, there are projects where not shipping actually would have done less damage to the company's credibility than the bug-ridden mess that marketing acclaimed as a "a once in a lifetime masterpiece."
 
-[^material]: Or some cases, these resources are a clear and concentrated presentation of ideas that I've built up over decades in the industry.
+[^material]: Or, in some cases, these resources are a clear and concentrated presentation of ideas that I've built up over decades in the industry.
 
-[^curious]: Or perhaps you're curious how I market myself. Take a look and reach out to let me know how I'm doing on [LinkedIn](https://www.linkedin.com/in/alan-ray-3513aa14/). A regular dose of feedback is a good habit to maintain. Hopefully I'll give you a few ideas on how to present yourself too.
+[^curious]: Or perhaps you're curious how I market myself. Take a look and reach out to let me know how I'm doing on [LinkedIn](https://www.linkedin.com/in/alan-ray-3513aa14/). A regular dose of feedback is a good habit to maintain. Hopefully I'll give you a few ideas on how to present yourself, too.

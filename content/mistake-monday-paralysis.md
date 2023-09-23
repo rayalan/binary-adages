@@ -6,7 +6,7 @@ status: published
 
 [TOC]
 
-Retrospectives are one of the practices I most value from the Agile ceremonies: Taking the time to look back, think over what happened, and learn from one's decisions, good and bad. In today's Mistake Monday article, I look back at a fundamental design flaw I made in many of my early continuous integration / continuous development automations.
+Retrospectives are one of the practices I most value from the Agile ceremonies: taking the time to look back, think over what happened, and learn from one's decisions, good and bad. In today's Mistake Monday article, I look back at a fundamental design flaw I made in many of my early continuous integration / continuous development automations.
 
 Here was my basic concept for how to roll out automation:
 

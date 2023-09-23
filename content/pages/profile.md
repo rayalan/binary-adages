@@ -6,7 +6,7 @@ layout: page
 
 [TOC]
 
-Hello. I'm a [100x software architect](https://www.stxnext.com/blog/software-development-productivity-100x-engineering/) who creates amazing engineering teams that deliver high-quality software working alongside similarly minded leadership. I'm a jack-of-all-trades engineer with decades of software development experience and multi-disciplinary interests that span user experience, information architecture, artificial intelligence[^org] safety[^safety], and military logistics[^perun].
+Hello. I'm a [100x software architect](https://www.stxnext.com/blog/software-development-productivity-100x-engineering/) who creates amazing engineering teams that deliver high-quality software, working alongside similarly minded leadership. I'm a jack-of-all-trades engineer with decades of software development experience and multi-disciplinary interests that span user experience, information architecture, artificial intelligence[^org] safety[^safety], and military logistics[^perun].
 
 
 

@@ -28,12 +28,12 @@ So what now?
 * We could rely on our own experience. Are have we seen this practice anywhere? How did it work out?
 * We could ask our business connections if they've heard of particle physicists increasing business profits; have they hired anyone like this?
 
-References a bit tricky these days. If Joe is at all smart, he'll likely cherry-pick contacts who think the world of him. And then there's the question of the stranger's judgement: Would they actually recognize business-revolutionizing particle physics?
+References are a bit tricky these days. If Joe is at all smart, he'll likely cherry-pick contacts who think the world of him. And then there's the question of the stranger's judgement: Would they actually recognize business-revolutionizing particle physics?
 
-Self-experience is clear a better approach -- after all, most of what I know has been taught to me by others. And I'm still striving to [learn]({filename}/pages/unlinked.md), which usually means either:
+Self-experience is clearly a better approach -- after all, most of what I know has been taught to me by others. And I'm still striving to [learn]({filename}/pages/unlinked.md), which usually means either:
 
-* Learning from others in some form (e.g. books, video, conversation)
-* A mixture of staring at the computer the screen and intermittently bashing my head against the wall trying to figure why the computer is undertaking some undesirable and bizarre behavior.
+* Learning from others in some form (e.g., book, video, conversation)
+* A mixture of staring at the computer screen and intermittently bashing my head against the wall, trying to figure why the computer is undertaking some undesirable and bizarre behavior.
 
 ### Credentials
 
@@ -52,11 +52,11 @@ _Knowing how to do something right isn't the same as knowing the right thing to 
 
 Huh?
 
-Let's say I have a problem and a certified AWS expert. The AWS expert is likely to tell me that the solution to my problem is to use AWS. They'll like give me exactly the right way to solve my problem with AWS.
+Let's say I have a problem and a certified AWS expert. The AWS expert is likely to tell me that the solution to my problem is to use AWS. They'll likely give me exactly the right way to solve my problem with AWS.
 
 But is that the right solution for my company? Should I commit to having a permanent AWS expert on staff? What ramifications will that have on the company's ability to update the product? Or make it accessible in remote locations?
 
-Perhaps the problem could be solved different with a chemist. Or by marketing acquiring a telegenic eight year old and livestreaming her using the product. Or by overhauling the manufacturing process.
+Perhaps the problem could be solved differently with a chemist. Or by marketing acquiring a telegenic eight year old and livestreaming her using the product. Or by overhauling the manufacturing process.
 
 And certification says nothing about a person's ability to assess a problem in the broader business context and make a good decision.
 
@@ -70,11 +70,11 @@ First, signals do matter. They aren't everything, but a person's credentials, re
 
 Second, it's worth taking even crazy ideas and thinking through "What would have to happen for this to work well?"
 
-For example, one of the major sources of delay in shipping code to production is code reviews. There are good reasons for this - ensuring the quality code, knowledge sharing, preventing malicious code injection, etc. But it's still a bottleneck. And the easiest way of improving the situation -- getting developers to do reviews sooner -- is highly disruptive to developers' work habits.
+For example, one of the major sources of delay in shipping code to production is code reviews. There are good reasons for this -- ensuring quality code, knowledge sharing, preventing malicious code injection, etc. But it's still a bottleneck. And the easiest way of improving the situation -- getting developers to do reviews sooner -- is highly disruptive to developers' work habits.
 
-So what would it take to do code reviews after code was shipped to production rather than before? Feature flags? State of the art code scanners? Every line of code covered by a test? Rigorous static typing and API contracts? Doubling software salaries and only hiring the best of the best? Some combination? The answer probably varies by industry[^heart].
+So what would it take to do code reviews after code was shipped to production rather than before? Feature flags? State-of-the-art code scanners? Every line of code covered by a test? Rigorous static typing and API contracts? Doubling software salaries and only hiring the best of the best? Some combination? The answer probably varies by industry[^heart].
 
-Or as someone once said: You don't get world class results by following industry standard operating procedures, you get standard results. If you want non-standard results, you need non-standard practices[^until].
+Or as someone once said: You don't get world-class results by following industry-standard operating procedures; you get standard results. If you want non-standard results, you need non-standard practices[^until].
 
 [^heart]: I'm not sure I'd ever want this approach with, say, my pacemaker.
 

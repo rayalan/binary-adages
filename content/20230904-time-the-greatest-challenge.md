@@ -11,7 +11,7 @@ Is that too strong a statement? There certainly are other candidates such as:
 
 * Money (although if time is money, maybe this supports my thesis).
 * Communication and division of labor, especially as the organization grows larger and larger.
-* Office politics
+* Office politics.
 
 But time uniquely permeates the software development.
 
@@ -24,15 +24,15 @@ In writing software, time is rarely easy:
 * Or perhaps one needs to be able to reliably plot events on a timeline, including that 1980 October 26 1:01a record happened before or after day lights savings time ended? And periodically governments change the rules around time, so a locale that practices daylight savings time now might not in a year -- or five years ago.
 * Even questions like "What does it mean for event A to happen before event B?" get weird in computer systems. If I receive event A before event B, does that mean event A happened first? What if event B was sent first, but was lost, and only arrived an hour later? What if I'm working in a distributed system where I only know about one of the events?
 
-And don't get me started on trying to write tests that involve time. Benchmarks are predictable until they aren't. Tests work fine until that one moment when an operation didn't take as long as expected resulting in equality instead of an ordered sequence. Or someone sticks in a `if is_daylights_savings_time` check that makes it through code review, resulting in  mysteriously test failure four months later.
+And don't get me started on trying to write tests that involve time. Benchmarks are predictable until they aren't. Tests work fine until that one moment when an operation didn't take as long as expected resulting in equality instead of an ordered sequence. Or someone sticks in a `if is_daylight_savings_time` check that makes it through code review, resulting in mysterious test failure four months later.
 
 # State
 
-And then there's the problem of state. Almost every system has some form of persistent state - e.g. settings, same games, profiles, collected data. And this persistent state needs to be maintained across updates. All too often this state goes back years (e.g. Windows maintaining MS-DOS compatibility) or cannot be abandoned (imagine if your bank account periodically reset itself to zero[^zero]).
+And then there's the problem of state. Almost every system has some form of persistent state - e.g., settings, same games, profiles, collected data. And this persistent state needs to be maintained across updates. All too often this state goes back years (e.g. Windows maintaining MS-DOS compatibility) or cannot be abandoned (imagine if your bank account periodically reset itself to zero[^zero]).
 
 [^zero]: Actually, for some people, overdraft coverage plus a periodically resetting bank account could be a feature. But banks probably wouldn't like it.
 
-Even if there's no persistent state, there's often transient state such as a data pipeline where events are in transient so the new software needs to be able to handle the old format.
+Even if there's no persistent state, there's often a transient state such as a data pipeline where events are intransient, so the new software needs to be able to handle the old format.
 
 # Customer expectations
 
@@ -57,7 +57,7 @@ For some scenarios, there are best practices. For example, use UTC to pass and s
 But best practices don't solve most of these problems. Instead, the challenge fo architects is to mitigate the problem through three practices:
 
 1. Educate. Both engineers and stakeholders (especially the non-technical ones) need to understand the problem and the trade-offs with other priorities such as features. Most people, even non-technical ones, can understand these challenges, but won't consider them without prompting.
-2. Articulate. Take the company's strategy when it comes to priorities and risk tolerances and put it into writing. Some companies, for example, can afford to invest deeply in employee retention, documentation or well-tested wrappers around 3rd-party software to mitigate risks. For other companies, the immediate priority may be getting to market, and business continuity is a priority for another day.
+2. Articulate. Take the company's strategy when it comes to priorities and risk tolerances and put it into writing. Some companies, for example, can afford to invest deeply in employee retention, documentation, or well-tested wrappers around 3rd-party software to mitigate risks. For other companies, the immediate priority may be getting to market, and business continuity is a priority for another day.
 3. Translate. Take the strategic principles and turn them into day-to-day development principles. (See this discussion on tenets and principles.)
 
 Those steps don't seem like enough, though. What else have you seen done to solve the problem of time?
