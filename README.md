@@ -103,3 +103,8 @@ B --> C
 ```
 
 Currently, color styling hasn't been applied to Mermaid images.
+
+# Conventions
+
+- `LINK` is used for places that link to an existing file that needs to be added.
+- `{filename}/pages/unlinked.md` is used in the rare instance when I expect to write something on a topic, but it hasn't been written yet.
