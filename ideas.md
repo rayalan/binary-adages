@@ -189,7 +189,6 @@ Topics: Retrospectives at different levels. - developer vs. manager vs. executiv
 - Learning - what kind of learning is useful?
   - Value of learning it self.
   - Learning disconnected from theory (e.g. always learning better ways of doing C++ pointers) -- but is that what engineering needs? Is that what the organization needs?
-- Conventional wisdom - is anybody actually doing it? Is no one is actually doing it, is it actually the right way to do software? If you want to be world-class, you need to defy conventional wisdom. Standard operating procedures will only get you...standard results.
 - Selection bias - gradually narrowing
 - Tenets; architectural principles, design principles + practices
 - Debate principles (see draft from other blog)
@@ -197,10 +196,7 @@ Topics: Retrospectives at different levels. - developer vs. manager vs. executiv
 - Pscological safety - never having to explain yourself vs. the ability to speak until you've explained yourself.
 - How do you calibrate yourself to a job?
 - the complexity of tech world
-  - what do certifications tell you?
-  - The value of certifications vs. the value of someone who can learn
-  - the value of tasks vs. the value of determining which approach needs to be taken and thus which tasks need to be done. Doing the right thing vs. doing the thing right.
-  - madman or export
+- Conventional wisdom - is anybody actually doing it? Is no one is actually doing it, is it actually the right way to do software? If you want to be world-class, you need to defy conventional wisdom. Standard operating procedures will only get you...standard results. (Referenced this idea; need to turn it into a fuller idea.)
 
 About me
   - Engineering philosophy

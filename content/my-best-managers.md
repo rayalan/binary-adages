@@ -59,7 +59,7 @@ I ended up building a [waf-based system](https://waf.io/book/) for the applicati
 
 ## Christmas party
 
-The final memory I have of Ella from that first year is the company Christmas party. I'd only been working with Ella a few months at that point, but she made a point to greet my wife and I, and to tell my wife how much she appreciated my presence and contributions at the company. I particularly recall the warmth in her comments and how much I enjoyed that kind of reinforcement.
+The final memory I have of Ella from that first year is the company Christmas party. I'd only been working with Ella a few months at that point, but she made a point to greet my wife and I, and to tell my wife how much she appreciated my presence and contributions at the company. That moment embodied the kind of sincere warmth and thoughtful presence that Ella so often exhibited in our conversations.
 
 ## Emma, individualized
 
@@ -69,9 +69,7 @@ I don't recall how long it took for Emma to ask that question after she started 
 
 _"I don't care why you work here, but I need to know why in order to be a good manager."_
 
-The question led into a really good conversation about what I valued directly (e.g. respect of co-workers) and how often what a company is willing to pay is an accurate signal of how much they value and respect a person's work. This was the first of many good conversations with Emma. Beyond that, I learned that Emma cared about tailoring her management style on an individual basis. Case in point, I mentioned that I'd never gotten one of the company's "notable contribution"[^coin] thank yous (and we both knew that I'd more than earned a few). Not too long later, the company CEO dropped by to give me one. I can't prove Emma instigated the recognition, but it sure seems likely.
-
-[^coin]: INSERT NOTE HERE.
+The question led into a really good conversation about what I valued directly (e.g. respect of co-workers) and how often what a company is willing to pay is an accurate signal of how much they value and respect a person's work. This was the first of many good conversations with Emma. Beyond that, I learned that Emma cared about tailoring her management style on an individual basis. Case in point, I mentioned that I'd never gotten one of the company's "above and beyond" thank yous (and we both knew that I'd more than earned a few). Not too long later, the company CEO dropped by to give me one.
 
 ## Emma's questions
 
@@ -138,8 +136,6 @@ Thus, while there is a no storage of lip service to the idea that great managers
 Too cynical? Perhaps.
 
 Maybe I'll do a more in-depth reflection about the organizational challenges around great managers in the future.
-
-
 
 [^horror]: Maybe I'll do a follow-up along the lines of the _[Bike Lesson](https://www.goodreads.com/en/book/show/1310108)_, where I share the invaluable lessons I learned from watching my bosses do it wrong.
 

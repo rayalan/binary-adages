@@ -8,17 +8,27 @@ layout: page
 
 Hello. I'm a [100x software architect](https://www.stxnext.com/blog/software-development-productivity-100x-engineering/) who creates amazing engineering teams that deliver high-quality software, working alongside similarly minded leadership. I'm a jack-of-all-trades engineer with decades of software development experience and multi-disciplinary interests that span user experience, information architecture, artificial intelligence[^org] safety[^safety], and military logistics[^perun].
 
+- Analyze plans, objectives, and systems refining and overhauling to be consistent from business goals down to the day-to-day datails in both the short and long term. Provide options and trade-offs in both business plans and technical designs.
+- Communicator (technical and non-technical)
+- Initiative.
+- Focused.
+- Mentor those around me in both technically and professionally.
+- Structure and organize both the technical and process aspects of engineering.
+- Quick learner, growing my knowledge across a variety of disciplines and rapidly adapting different approaches to changing scenarios.
+- Pragmatic hands-on approach to design and architecture.
+- Reach careful considered solutions based on thoughtful investigation and inquiry.
 
+> In short, I love doing what's described in these [staff engineering architypes](https://lethain.com/staff-engineer-archetypes/) or this ["startup CTO" description](http://www.startuplessonslearned.com/2008/09/what-does-startup-cto-actually-do.html).
+>
+> _Alan, on his favorite work._
 
+Beyond that, I'm a versatile developer and conscientious manager[^manager] who can manage technically-complex projects in the middle of chaos and crisis[^hats].
 
+[^manager]: I hesistate to say I am a great manager -- see [this post]({filename}/my-best-managers.md) for my idea of great managers -- but I'm deeply gratified that my reports consistently give me high marks (TODO LINK).
 
-With decades of software development experience,
+[^hats]: Throughout much of my career, I've worn multiple hats in most of my positions, often operating informally far beyond what my title would suggest.
 
-
-
- software engineer
-
-[startup CTO](http://www.startuplessonslearned.com/2008/09/what-does-startup-cto-actually-do.html)
+* [Work environments that amplify my skills]({filename}/pages/profile-best-environment.md)
 
 # Leadership philosophy
 
