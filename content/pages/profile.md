@@ -36,13 +36,15 @@ Beyond that, I'm a versatile developer and conscientious manager[^manager] who c
 
 [^hats]: Throughout much of my career, I've worn multiple hats in most of my positions, often operating informally far beyond what my title would suggest.
 
-* [Work environments that amplify my skills]({filename}/pages/profile-best-environment.md)
-* Prior roles
-* Exemplar projects
-* Leadership philosophy
-* Other strengths?
-* Reasons to avoid?
-* Technical skills and other fine print.
-* What I look for a position
-* Answers to common interview questions
-* Interview questions for potential employers
+# Who am I
+
+* [Professional strengths]({filename}/pages/profile-professional-strengths.md).
+* [Technical strengths]({filename}/pages/profile-technical-strengths.md), including skills.
+* [Prior roles and achievements]({filename}/pages/profile-roles-n-achievements.md).
+* [Work environments that amplify my skills]({filename}/pages/profile-best-environment.md).
+
+# Are we a match?
+
+* [Answers to common employer interview questions]({filename}/pages/profile-interview-answers.md).
+* [What I look for a position]({filename}/pages/profile-target-position.md).
+* [My interview questions for potential employers]({filename}/pages/profile-employer-questions.md).

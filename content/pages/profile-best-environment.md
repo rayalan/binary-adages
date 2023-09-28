@@ -21,14 +21,14 @@ I build software, complete with systems and processes such that it:
 * Delivers frequent rapid value.
 * Achieves durable long-term efficiencies of scale
 
-I write elsewhere (e.g. [here]({filename}/pages/about.md) about my approach to software. But for this discussion, I'll highlight four principles:
+I write elsewhere (e.g. [here]({filename}/pages/about.md)) about my approach to software. But for this discussion, I'll highlight four principles:
 
 1. That which is done automatically and frequently will be correct (c.f. DevOps principles)
 2. Undelivered software doesn't have any value. (c.f. [see the time value of money](https://www.investopedia.com/ask/answers/032715/why-does-time-value-money-tvm-assume-dollar-today-worth-more-dollar-tomorrow.asp)).
 3. Most software design plans are [gold plating](https://en.wikipedia.org/wiki/Gold_plating_(project_management)): They aren't really going to be needed. The vision will change or the business priority will change or the customer will want something different.
 4. Some long-term planning and investments are essential to sustaining quality software at economical prices.
 
-The first three principles push toward an [Agile style](https://agilemanifesto.org/principles.html) of development. I don't necessarily mean any particular system Agile development -- some of those systems, in fact, are so rigid that they undermine the very principles of Agile.
+The first three principles push toward an [Agile style](https://agilemanifesto.org/principles.html) of development. I don't mean any particular system Agile development -- some of those systems, in fact, are so rigid that they undermine the very principles of Agile.
 
 But left to their own devices, the first three principles repeatedly produce locally optimal solutions that constantly increase the amount of tech debt. The increasing tech debt decreases software velocity and quality -- each improvement, developers do the fast thing to make the change, increasing the complexity and brittleness of the system.
 
@@ -171,7 +171,7 @@ In both cases, having more relationally-oriented individuals helped the team bon
 
 I hate self promotion. It seems arrogant and cocky -- my work should speak for itself. And every moment spent on communication is one moment that I'm not doing I do best to create value -- analysis, design, engineering, mentoring, understanding the customer needs, etc.
 
-I sometimes joke that engineering follows the [Heisenberg principle](https://byjus.com/jee/heisenberg-uncertainty-principle/) -- the more you know where the project is at, the less momentum the project has.
+I sometimes joke that engineering follows the [Heisenberg uncertainty principle](https://byjus.com/jee/heisenberg-uncertainty-principle/) -- the more you know where the project is at, the less momentum the project has.
 
 On top of that, I have a good memory and tend to be annoyed by redundant communications -- as a listener, I should bear significant responsibility for active listening, especially I'm given a way to look up the information. Likewise, I want to simply tell it as is rather than massage the message for particular audiences.
 
