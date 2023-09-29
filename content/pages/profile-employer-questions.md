@@ -4,12 +4,14 @@ status: hidden
 slug: profile-employer-questions
 layout: page
 
-A successful software engineering position is two points:
+[TOC]
+
+Successfully searching for a ~~software engineering~~ position resolves two questions:
 
 * Does the employer want to hire you?
 * Do you want to work for the employer?
 
-While every job has its rough points -- or _[where there's muc, there's brass](https://wordhistories.net/2021/11/04/where-muck-brass/)_ as the saying goes -- the goal is to find a compelling long-term match. Over time, then, I've built up my own set of questions[^posthog] to ask employers. I don't explicitly ask all of these questions during the interview process, but they frame what I want to learn about potential employers.
+While every job has its rough points -- or _[where there's muck, there's brass](https://wordhistories.net/2021/11/04/where-muck-brass/)_ as the saying goes -- the goal is to find a compelling long-term match. Over time, then, I've built up my own set of questions[^posthog] to ask employers. I don't explicitly ask all of these questions during the interview process, but they frame what I want to learn about potential employers.
 
 [^posthog]: PostHog has an [excellent article](https://posthog.com/blog/what-to-ask-in-interviews) on key interview questions; many of these are drawn from there.
 
@@ -76,7 +78,7 @@ _If [culture eats strategy for lunch](https://www.thealternativeboard.com/blog/c
 * What's the most important questions you ask if you are interviewing a manager? Why do you ask them?
 * Tell me about a time there was a major conflict. What happened?
 * What's a time you've disagreed with other engineering leadership? What happened?
-* What piece of conventual wisdom for building great software would you say doesn't apply to the company?
+* What piece of conventional wisdom for building great software would you say doesn't apply to this company?
 * What's the typical tenure of a manager? Senior leaders? How do you maintain culture and momentum with that rate of change?
 
 ## Success and Failure
@@ -96,7 +98,7 @@ _If [culture eats strategy for lunch](https://www.thealternativeboard.com/blog/c
 * Who decides what to build? How does that process work? How long has that process been followed?
 * What's a new skill or technology that you explored recently that didn't pan out. What happened?
 * Why is engineering structured the way it is? What are the pros and cons of the current structure?
-    * When was the last time it changed? What led to it being changed?
+* When was the last time it changed? What led to it being changed?
 
 ## Personal Experiences
 
@@ -120,7 +122,7 @@ _Understand what the job itself will be..._
 * What would success look like for this role in 3 months? 6 months? 1 year?
 * How will you evaluate the success of this position?
 
-# The Team
+## The Team
 
 * Can you tell me about the team I'd be working most closely with?
 * Who does the team work closely with? (e.g. quality assurance, user experience, cloud engineering, site reliability engineers) How are those interactions structured?
@@ -128,7 +130,7 @@ _Understand what the job itself will be..._
 * Tell me about a time when there was significant team conflict. What happened?
 * Tell me about a time when the team failed. What happened?
 
-# The Manager
+## The Manager
 
 * What motivates you?
 * How long have you been in this role?
