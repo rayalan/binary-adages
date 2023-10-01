@@ -128,12 +128,6 @@ Topics: Retrospectives at different levels. - developer vs. manager vs. executiv
 
 
 24 Topics:
-- 1. The greatest challenge: Change over time
-  - Expectations change
-  - People build up expectations
-  - Continuous data
-  - Goals change
-  - Scope changes
 - 2. The problem of process:
   - Hard to change because it involves people
   - People have other interests (e.g. personal goals)
@@ -159,7 +153,6 @@ Topics: Retrospectives at different levels. - developer vs. manager vs. executiv
     (https://www.youtube.com/watch?v=9nktr1MgS-A) - the problem of goal alignment (and AGI's more generally)
 - 8. Chesteron's Fence
   - The problem of knowledge loss (why was this decision made? has the situation changed? who still knows this? what are the ramifications of this decision now?)
-- 9. Great managers - Patrick and Scott
 - 10. Nemesis - what's the worst thing that could happen?
   - See https://www.youtube.com/watch?v=tcdVC4e6EV4
   - https://www.youtube.com/watch?v=hEUO6pjwFOo
@@ -169,8 +162,6 @@ Topics: Retrospectives at different levels. - developer vs. manager vs. executiv
   - Blame-free retrospectives
   - What is the scope of the problem? Individual? Team? Architecture? Department? C-level incentives?
   - https://www.youtube.com/watch?v=9nktr1MgS-A )Stop button solution 2
-- 13. User Experience, Search, and Home Depot (23/32" plywood)
-  - Does the difference matter? A contractor might care, but as a novice, I may not.
 - 14. The problem of sizing.
   - Monolith (monorepo), microservice, lambdas function soup. Trade-offs between ease of change and correctness.
 - 15. The problem of knowing what you know
@@ -187,7 +178,7 @@ Topics: Retrospectives at different levels. - developer vs. manager vs. executiv
 - ??. Most important questions: Why and so what? But is that really the case?
 - Software development is a corporate process, not just an engineering process. c.f. https://www.youtube.com/watch?v=SScjUIU-Fkg
 - Learning - what kind of learning is useful?
-  - Value of learning it self.
+  - Value of learning itself.
   - Learning disconnected from theory (e.g. always learning better ways of doing C++ pointers) -- but is that what engineering needs? Is that what the organization needs?
 - Selection bias - gradually narrowing
 - Tenets; architectural principles, design principles + practices
@@ -245,7 +236,7 @@ About me
   - What do you think makes a great leader?
   - What are your ambitions?
   - Diversity (woman hiring by 15%)
-
+  - Topic of goals + giving people informed freedom.
 
 Fun references:
   - https://www.youtube.com/watch?v=hEUO6pjwFOo
