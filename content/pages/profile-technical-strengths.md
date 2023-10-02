@@ -55,7 +55,7 @@ I'm particularly fond of the [propriety CD system that I built](./unlinked.md), 
 
 ## Build systems
 
-* _[Nx](https://nx.dev/)_ (<1 year): I'm learning this as a modern solution to the problem of what to build, how to build it, and what to do with it once it is done.
+* _[Nx](https://nx.dev/)_: I'm learning this as a modern solution to the problem of what to build, how to build it, and what to do with it once it is done.
 * _[Waf](https://waf.io/book/)_: I implemented this as a cross-platform cross-language build system that served as a reliable approach to building just the necessary dependencies for over a decade. It was a solid open source choice at a time when there weren't many competitors.
 * _Make/CMake_: These were great tools when there was nothing else. I'm glad there are often other choices now.
 
@@ -80,6 +80,6 @@ And here are a few oddball technologies, mostly for SEO along with sparking conv
 * _Pandas, NumPy_: For when I've done mass data crunching, such as for validating machine learning models.
 * _Sphinx_: One of a handful of systems I've used to build documentation from code.
 * _[OpenAPI](https://www.openapis.org/), [json:api](https://jsonapi.org/)_: A couple tools I've used to support API development.
-* _[Mermaid](https://mermaid.js.org/): My goto solution for diagrams as code.
+* _[Mermaid](https://mermaid.js.org/)_: My goto solution for diagrams as code.
 * _Git_: I had the advantage of learning Git from someone who contributed code, so I've been able to do just that little bit extra when automating around source control such as scripts that automatically delete local branches based on whether commits have been merged to main.
 * _Qt_: The primary tool I used for a cross-platform GUI on embedded platforms.

@@ -57,7 +57,7 @@ As a kid, I loved soccer, playing the rover (sweeper) position. Was the other te
 
 [^first]: Or if an opponent got there first, they would have to make a hasty decision. And it turns out that a pressured decision is often a lot worse than a carefully considered one.
 
-That's a good metaphor for how I shine at engineering, mixing a healthy dose of prioritization, planning and structure with on-the-fly flexibility and adjustments. Sometimes there's a major architectural pain point that surfaces late. Or a teammate who needs to be taught some key concepts. Sometimes it's about learning why debugging is hard in the current system and making a plan. At other times, it's about being the one to say "Here's the risk if we go live without making sure that we've implemented a proper deadletter queue." Sometimes it's about figuring out what technological approach will support the new business objectives.
+That's a good metaphor for how I shine at engineering, mixing a healthy dose of prioritization, planning and structure with on-the-fly flexibility and adjustments. Sometimes there's a major architectural pain point that surfaces late. Or a junior teammate who needs to be taught some key concepts. Sometimes it's about learning why debugging is hard in the current system and making a plan. At other times, it's about being the one to say "Here's the risk if we go live without making sure that we've implemented a proper deadletter queue." Sometimes it's about figuring out what technological approach will support the new business objectives.
 
 I want to be positioned where I have the freedom to learn, to understand, and to act -- to be consistently tackling what is important and impactful.
 

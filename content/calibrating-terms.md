@@ -92,7 +92,8 @@ Here's a few adjustments I make to better align in these situations:
 
 ## Communication calibration
 
-1. Some people like to use hyperbolic praise; give them space to do so. 2. Cultivate a vocabulary of praise and encouragement that is not dependent on wonder. I've written [elsewhere](/my-best-managers.md) about the importance of thought reviews, and that principle applies more broadly here: Can I point to specific praiseworthy behaviors and connect the dots to specific praiseworthy outcomes?
+1. Some people like to use hyperbolic praise; give them space to do so.
+2. Cultivate a vocabulary of praise and encouragement that is not dependent on wonder. I've written [elsewhere](/my-best-managers.md) about the importance of thought reviews, and that principle applies more broadly here: Can I point to specific praiseworthy behaviors and connect the dots to specific praiseworthy outcomes?
 3. Do not fake wonder or hyperbolic praise. It comes across insincerely (because I am insincere when I do it) and undermines my main strengths -- a thoughtful straight shooter.
 4. Intentionally lower my expectations, especially when they are stratospherically high, and concretely verbalize my expectations[^goals].
 5. Let people know when I'm struggling to recalibrate. It's easy for people to read my hesitation as disapproval of their plan when I'm actually trying to rapidly assess an unanticipated approach and decide if there's any blockers to moving forward.
@@ -103,9 +104,9 @@ Here's a few adjustments I make to better align in these situations:
 
 1. Again, recognize that just because someone says something is essential doesn't make it so, even if they have a really important title[^social].
 2. Ask clarifying questions.
-   * What idea(s) from the book/training resonated with you? When is a time you wish you had applied them? What would that have looked like / how would things have gone differently?
-   * How have you applied these ideas to your daily work? How long have you been applying these ideas? What have been the upsides and downsides of the change for you?
-   * If you were in my shoes, which ideas would you focus on? What do you think it might look like if I really applied myself to those ideas?
+    * What idea(s) from the book/training resonated with you? When is a time you wish you had applied them? What would that have looked like / how would things have gone differently?
+    * How have you applied these ideas to your daily work? How long have you been applying these ideas? What have been the upsides and downsides of the change for you?
+    * If you were in my shoes, which ideas would you focus on? What do you think it might look like if I really applied myself to those ideas?
 3. Consider following up on the impact in a few months. Are they still doing the new practice? How is that working out[^remember]? What additional adjustments have they made? What kind of people would most benefit from the idea? Is there anybody who might not benefit?
 4. Learn to recognize when growth is not the primary goal. Take advantage of the opportunity to learn something, but it's okay to stick to your well-considered plan for growth.
 
