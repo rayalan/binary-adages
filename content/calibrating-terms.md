@@ -32,7 +32,7 @@ So it's pretty easy to impress me with these rockets making precise landings at 
 
 Software engineering, on the other hand, is not a mystery to me. I know what I can do. I have a lively imagination. And I can multiply. So I can easily envision what thirty or fifty or a hundred of me could achieve[^ego]. And usually whatever the company has done is less than what I can envision a horde of Alan-clones achieving.
 
-[^ego]: A bit of ego and an overestimation of what I can accomplish probably inflate the estimate a bit too.
+[^ego]: A bit of ego and an overestimation of what I can accomplish probably inflate the estimate as well.
 
 Beyond that, though, I also know all the holes. I know that despite "graceful degradation" being one of the requirements, there are 153 ways that it can fail without any degradation, graceful or otherwise. I know that the graphics aren't scalable, so they only look right at the demo resolutions. I know that the whole data storage approach will have to be rewritten before launch because it can't handle much more than the demo load. And I know that half the metrics are missing key information.
 
@@ -76,13 +76,19 @@ Here's a table summarizing my observations:
 
 In short, my observation is that people often believe that the short-term impact of learning is far higher than it actually is.
 
-I once had a boss who thought it was really important that I attend the periodic managers' training meeting. The material was solid, but I already had an intellectual understanding of most of it, and the company's training process didn't provide needed support for learning to apply the material well:
+Of course, sometimes it isn't just individuals giving their opinion, but part of a group narrative. One time, my company implemented a recurring "vital" training for aspiring leaders (basically, anyone in management plus a few others). Executives frequently spoke about how "essential" this training was. The presenters highlighted how "incredibly valuable" this opportunity was. And my boss thought it was "really important" (and mandatory) that I attend.
 
-* No psychologically safe space to talk about specific challenges or struggles or concerns. 
-* No reduced workload so that attendees had the necessary time to learn the skills being taught.
+The material was solid, but I already had an intellectual understanding of most of it, and the company's training process didn't provide needed support for learning to apply the material well:
+
+* No psychologically safe space to talk about specific challenges or struggles or concerns.
+* No reduced workload so that attendees had the necessary time to practice the skills being taught.
 * None of the managers or senior leadership (including my boss) seemed to actually care if the attendees grew in these areas; they had their own priorities.
 
-Meanwhile, the feedback I was getting from those around me was that I needed to work on other areas -- like having too much on my plate. So I tried to convince my boss to let me skip the trainings. Oh no, it was critically important that I be there -- but not vitally important that I be well-supported in mastering these concepts.
+Meanwhile, the feedback I was getting from those around me was that I needed to work on other areas -- like having too much on my plate[^growth]. So I tried to convince my boss to let me skip the trainings. Oh no, it was critically important that I be there -- but irrelevant whether not I was actually growing or well-supported in mastering these concepts.
+
+[^growth]: At this point in my career, I simply had too much on my plate and so much of my learning and grow was around prioritization and intentional choices about opportunity costs, the return on my (time) investment, and delegation. Just because someone thought that this material needed to be presented didn't mean it needed to jump to the top of my list. And the flip side is that sometimes I've had to grow in skills that nobody thought it was worthwhile to train me on.
+
+Looking back, my assessment was on point: For most of the people in that meeting, it wasn't important or vital or essential. No one I knew visibly changed how they led or managed because of that time.
 
 # So what
 
