@@ -50,7 +50,7 @@ I went back and forth with Kaden about the direction for weeks. I steelmanned hi
 After all of that, the choices seemed clear:
 
 1. Isolate the implementation behind a microservice, achieving the non-functional requirements while also picking the easier approach to implement.
-2. Embark in an approach that might eventually result in a superior result, but would add significant risk and complexity to the project while also making it very difficult if not impossible to achieve many of the project's goals.
+2. Embark on an approach that might eventually result in a superior result, but would add significant risk and complexity to the project while also making it very difficult if not impossible to achieve many of the project's goals.
 
 Technically, the choice was obvious. As a project manager, the choice was obvious. But Kaden remained unmoved, persuaded that option 2 was the better choice.
 
