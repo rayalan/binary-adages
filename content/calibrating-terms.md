@@ -5,7 +5,7 @@ category: practices and principles
 tags: vocabulary
 status: published
 
-> __"You all doing amazing work. I can't believe how much is getting done and everything you are accomplishing."__
+> __"You're all doing amazing work. I can't believe how much is getting done and everything you are accomplishing."__
 >
 > _Some engineering leader in some context, fairly routinely._
 
@@ -26,11 +26,11 @@ _Reusable rockets._
 
 Yep, I find recoverable rockets amazing. Shoot them far away, land them without a fireball or metal pancake, and then do it again and again? That's amazing!
 
-Of course, I know very little about rockets -- I know a few basic physics principles like "go up ==> come down" and "go far up ==> come down fast" and "fast thing + earth ==> earth + not much left." And perhaps that for most of my parents' lifetime, rockets were largely (entirely?) single use and often reentry vehicles landed in the ocean.
+Of course, I know very little about rockets -- I know a few basic physics principles like "go up ==> come down" and "go far up ==> come down fast" and "fast thing + earth ==> earth + not much left." And perhaps that for most of my parents' lifetime, rockets were largely (entirely?) single use, and often reentry vehicles landed in the ocean.
 
-So it's pretty easy to impress me with these rockets making precise landings at precise locations such as the middle of a barge. Is it actually hard? I don't know (but probably -- it is rocket science after all).
+So it's pretty easy to impress me with these rockets making precise landings at precise locations such as the middle of a barge. Is it actually hard? I don't know (but probably -- it is rocket science, after all).
 
-Software engineering, on the other hand, is not a mystery to me. I know what I can do. I have a lively imagination. And I can multiply. So I can easily envision what thirty or fifty or a hundred of me could achieve[^ego]. And usually whatever the company has done is less than what I can envision a hoard of Alan-clones achieving.
+Software engineering, on the other hand, is not a mystery to me. I know what I can do. I have a lively imagination. And I can multiply. So I can easily envision what thirty or fifty or a hundred of me could achieve[^ego]. And usually whatever the company has done is less than what I can envision a horde of Alan-clones achieving.
 
 [^ego]: A bit of ego and an overestimation of what I can accomplish probably inflate the estimate a bit too.
 
@@ -40,11 +40,11 @@ So while the product looks good, the actual product isn't exactly what is being 
 
 # "World class"
 
-What is meant when we describe software as "excellent" or "world class"? Well, a world class athlete is one who competes on a world stage -- maybe in the Olympics or the World Cup. A world class chef is one who makes the tastiest food -- perhaps a 5 Michelin chef.
+What is meant when we describe software as "excellent" or "world class"? Well, a world-class athlete is one who competes on a world stage -- maybe in the Olympics or the World Cup. A world-class chef is one who makes the tastiest food -- perhaps a five-star Michelin chef.
 
-Even here the definition is a bit fuzzy -- what if someone competes in the Olympics, but always places last? Could the runners up to the Olympics be considered world class? What if I really like Joe's taco truck and dislike foie gras? Does a bunch of people disagreeing with me really make the taco any less a world-class dish?
+Even here, the definition is a bit fuzzy -- what if someone competes in the Olympics, but always places last? Could the runners up to the Olympics be considered world class? What if I really like Joe's taco truck and dislike foie gras? Does a bunch of people disagreeing with me really make the taco any less a world-class dish?
 
-But the idea of a world class athlete or dish is really clear, even if the specifics are a bit fuzzy.
+But the idea of a world-class athlete or dish is really clear, even if the specifics are a bit fuzzy.
 
 _The field of software is far worse._
 
@@ -58,7 +58,7 @@ Worse yet, the definition of excellence in software changes frequently, often on
 
 > "All of you should watch this video."
 >
-> _Alan's re-creation of an excited coworker after learning something awesome._
+> _Alan's re-creation of an excited coworker, after learning something awesome._
 
 This style of communication isn't just about praise. For example, has a coworker ever said something like?
 
@@ -72,33 +72,33 @@ Here's a table summarizing my observations:
 |-|-|
 | Coworkers who read books | Lots and lots |
 | Coworkers who read lots of books | Many |
-| Coworkers significantly by a book | 0ish |
+| Coworkers significantly changed by a book | 0ish |
 
 In short, my observation is that people often believe that the short-term impact of learning is far higher than it actually is.
 
-I once had a boss who thought it was really important that I attend the periodic manager's training meeting. The material was solid, but I already intellectually knew most of it. And the company wasn't providing augmenting the training with the necessary support to apply the material:
+I once had a boss who thought it was really important that I attend the periodic managers' training meeting. The material was solid, but I already had an intellectual understanding of most of it, and the company's training process didn't provide needed support for learning to apply the material well:
 
-* No psychologically safe space to talk about specific challenges or struggles or concerns.
+* No psychologically safe space to talk about specific challenges or struggles or concerns. 
 * No reduced workload so that attendees had the necessary time to learn the skills being taught.
 * None of the managers or senior leadership (including my boss) seemed to actually care if the attendees grew in these areas; they had their own priorities.
 
-And the feedback I was getting from those around me was that I needed to work on other areas -- like having too much on my plate. So I tried to convince my boss to let me skip the trainings. Oh no, it was critically important that I be there -- but not vitally important that I be well-supported in mastering them.
+Meanwhile, the feedback I was getting from those around me was that I needed to work on other areas -- like having too much on my plate. So I tried to convince my boss to let me skip the trainings. Oh no, it was critically important that I be there -- but not vitally important that I be well-supported in mastering these concepts.
 
 # So what
 
 [Intentional directed learning](./learning-to-learn.md) and growth matters. Likewise, communication is a challenge, especially when mixing cultures, generations, and backgrounds. It's a wonder it works at all.
 
-Here's a few adjustments I make to better align in these situations:
+Here are a few adjustments I make to better align in these situations:
 
 ## Communication calibration
 
 1. Some people like to use hyperbolic praise; give them space to do so.
-2. Cultivate a vocabulary of praise and encouragement that is not dependent on wonder. I've written [elsewhere](/my-best-managers.md) about the importance of thought reviews, and that principle applies more broadly here: Can I point to specific praiseworthy behaviors and connect the dots to specific praiseworthy outcomes?
-3. Do not fake wonder or hyperbolic praise. It comes across insincerely (because I am insincere when I do it) and undermines my main strengths -- a thoughtful straight shooter.
+2. Cultivate a vocabulary of praise and encouragement that is not dependent on wonder. I've written [elsewhere](/my-best-managers.md) about the importance of thoughtful reviews, and that principle applies more broadly here: Can I point to specific praiseworthy behaviors and connect the dots to specific praiseworthy outcomes?
+3. Do not fake wonder or hyperbolic praise. It comes across insincerely (because I am insincere when I do it) and undermines one of my main strengths -- being a thoughtful straight shooter.
 4. Intentionally lower my expectations, especially when they are stratospherically high, and concretely verbalize my expectations[^goals].
 5. Let people know when I'm struggling to recalibrate. It's easy for people to read my hesitation as disapproval of their plan when I'm actually trying to rapidly assess an unanticipated approach and decide if there's any blockers to moving forward.
 
-[^goals]: This topic could be its own article. There are different kinds of expectations (e.g. important immediate goals, important long-term goals that I'm afraid will slip way if they aren't addressed, but aren't necessarily central to the work, beliefs I have about the work that I'm very certain of, beliefs I suspect are true, etc.) Often my expectations will shift based on feedback. For example, I've often had developers tell me something like "I looked into such-n-such technology and we can't do this, but it solves a bunch of our other problems and gives us this cool new capability." And that's enough ROI for me to change my expectations. Beyond that, there's a whole topic about expressing reservations about a path and equipping others to recognize the wrong path while still genuinely giving them the freedom to make their own choices and supporting the outcome.
+[^goals]: This topic could be its own article. There are different kinds of expectations (e.g., important immediate goals, important long-term goals that I'm afraid will slip away if they aren't addressed but aren't necessarily central to the work, beliefs I have about the work that I'm very certain of, beliefs I suspect are true, etc.). Often, my expectations will shift based on feedback. For example, I've often had developers tell me something like, "I looked into such-n-such technology, and we can't do this, but it solves a bunch of our other problems and gives us this cool new capability." And that's enough ROI for me to change my expectations. Beyond that, there's another whole topic about expressing reservations about a path and equipping others to recognize the wrong path while still genuinely giving them the freedom to make their own choices and supporting the outcome.
 
 # Learning calibration
 
@@ -110,7 +110,7 @@ Here's a few adjustments I make to better align in these situations:
 3. Consider following up on the impact in a few months. Are they still doing the new practice? How is that working out[^remember]? What additional adjustments have they made? What kind of people would most benefit from the idea? Is there anybody who might not benefit?
 4. Learn to recognize when growth is not the primary goal. Take advantage of the opportunity to learn something, but it's okay to stick to your well-considered plan for growth.
 
-[^social]: On the other hand, people with important titles often like to feel important: Telling them that their recommendation was really meaningful to you is often a great approach; especially if they don't have the attention span to realize that you aren't actually applying said lessons any better than before.
+[^social]: On the other hand, people with important titles often like to feel important: Telling them that their recommendation was really meaningful to you is often a great approach, especially if they don't have the attention span to realize that you aren't actually applying said lessons any better than before.
 
 [^remember]: Do they actually remember anything about the book?
 

@@ -17,7 +17,7 @@ While every job has its rough points -- or _[where there's muck, there's brass](
 
 # Fundamentals
 
-_Understand what the company's foundational footing is like..._
+_Understand what the company's foundational footing is like ..._
 
 ## Product
 
@@ -59,7 +59,7 @@ _Understand what the company's foundational footing is like..._
 
 # Engineering Culture
 
-_If [culture eats strategy for lunch](https://www.thealternativeboard.com/blog/culture-eats-strategy), understand the engineering culture..._
+_If [culture eats strategy for lunch](https://www.thealternativeboard.com/blog/culture-eats-strategy), understand the engineering culture ..._
 
 ## Corporate Values
 
@@ -74,8 +74,8 @@ _If [culture eats strategy for lunch](https://www.thealternativeboard.com/blog/c
 * What are the key metrics for whether engineering culture is on the right track?
 * Which parts of that engineering culture are you really good at? Why?
 * Where would you most like to see your engineering culture grow?
-* What's the most important questions you ask if you are interviewing a senior leader? Why do you ask them?
-* What's the most important questions you ask if you are interviewing a manager? Why do you ask them?
+* What are the most important questions you ask if you are interviewing a senior leader? Why do you ask them?
+* What are the most important questions you ask if you are interviewing a manager? Why do you ask them?
 * Tell me about a time there was a major conflict. What happened?
 * What's a time you've disagreed with other engineering leadership? What happened?
 * What piece of conventional wisdom for building great software would you say doesn't apply to this company?
@@ -105,12 +105,12 @@ _If [culture eats strategy for lunch](https://www.thealternativeboard.com/blog/c
 * Having joined, what have you most appreciated about the company?
 * If you could change one thing about the company, what would it be?
 * What's a big improvement that's been made since you joined? How did that come about?
-* What's major change that you would like to make in how the company works?
+* What's a major change that you would like to make in how the company works?
 * What is holding you back from making that change?
 
 # The Position
 
-_Understand what the job itself will be..._
+_Understand what the job itself will be ..._
 
 ## The Role
 
@@ -125,7 +125,7 @@ _Understand what the job itself will be..._
 ## The Team
 
 * Can you tell me about the team I'd be working most closely with?
-* Who does the team work closely with? (e.g. quality assurance, user experience, cloud engineering, site reliability engineers) How are those interactions structured?
+* Who does the team work closely with (e.g., quality assurance, user experience, cloud engineering, site reliability engineers)? How are those interactions structured?
 * What are the key metrics for whether the team is on the right track?
 * Tell me about a time when there was significant team conflict. What happened?
 * Tell me about a time when the team failed. What happened?
@@ -139,13 +139,13 @@ _Understand what the job itself will be..._
 * What would your reports say about you?
 * Tell me about a time you didn't lead well. What happened?
 
-# Day-to-day Practices
+# Day-to-Day Practices
 
-_These questions are about the practical day-to-day aspects of the role..._
+_These questions are about the practical day-to-day aspects of the role ..._
 
 ## Tooling
 
-* What's your core tool set / tech stack? (e.g. Slack, Jira, ...).
+* What's your core tool set / tech stack (e.g., Slack, Jira, ...)?
 * Which choices are you most happy with? Why?
 * Which ones are most problematic? Why?
 

@@ -25,7 +25,7 @@ So how did Ella and Emma make such an impression?
 * Warm appreciation.
 * Low expectations.
 
-There's nothing particularly radical about this list (except the last one, I'll get to that), but experiencing that kind of leadership was a profound experience. Not only do some of my fondest memories of work come from those times, but it also radically reshaped what I aspired to in my interactions with others.
+There's nothing particularly radical about this list (except the last one, I'll get to that), but experiencing that kind of leadership was profoundly connecting. Not only do some of my fondest memories of work come from those times, but it also radically reshaped what I aspire to in my interactions with others.
 
 # Story time
 
@@ -69,7 +69,7 @@ I don't recall how long it took for Emma to ask that question after she started 
 
 _"I don't care why you work here, but I need to know why in order to be a good manager."_
 
-The question led into a really good conversation about what I valued directly (e.g. respect of co-workers) and how often what a company is willing to pay is an accurate signal of how much they value and respect a person's work. This was the first of many good conversations with Emma. Beyond that, I learned that Emma cared about tailoring her management style on an individual basis. Case in point, I mentioned that I'd never gotten one of the company's "above and beyond" thank yous (and we both knew that I'd more than earned a few). Not too long later, the company CEO dropped by to give me one.
+The question led into a really good conversation about what I valued directly (e.g., respect of co-workers) and how often what a company is willing to pay is an accurate signal of how much they value and respect a person's work. This was the first of many good conversations with Emma. Beyond that, I learned that Emma cared about tailoring her management style on an individual basis. Case in point, I mentioned that I'd never gotten one of the company's "above and beyond" thank yous (and we both knew that I'd more than earned a few). Not too long later, the company CEO dropped by to give me one.
 
 ## Emma's questions
 
@@ -93,7 +93,7 @@ Finally, I recall two other attributes of my time with both Ella and Emma:
 
 First, they were straight with me about the hard questions. I got real answers to question like _"Why is the organization doing such-n-such?"_ or _"Is this-or-that really fulfilling our corporate values?_
 
-While they respected the necessary corporate privacy, they typically errored on the side of sharing more and trusting me to be discrete. There were at least a few times when I knew well ahead of time about a pending reorg or upcoming departure. Again, the idea of extending trust shows up.
+While they respected the necessary corporate privacy, they typically erred on the side of sharing more and trusting me to be discrete. There were at least a few times when I knew well ahead of time about a pending reorg or upcoming departure. Again, the idea of extending trust shows up.
 
 And finally, they had low expectations for me. They recognized, I believe, that I have incredibly high expectations for myself (some might say unrealistic) and that I do my best work when I'm not feeling pressured to do even more. And so they were able to find meaningful ways to tell me that I was doing great, which helped me to do even better.
 
@@ -127,7 +127,7 @@ But in a nutshell, that captures an awful lot of what I've learned from my best 
 
 I posit three factors are behind the stark dichotomy between the plethora of management books and the shortage of good managers.
 
-1. The head-knowledge for being a great leader is quite straightforward (thus so many books).
+1. The head-knowledge for being a great leader is quite straightforward (thus, so many books).
 2. The character mastery for being a great leader is exceptionally challenging. As the saying goes, policy is for when one lacks either the character or the experience for the situation[^policy].
 3. As a whole, businesses aren't persuaded that great managers really make that much of a difference.
 
