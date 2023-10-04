@@ -143,6 +143,10 @@ Commentary: I'm actually really proud of this feedback. I have really high expec
 
 #### What can Alan improve?
 
+_Answer: "Here is the one thing I might say to you, and I say it carefully because I realize this is actively advising you to be a worse person than you are currently, IMO. I think your tendency to make logic-driven decisions is perhaps not shared universally. I don't think you play politics in this company-that is, I don't think you trade favors; instead you let the most logical/best ideas win, and attempt to shoot down inferior ones. I hate saying this, like a lot, but you might consider, sometimes, enacting/allowing ideologically inferior ideas/practices to thrive, or trading favors, when it would prevent someone else in the company from becoming deeply unhappy with you. I know, that's despicable advice, and honestly anathema to what you stand for and what I value in you...but I think politics are played in the upper levels of this company, and you are a peer of theirs. Politics is a game of concessions, and you may have to concede more often."_
+
+Commentary: This feedback is pretty apt at capturing both my strengths and how they can simultaneously be a liability.
+
 _Answer: "I think Alan would do well to focus on streamlining his communications.  At times his work (e.g. Confluence pages, emails) could be cut by half (or more) in length to make the topics more understandable."_
 
 Commentary: It's not lost on me in the middle of a (_checks word counter_) 5000+-word document that I still aim first for thoroughness and nuanced completeness. I think I've gotten a lot better at writing summaries with links to more specifics -- for example, I've deliberately aimed for short [about](./about) and [profile](./profile-hidden) pages here.
