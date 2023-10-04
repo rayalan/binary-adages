@@ -10,16 +10,12 @@ There are some great interview questions out there. This page gives employers my
 
 [^common]: I have mixed thoughts about the standardization of so many interview questions. Done right, it helps everyone be on the same page -- employers get thoughtful answers that tell them what the employee will be like, and employees get to prepare answers that best represent them. The dark side is that it may favor employees with certain skills (e.g., recalling prepared stories under pressure, viewing their experiences as dynamic stories) that aren't really relevant to the job.
 
-[^interview]: Here's an outline for an blog article:
+[^interview]: Here's an outline for a blog article:
   - At one point, I saw understanding how people thought on their feet as one of the main points of interviews.
   - Over time, though, I've shifted my perspective to caring far more about how the person sees the world, how they act in a variety of situations, and what they are capable of.
   - In this view, experience and knowledge are far more important signals about who the candidate is than ends in and of themselves.
   - While quick thinking on the fly is a valuable skill, especially in crisis situations, it isn't the only skill that matters.
   - The ideal interview involves accurately understanding what the candidate brings to the company (both strengths and liabilities) and whether the company is a good fit for the candidate.
-
- And while I still think that's an important question, I've gradually  I would have put more emphasis on my ability to match these answers to the corresponding questions in the interview and tell the story in a succinct and compelling way.
-
-  Why not give employers a leg up by answering some of the common questions ahead of time
 
 # Past behavior
 
@@ -39,7 +35,7 @@ I was project manager and architect on a project to replace a brittle legacy in-
 
 After investigating the options, researching the existing code, listening to coworkers, and doing a few prototypes, I had a plan. The basic idea was to build a microservice with its own standalone data storage. This microservice would interface with the 3rd-party solution, which would do the bulk of the work, as well as our other systems. This approach allowed the microservice to isolate the solution from everything else, and by virtue of having a well-designed microservice, we'd pick up the non-functional requirements along the way.
 
-Now the company had a brilliant database architect named Kaden. And he had a vision for the database as a well-connected well-designed monolith -- a single database fully interconnected with foreign keys. The legacy system already had tables in the database, and the new solution could designed to be compatible with those tables. (For context, Kaden was also the original designer of the legacy system, and it was very much his baby.)
+Now the company had a brilliant database architect named Kaden. And he had a vision for the database as a well-connected, well-designed monolith -- a single database fully interconnected with foreign keys. The legacy system already had tables in the database, and the new solution could designed to be compatible with those tables. (For context, Kaden was also the original designer of the legacy system, and it was very much his baby.)
 
 In a vacuum, Kaden's solution wasn't a bad one. It might have even been the superior technical vision. But it required steps that the company wasn't prepared to make. For example, it required hiring a large number of SQL experts to help write the supporting functions and triggers as well as ensure data integrity.[^sql] Furthermore, many of the non-functional requirements, such as being easily modifiable or maintainable by developers, simply could not be met with this approach.
 
@@ -91,7 +87,7 @@ But the money ... it wasn't a complete waste. Instead, it provided me with a ver
 * _Make problems visible early._ I did the right thing by pushing the project risk up the chain. Management did need to know that the project lacked adequate resources.
 * _I can do user experience work._ I saw UX as a field that required special talent -- expertise that I completely lacked and shouldn't try to acquire. In hindsight, I already had the skills at that point in my career to make the right choices when it came to system design and information architecture. But I didn't trust myself because I saw UX as too "other." In the end, I'd end up making many of those decisions myself anyway, based on input from my team.
 * _Money can be both available and not available._ Sometimes money is available for certain expenditures (like hiring consultants), but can't be easily transferred where it would be most useful. For example, I would have loved to spend the same amount of money to pay one of the company's user experience practitioners for overtime for a few months. But I don't think the company would have swung for that approach, even though the money spent would have been the same and the outcome far more useful for the project.
-* _Don't delegate to the point of abdication_. Because the people writing the contract had far more experience in this area and were busy -- and I felt inadequate, I didn't ask the questions I should have as project leader: What was going to be the end result? Why was it going to be useful? How would this address the concerns I raised? Could the work be structured more incrementally and perhaps if aborted it wasn't proving useful?
+* _Don't delegate to the point of abdication_. Because the people writing the contract had far more experience in this area and were busy -- and I felt inadequate, I didn't ask the questions I should have as project leader: What was going to be the end result? Why was it going to be useful? How would this address the concerns I raised? Could the work be structured more incrementally and perhaps aborted if it wasn't proving useful?
 * _Be quick to acknowledge missteps_. Because I had approved spending the money, it was really hard for me to admit it wasn't a productive expenditure. By not being more vocal, I implicitly sent the signal that this kind of expenditure had been productive.
 * _Even for executives, spending money is a form of commitment_. In the weeks before the consultants were hired, I was struggling to get adequate time with the executives to understand their concerns and get their input on the project. But once the check was written to the consultants, the executives made time to be available to the consultants. I'd been aware of this principle from sales, but I anticipated that creating and launching a six-figure software development project counted as full commitment. In hindsight, the executives likely did not see the salary cost of the project as a real commitment -- that salary was going to get paid no matter what work the developers were doing. But the check to consultants represented a different kind of expenditure.
 * _Companies view money differently than individuals._ Making this kind of misstep with one's personal finances could likely be a catastrophe. But for a business expecting to spend high six figures on a project, even this kind of snafu is basically a rounding error.
@@ -106,7 +102,7 @@ In the end, I designed a workaround that met all the requirements, didn't hurt t
 
 Fast forward many months and I was leading the team maintaining the new system. There was an urgent push to roll out some new functionality so that the company could rapidly bring some changes to market. Thanks to hard work by the team and my strong architectural design in the initial project, the team was able to complete the work in record time.
 
-But the pre-launch testing didn't properly test for whether or not the workaround for discounts was working. It wasn't, of course -- otherwise this would be a story about what went right. And in the few hours it took the team to catch the problem, the system gave customers enough discounts to offset the financial gains of launching earlier than expected.
+But the pre-launch testing didn't properly test for whether or not the workaround for discounts was working. It wasn't, of course -- otherwise this would be a story about what went right. And in the few hours it took the team to catch the problem, the system gave customers enough in additional discounts to offset the financial gains of launching earlier than expected.
 
 Because of the nature of the discount and the way that billing worked, the loss was basically a sunk cost -- attempts to recover the money, even if legal and technically possible, would have done significant long-term damage to the company's reputation.
 
@@ -266,7 +262,7 @@ I see three big upsides to an Agile environment:
 
 The big downside for Agile development is that it can lack adequate long-term focus. Some engineering problems, especially non-functional requirements, take a well-designed plan executed over the long term. Agile tends to avoid this kind of planning.  Likewise, constantly doing the immediately expedient solution can easily build up tech debt and gradually drag the team down. At the same time, the best solution for the company is not necessarily a series of iterations away from the current solution. Agile excels at finding the locally optimal solution, but often misses far more globally optimal approaches.
 
-The second downside of some Agile implementation is that they are overly rigid. Agile is intended to be, well, agile and adapt to the specifics of the situation. When it doesn't do that (e.g., "we can't do that because it isn't Agile"), Agile can become an anchor. Rather than serving to help teams excel, the Agile process itself adds stress. For example, teams who take commitments extremely seriously may find themselves stressing out at the end of every sprint.
+The second downside of some Agile implementations is that they are overly rigid. Agile is intended to be, well, agile and adapt to the specifics of the situation. When it doesn't do that (e.g., "we can't do that because it isn't Agile"), Agile can become an anchor. Rather than serving to help teams excel, the Agile process itself adds stress. For example, teams who take commitments extremely seriously may find themselves stressing out at the end of every sprint.
 
 ## How do you think technology advances will impact your job?
 
@@ -274,7 +270,7 @@ Since the punchcard and mainframe, there has been a search for an easier way for
 
 Yet so far, the complexity of computer software has increased right alongside the enhancements. Yes, compilers are better, but applications are often hundreds of megabytes or gigabytes. Yes, computers are more powerful, but now we're capable of generating gigabytes of data. Yes, the internet allows unparalleled interaction and connectivity, but it also introduces a whole new set of threat vectors for data to be compromised.
 
-My guess is that this trend will continue -- tools making work easier, but complexity increasing never the less.
+My guess is that this trend will continue -- tools making work easier, but complexity increasing alongside.
 
 Copilot and machine learning being able to generate code and explain what code does are a really cool capability that accelerates solving common problems. But I see them as enhancements rather than game changers. First, they still very much need human checks. They use prediction to generate likely text; they don't actually understand what the human wants or what the code will do. And sometimes they are badly wrong, perhaps in subtle ways. Being able to read code is a harder skill than being able to write code, and so validating what the AI is doing will continue to require highly skilled humans. Additionally, a lot of software development is about the bigger picture and how all the pieces work together -- something that there are rather poor tools for managing right now, especially non-proprietary solutions.
 
@@ -320,7 +316,7 @@ By far, the key trait is __overcommunication__. All of the normal casual interac
 - Are you stuck on a problem? Nobody else is wandering down the hall to ask how it is going.
 - Would it help to pair and chat through a problem? There's no open office door to indicate which teammates are readily disturbed.
 - Feeling frustrated by how things are going? It's harder to read body language through video feeds.
-- Not sure what a coworker meant by a chat? Reach out and find out, as it is easy to miscommunicate with the short brief exchanges in chat tools.
+- Not sure what a coworker meant by a chat? Reach out and find out, as it is easy to miscommunicate with the brief exchanges in chat tools.
 
 That is, remote work is more disconnected than office work, and it takes an active mindset of reaching out -- often far more than it seems like should be necessary.
 
@@ -366,7 +362,7 @@ But the generic answer is that I interview with companies that ...
 * do something significant in the world.
 * state an appealing approach to their business (e.g., corporate values, culture).
 * seem likely to need my capabilities and offer a [work environment](./profile-best-environment.md) where I'll thrive.
-* appear likely to be [what I look for in a position](./profile-target-position.md)
+* appear likely to be [what I look for in a position](./profile-target-position.md).
 
 ## Tell us about yourself.
 
@@ -378,7 +374,7 @@ _Why do I find this question challenging?_
 * Good candidates don't want to pigeonhole themselves into one specialty that may not be applicable to the job. They're particularly wary of limiting themselves at the beginning of the interview process.
 * On a normal project, I'd look to sit down with the coworker or customer and get them to explain their situation, needs, and goals more so that I could give a tailored answer. But taking over the interviews like that isn't the cultural norm, and it completely disrupts the interviewer's time management.
 * The result tends to be an attempt to generally describe one's relevant work while balancing two extremes:
-    * Don't be too brief or come across as shallow with niche experience.
+    * Don't be too brief and come across as shallow with niche experience.
     * Don't take too long and come across as rambling about a lot of irrelevant details while not understanding how interviews work.
 
 Ideally, one might have a perfect 2-3 minute story that encapsulates a great strength while also seeming like a widely capable candidate. In lieu of that, [this blog](/) and especially [my profile](./profile-hidden) provide a lot of this context.

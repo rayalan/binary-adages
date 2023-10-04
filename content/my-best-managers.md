@@ -93,11 +93,11 @@ Finally, I recall two other attributes of my time with both Ella and Emma:
 
 First, they were straight with me about the hard questions. I got real answers to question like _"Why is the organization doing such-n-such?"_ or _"Is this-or-that really fulfilling our corporate values?_
 
-While they respected the necessary corporate privacy, they typically erred on the side of sharing more and trusting me to be discrete. There were at least a few times when I knew well ahead of time about a pending reorg or upcoming departure. Again, the idea of extending trust shows up.
+While they respected the necessary corporate privacy, they typically erred on the side of sharing more and trusting me to be discreet. There were at least a few times when I knew well ahead of time about a pending reorg or upcoming departure. Again, the idea of extending trust shows up.
 
 And finally, they had low expectations for me. They recognized, I believe, that I have incredibly high expectations for myself (some might say unrealistic) and that I do my best work when I'm not feeling pressured to do even more. And so they were able to find meaningful ways to tell me that I was doing great, which helped me to do even better.
 
-Clearly that exact strategy doesn't apply to every employee, but the broader principle of understanding each employee and adjusting one's approach accordingly is absolutely applicable. And I have yet to meet an employee that doesn't like to know how their work is appreciated.
+Clearly that exact strategy doesn't apply to every employee, but the broader principle of understanding each employee and adjusting one's approach accordingly is absolutely applicable. And I have yet to meet an employee who doesn't like to know how their work is appreciated.
 
 # So what
 
@@ -105,7 +105,7 @@ I generally opt for a pretty simple management philosophy:
 
 **My goal is to make others shine.**
 
-If I can create a team where I'm not necessary, that's fantastic. One of the best compliments of my management came after I'd been away from one of my teams for a while, and I was told, "They're the team in the engineering department that least needs a manager." In other words, they were highly productive and self-directing, regardless of whether I was around or not. Beyond that:
+If I can create a team where I'm not necessary, that's fantastic. One of the best compliments of my management came after I'd been away from one of my teams for a while, when I was told, "They're the team in the engineering department that least needs a manager." In other words, they were highly productive and self-directing, regardless of whether I was around or not. Beyond that:
 
 * Be credible. I say what I mean, and I mean what I say. I may be mistaken, but people don't need to worry that I'm snowing them.
 * Manage by wandering around (perhaps virtually), chatting, and building relationships.
@@ -123,7 +123,7 @@ This certainly isn't an exhaustive list; much of this is shaped by what I'm natu
 
 But in a nutshell, that captures an awful lot of what I've learned from my best managers. After all, good management is really pretty simple most of the time -- the only hard part is living it out consistently.
 
-# Soapbox Bonus
+# Soapbox bonus
 
 I posit three factors are behind the stark dichotomy between the plethora of management books and the shortage of good managers.
 

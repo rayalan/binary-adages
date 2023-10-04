@@ -16,7 +16,7 @@ While I pride myself on thriving in all sorts of environments[^range], I recogni
 
 # Commitment to pragmatic long-term excellence
 
-I build software, complete with systems and processes such that it:
+I build software, complete with systems and processes, such that it:
 
 * Delivers frequent rapid value.
 * Achieves durable long-term efficiencies of scale.
@@ -32,7 +32,7 @@ The first three principles push toward an [Agile style](https://agilemanifesto.o
 
 But left to their own devices, the first three principles repeatedly produce locally optimal solutions that constantly increase the amount of tech debt. The increasing tech debt decreases software velocity and quality -- each improvement, developers do the fast thing to make the change, increasing the complexity and brittleness of the system.
 
-While there are make-shift solutions such as hiring more people, these approaches generally have diminishing returns (c.f., [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)). While more people can do more, they are also harder to coordinate and can make a bigger mess.
+While there are makeshift solutions such as hiring more people, these approaches generally have diminishing returns (c.f., [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)). While more people can do more, they are also harder to coordinate and can make a bigger mess.
 
 Often the pain and development friction results in limited efforts to correct the situation. For example, one of my favorites is a series of uncoordinated short-term initiatives to introduce a new technology or approach. Each time, the technology is the way of the future and will have an incredible return on investment after the initial one-year or two-year investment. One of these "investments" is introduced every year or six months, each superseding the previous one. The result is that the company continuously invests in the long-term while reaping none of the benefits. Instead, the continual build up of different technologies mixed together often reduces the benefits of each individual choice while slowing developers down even further (c.f., [the lava flow anti-pattern](https://exceptionnotfound.net/lava-flow-the-daily-software-anti-pattern/).
 
@@ -86,10 +86,10 @@ Okay. The decision had been made, and it was time to [commit and support](https:
 
 Now the company had a lot of touch points with customers, many of them indirect.
 
-* Upfront contact points such as applications and websites.
+* Up-front contact points, such as applications and websites.
 * Backend algorithms that controlled content, so any change to those systems impacted customers.
 * Systems that supported customer service, so changing those systems would impact how agents could help customers, which would change the customer experience.
-* Billing systems which impacted the customer experience when they didn't pay for whatever reason (e.g., expired credit cards).
+* Billing systems that impacted the customer experience when they didn't pay for whatever reason (e.g., expired credit cards).
 
 So I started with the basics:
 
@@ -98,7 +98,7 @@ So I started with the basics:
 - I briefed my team on the change, listened to their pushback, and started working on necessary changes to support my team. For example, many teammates were concerned it would interfere with the speed and quality of our work, which had been major criteria by which performance was judged. So I made sure my boss knew about the anticipated changes to throughput, told my team I would adjust my expectations, and started making sure there was a document trail in case there was later pushback.
 - I put together a proposal to start training the development team on basic UX principles and outlining scenarios when my team was authorized to autonomously make a change. This was particularly important because the company frequently had places where the existing user interaction was just wrong -- the link went to an outdated page, the data loaded as 'n/a', etc. Almost any change would have been better than the status quo.
 
-(Now a reasonable reader might suspect that I'm being overly literal and a bit pedantic with this interpretation of executive direction. Surely they didn't mean this directive so expansively. I certainly thought so. But when I sought to clarify what we meant by _"everything that was customer-impacting"_ and pointed out many of these complexities, my boss told me that they indeed meant everything and all these scenarios needed UX approval. All right, then, supporting this direction and making sure Kelly wasn't left hanging was an urgent priority.)
+(Now a reasonable reader might suspect that I'm being overly literal and a bit pedantic with this interpretation of executive direction. Surely they didn't mean this directive so expansively. I certainly thought so. But when I sought to clarify what we meant by _"everything that was customer-impacting"_ and pointed out many of these complexities, my boss told me that they indeed meant _everything_ and all these scenarios needed UX approval. All right, then, supporting this direction and making sure Kelly wasn't left hanging was an urgent priority.)
 
 _And I promptly ran into a brick wall._
 
@@ -123,7 +123,7 @@ As an example of this idea, I once worked at a company where upper management wo
 >
 > _Peer feedback on Alan's strengths._
 
-Now on the one hand, this makes sense. Leadership needs visibility. And a unified project manager makes sure everything consistent. But it also meant that a certain significant amount of friction was baked into every project. Worse yet, the cards didn't really have the information that upper management needed or cared about. For example, the cards didn't provide the overall project status. In many cases, a [hill chart](https://www.hillchart.co/blog/project-management-chart-why-you-should-use-a-hill-chart/) was far more what management needed -- a view that our project management software didn't trivially do.
+Now on the one hand, this makes sense. Leadership needs visibility. And a unified project manager makes sure everything is consistent. But it also meant that a certain significant amount of friction was baked into every project. Worse yet, the cards didn't really have the information that upper management needed or cared about. For example, the cards didn't provide the overall project status. In many cases, a [hill chart](https://www.hillchart.co/blog/project-management-chart-why-you-should-use-a-hill-chart/) was far more what management needed -- a view that our project management software didn't trivially do.
 
 And as is common, engineering time was an incredibly scarce resource. And officially, the company agreed and was committed to buying whatever tooling were needed to streamline the developer experience.
 
@@ -169,13 +169,13 @@ In both cases, having more relationally-oriented individuals helped the team bon
 
 # Advocates
 
-I hate self promotion. It seems arrogant and cocky -- my work should speak for itself. And every moment spent on communication is one moment that I'm not doing what I do best to create value -- analysis, design, engineering, mentoring, understanding customer needs, etc.
+I hate self promotion. It seems arrogant and cocky -- my work should speak for itself. And every moment spent on this kind of communication is one moment that I'm not doing what I do best to create value -- analysis, design, engineering, mentoring, understanding customer needs, etc.
 
 I sometimes joke that engineering follows the [Heisenberg uncertainty principle](https://byjus.com/jee/heisenberg-uncertainty-principle/) -- the more you know where the project is at, the less momentum the project has.
 
 On top of that, I have a good memory and tend to be annoyed by redundant communications -- as a listener, I should bear significant responsibility for active listening, especially when I'm given a way to look up the information. Likewise, I want to simply tell it as it is rather than massage the message for particular audiences.
 
-I know the above isn't the whole picture. Non-technical audiences shouldn't be buried in technical detail, although a few accessible details to help communicate the complexity of the problem space is golden. Executives have a different set of concerns than customer service or managers or engineers. And nobody is a mind-reader -- most of the complexities of good engineering are unseen unless someone speaks up -- someone needs to explain how the software development resulted in reduced errors, increased customer satisfaction, and lower maintenance costs in addition to bringing in revenue. Everyone wants to be reassured that their interests are being looked after.
+I know the above isn't the whole picture. Non-technical audiences shouldn't be buried in technical detail, although including a few accessible details to help communicate the complexity of the problem space is golden. Executives have a different set of concerns than customer service or managers or engineers. And nobody is a mind-reader -- most of the complexities of good engineering are unseen unless someone speaks up -- someone needs to explain how the software development resulted in reduced errors, increased customer satisfaction, and lower maintenance costs in addition to bringing in revenue. Everyone wants to be reassured that their interests are being looked after.
 
 > Alan is very straightforward and unyielding in ensuring that communication through his team is strong. He is always thinking about that, as well as having the foresight to think through the entire process to ensure the process is good as well.
 >

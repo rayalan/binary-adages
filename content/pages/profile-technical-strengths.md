@@ -23,7 +23,7 @@ These are my main languages that I've done extensive work in.
 
 [^macros]: Yes, macros are evil. But sometimes they are a necessary evil.
 
-And then there's a number that I've done a little bit of work in:
+And then there are some that I've done a little bit of work in:
 
 * _Java_: I pick this up every few years, typically to do some C++/Java JNI interface or solve a limited problem. One of my proudest moments was teaching myself Java in graduate school to place second in a competition to write the best [Quoridor](https://en.wikipedia.org/wiki/Quoridor) algorithm.
 * _HTML/CSS_: Having done web applications for more than eight years, I know the basics, but I tend to rely on others to do the bulk of the CSS work.

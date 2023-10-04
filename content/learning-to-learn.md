@@ -15,9 +15,9 @@ Consider a few different scenarios...
 
 In some circumstances, we're largely ignorant of what we need to know. As a young child, we are guided by parents and teachers into basic knowledge such as reading, writing, and arithmetic. Similarly, vocational training and college degrees provide significant guidance in what skills need to be mastered. Sometimes these choices are good -- my college classes on information theory, statistics, and game theory have been referenced throughout my career.
 
-Others, less so -- did Calculus IV help me be great software developer? Well, I've never used it and forgotten most of it by now, so at most it serves as a way to score points on how smart I am or how tough my education was. (And strangely, scoring points is often an anti-social behavior, aside from job interviews and professional bios, so even there Calculus IV hasn't been very practical.)
+Others, less so -- did Calculus IV help me be a great software developer? Well, I've never used it and forgotten most of it by now, so at most it serves as a way to score points on how smart I am or how tough my education was. (And strangely, scoring points is often an anti-social behavior, aside from job interviews and professional bios, so even there Calculus IV hasn't been very practical.)
 
-Assuming one's education leads into one's career[^career], one's first job introduces a whole bunch more skills - some just missed by education, others that just come from real-world scenarios that school can't replicate. Some of these skills are technical (e.g., source control wasn't taught back in my day), but others are more professional skills -- real-world software development is very different than coursework. For example, in a class, the solution and complexity to problems is always well-known. But on the job, nothing forces the customer to ask for something that can be delivered in a week.
+Assuming one's education leads into one's career[^career], one's first job introduces a whole bunch more skills - some just missed by education, others that just come from real-world scenarios that school can't replicate. Some of these skills are technical (e.g., source control wasn't taught back in my day), but others are more professional skills -- real-world software development is very different than coursework. For example, in a class, the solution and complexity to problems are always well-known. But on the job, nothing forces the customer to ask for something that can be delivered in a week.
 
 [^career]: This certainly isn't the case for many, and the way that people end up in degrees without a good sense of whether that career trajectory is a good match for their strengths would make for a fascinating social commentary. But that's a bit beyond this blog at the moment.
 
@@ -27,7 +27,7 @@ I encourage people to think of their early career as a sponge -- one finally has
 
 If one is lucky, they'll get a thoughtful boss who will get to know them well and give detailed, specific feedback on how to grow. If not, working alongside thoughtful coworkers and actively soliciting feedback can be a a great source of input[^habits].
 
-[^habits]: Both of these habits (soliciting feedback and sitting down with others) are great career habits to maintain. But their purpose morphs slightly over time. Often the feedback, especially the positive feedback, gets repetitive. In that case, it serves as more of a reality check that you are still coming across as you expect, rather than novel information. Likewise, the 100th conversation about user experience probably won't tell you that much more about the field -- but it'll tell you a lot about the individual and the specific challenges facing the company and be a great connection building opportunity.
+[^habits]: Both of these habits (soliciting feedback and sitting down with others) are great career habits to maintain. But their purpose morphs slightly over time. Often the feedback, especially the positive feedback, gets repetitive. In that case, it serves as more of a reality check that you are still coming across as you expect, rather than novel information. Likewise, the 100th conversation about user experience probably won't tell you that much more about the field -- but it'll tell you a lot about the individual and the specific challenges facing the company and be a great connection-building opportunity.
 
 # Independent thinker
 
@@ -67,7 +67,7 @@ I don't have a good answer. Here's what my current plan looks like:
 
 * I have a plan and at least small action steps for whatever feedback I've gotten from my boss and close workers, regardless of whether I agree with the feedback. If I agree with the feedback, this is easy to focus on. Otherwise, it's a way of experimenting with a change to see what happens while showing that I'm taking them seriously.
 * I strive to be attentive to my perennial weaknesses (e.g., coming off as brusque) and follow up in scenarios where I may not have done well.
-* Up to 20% of my time working on my weaknesses. Sometimes these are the perennial ones (especially if feedback suggests they are problem areas again). At other times, I'll tackle a common practice that I've never been able to implement (like [Obsidian](https://obsidian.md/))
+* Up to 20% of my time working on my weaknesses. Sometimes these are the perennial ones (especially if feedback suggests they are problem areas again). At other times, I'll tackle a common practice that I've never been able to implement (like [Obsidian](https://obsidian.md/)).
 * The rest of my effort goes to learning to better do what I love and excel at.
 
 In short, I mostly work on amplifying my strengths, while being conscientious of my weaknesses.
