@@ -65,7 +65,7 @@ I've set up and iterated on telemetry and logging setups in a variety of technol
 
 ## Provisioning
 
-* _Ansible (5+ years)_: One of my big accomplishments was introducing the concept of idempotent configuration-as-code through Ansible and seeing it become the defacto standard.
+* _Ansible (5+ years)_: One of my big accomplishments was introducing the concept of idempotent configuration-as-code through Ansible and seeing it become the de facto standard.
 * _Kubernetes (3 years)_: The staple of my work with cloud-based microservices.
 * _Terraform + Helm (1 year)_: No approach to cloud-based solutions would be complete without these sorts of provisioning tools.
 
@@ -79,7 +79,7 @@ And here are a few oddball technologies, mostly for SEO, along with sparking con
 * _Vue.js, AngularJS (v1)_: I'm a huge advocate of these sorts of front-end frameworks that structure the application much more like a traditional computer application. At one company, I pioneered this app-like approach with AngularJS and later helped guide the selection of Vue.js as the default framework.
 * _Pandas, NumPy_: For when I've done mass data crunching, such as for validating machine learning models.
 * _Sphinx_: One of a handful of systems I've used to build documentation from code.
-* _[OpenAPI](https://www.openapis.org/), [json:api](https://jsonapi.org/)_: A couple tools I've used to support API development.
+* _[OpenAPI](https://www.openapis.org/), [json:api](https://jsonapi.org/)_: A couple of tools I've used to support API development.
 * _[Mermaid](https://mermaid.js.org/)_: My go-to solution for diagrams as code.
 * _Git_: I had the advantage of learning Git from someone who contributed code, so I've been able to do just that little bit extra when automating around source control, such as scripts that automatically delete local branches based on whether commits have been merged to main.
 * _Qt_: The primary tool I used for a cross-platform GUI on embedded platforms.

@@ -6,7 +6,7 @@ layout: page
 
 [TOC]
 
-> __Critical thinking__. Alan is exceptionally talented at thinking about all aspects of a problem and having a good understanding of situation that is relayed to him. It seems to be easy for him to even grasp the complexity of subjects he is not familiar with at a glance.
+> __Critical thinking__. Alan is exceptionally talented at thinking about all aspects of a problem and having a good understanding of situations relayed to him. It seems to be easy for him to even grasp the complexity of subjects he is not familiar with at a glance.
 >
 > __Runs toward gunfire__. Wherever there's a hard problem — young developers needing growth, hiring to be done, tools to be created, outages, new product features being contemplated, Alan is throwing himself into the fray, helpfully, expending seeming inexhaustible energy helping to resolve the problem.
 >
@@ -19,8 +19,8 @@ Hello. Do you need...
 * A [100x software architect](https://www.stxnext.com/blog/software-development-productivity-100x-engineering/) who can connect the business objectives to the engineering culture and practices through to the day-to-day practices?
 * A deep critical thinker and problem solver who can challenge assumptions, find out-of-the-box alternatives, and simplify complex problems -- all in pursuit of the underlying goal?
 * A versatile software architect with decades of experience across cloud, SaaS, embedded, and application environments?
-* A skilled communicator and leader with a prove track record for leading change at any level of the organization?
-* A mentor who bring pragmatic structure, excellence, and independence to those around him?
+* A skilled communicator and leader with a proven track record for leading change at any level of the organization?
+* A mentor who brings pragmatic structure, excellence, and independence to those around him?
 
 If so, let's [talk](https://www.linkedin.com/in/alan-ray-3513aa14/).
 
@@ -39,7 +39,7 @@ If so, let's [talk](https://www.linkedin.com/in/alan-ray-3513aa14/).
 
 # By the numbers
 
-These metrics summarize some of my technical and leadership successes over the years.
+These metrics derive from and summarize some of my technical and leadership successes over the years.
 
 * __150 milliseconds__ - typical transmission time a police radio was blind to incoming messages.
 * __Under 5 minutes__ - how long multisite deployments took

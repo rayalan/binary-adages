@@ -33,7 +33,7 @@ Here are five stories (and an observation) illustrating how these principles pla
 
 ## Ella and the competitor
 
-When I interviewed with Ella, I also had an interview lined up at a scientific facility -- the kind of place that sounds really fancy and makes for a unique interview opportunity. The timing was a bit awkward, but Ella's response when I asked for a couple more days to respond to her offer so I could get a sense for the facility struck with me:
+When I interviewed with Ella, I also had an interview lined up at a scientific facility -- the kind of place that sounds really fancy and makes for a unique interview opportunity. The timing was a bit awkward, but Ella's response when I asked for a couple more days to respond to her offer so I could get a sense for the facility stuck with me:
 
 > Certainly; you should absolutely interview there -- it's a really cool opportunity.
 
@@ -41,7 +41,7 @@ In other words, Ella got where I was coming from and supported me getting a chan
 
 [^hindsight]: In hindsight, I probably could have accepted Ella's offer and then gone to the interview anyway, so Ella's response may have also just been good negotiation to make sure she got a real yes.
 
-[^choice]: As it turned out, the other interview was catastrophically bad -- like, the hiring manager flagrantly violating EEOC regulations with off-hand comments to me during the interview bad -- so at the end of the day, the job choice was pretty easy.
+[^choice]: As it turned out, the other interview was catastrophically bad -- like, "the hiring manager flagrantly violating EEOC regulations with off-hand comments to me during the interview" bad -- so at the end of the day, the job choice was pretty easy.
 
 ## Ella and waf
 

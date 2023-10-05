@@ -123,7 +123,7 @@ I actually lean toward the best-possible-world hypothesis, but that seems a litt
 
 One VP wrote this about a successful project shipped that, had it gone wrong, could have critically damaged the company's reputation:
 
-_"Thank you for leading the such-n-such[^such] project with attention to detail while always understanding and moving toward the vision! Your commitment to excellence has infiltrated the team and their desire to serve our members and their co-workers is exemplary. Thank you for leading and delivering a better such-n-such solution."_
+_"Thank you for leading the such-n-such[^such] project with attention to detail while always understanding and moving toward the vision! Your commitment to excellence has infiltrated the team, and their desire to serve our members and their co-workers is exemplary. Thank you for leading and delivering a better such-n-such solution."_
 
 [^such]: Project-specific details anonymized.
 
@@ -135,7 +135,7 @@ Broadly speaking, my bosses, my peers, and my reports give glowing feedback -- s
 
 _Answer: "As I’ve been gaining confidence in my role, it’s been nice to have more affirmative feedback and less critical, but now that I’ve gained a decent amount of confidence, I think I can handle some more critical feedback."_
 
-Commentary: I'm actually really proud of this feedback. I have really high expectations, both for myself and others, and for an employee to think that perhaps I've been under-critical is a huge win. It's also a reminder that it's possible to swing the pendulum too far in the opposite direction. I'd like to think that the way I [approach reviews](../my-best-managers) helps ensure I'm giving consistent, thoughtful feedback that isn't overly critical, but finding the right level of feedback remains a challenge for me.
+Commentary: I'm actually really proud of this feedback. I have really high expectations, both for myself and others, and for an employee to think that perhaps I've been under-critical is a huge win. It's also a reminder that it's possible to swing the pendulum too far in the opposite direction. I'd like to think that the way I [approach reviews](../my-best-managers) helps to ensure I'm giving consistent, thoughtful feedback that isn't overly critical, but finding the right level of feedback remains a challenge for me.
 
 #### What can Alan improve?
 
@@ -268,7 +268,7 @@ The second downside of some Agile implementations is that they are overly rigid.
 
 Since the punchcard and mainframe, there has been a search for an easier way for humans to describe what work they want done in a way that the computer will do it. After all, software development is similar to blacksmithing -- people want horseshoes for reliable transportation and metal hoes to produce food and swords to defend themselves. But when there are better ways to achieve those ends -- cars or tractors or tanks -- blacksmithing as an industry goes away.
 
-Yet so far, the complexity of computer software has increased right alongside the enhancements. Yes, compilers are better, but applications are often hundreds of megabytes or gigabytes. Yes, computers are more powerful, but now we're capable of generating gigabytes of data. Yes, the internet allows unparalleled interaction and connectivity, but it also introduces a whole new set of threat vectors for data to be compromised.
+Yet so far, the complexity of computer software has increased right alongside the enhancements. Yes, compilers are better, but applications are often hundreds of megabytes or gigabytes. Yes, computers are more powerful, but now we're capable of generating terabytes of data. Yes, the internet allows unparalleled interaction and connectivity, but it also introduces a whole new set of threat vectors for data to be compromised.
 
 My guess is that this trend will continue -- tools making work easier, but complexity increasing alongside.
 
@@ -276,7 +276,7 @@ Copilot and machine learning being able to generate code and explain what code d
 
 Eventually, I think we'll see a jump to templated solutions for common problems. Just like a coding language has a set of common patterns (loops, if statements, assignments, functions), we'll gain a similar set of patterns for servers, APIs, and webhooks. Datadog's universal service monitoring that can plug into a linux kernel and monitor all incoming and outgoing http calls is an example of this idea -- it doesn't matter what the application is, the way it is monitored is consistent.
 
-But at the moment, we're at the proliferation phase -- layers built on top of layers, and the complexity is increasing. Even trends that simplify life for some (such as microservices for developers) have introduced whole new technologies and careers (Kubernetes and cloud engineering). And even then, microservices aren't a silver bullet; distributed debugging is no joke and microsevices -- or at least specific microservice implementations -- do not always align to business objectives (c.f., [Amazon Prime Video](https://devops.com/microservices-amazon-monolithic-richixbw/)).
+But at the moment, we're at the proliferation phase -- layers built on top of layers, and the complexity is increasing. Even trends that simplify life for some (such as microservices for developers) have introduced whole new technologies and careers (Kubernetes and cloud engineering). And even then, microservices aren't a silver bullet; distributed debugging is no joke and microservices -- or at least specific microservice implementations -- do not always align to business objectives (c.f., [Amazon Prime Video](https://devops.com/microservices-amazon-monolithic-richixbw/)).
 
 # Professional interactions
 

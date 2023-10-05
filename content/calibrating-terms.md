@@ -42,7 +42,7 @@ So while the product looks good, the actual product isn't exactly what is being 
 
 What is meant when we describe software as "excellent" or "world class"? Well, a world-class athlete is one who competes on a world stage -- maybe in the Olympics or the World Cup. A world-class chef is one who makes the tastiest food -- perhaps a five-star Michelin chef.
 
-Even here, the definition is a bit fuzzy -- what if someone competes in the Olympics, but always places last? Could the runners up to the Olympics be considered world class? What if I really like Joe's taco truck and dislike foie gras? Does a bunch of people disagreeing with me really make the taco any less a world-class dish?
+Even here, the definition is a bit fuzzy -- what if someone competes in the Olympics, but always places last? Could the runners-up to the Olympics be considered world class? What if I really like Joe's taco truck and dislike foie gras? Does a bunch of people disagreeing with me really make the taco any less a world-class dish?
 
 But the idea of a world-class athlete or dish is really clear, even if the specifics are a bit fuzzy.
 
@@ -86,7 +86,7 @@ The material was solid, but I already had an intellectual understanding of most 
 
 Meanwhile, the feedback I was getting from those around me was that I needed to work on other areas -- like having too much on my plate[^growth]. So I tried to convince my boss to let me skip the trainings. Oh no, it was critically important that I be there -- but irrelevant whether not I was actually growing or well-supported in mastering these concepts.
 
-[^growth]: At this point in my career, I simply had too much on my plate and so much of my learning and grow was around prioritization and intentional choices about opportunity costs, the return on my (time) investment, and delegation. Just because someone thought that this material needed to be presented didn't mean it needed to jump to the top of my list. And the flip side is that sometimes I've had to grow in skills that nobody thought it was worthwhile to train me on.
+[^growth]: At this point in my career, I simply had too much on my plate, and so much of my learning and growth was around prioritization and intentional choices about opportunity costs, the return on my (time) investment, and delegation. Just because someone thought that this material needed to be presented didn't mean it needed to jump to the top of my list. And the flip side is that sometimes I've had to grow in skills that nobody thought it was worthwhile to train me on.
 
 Looking back, my assessment was on point: For most of the people in that meeting, it wasn't important or vital or essential. No one I knew visibly changed how they led or managed because of that time.
 

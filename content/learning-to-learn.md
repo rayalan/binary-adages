@@ -49,13 +49,13 @@ In some areas of software development, it's easy to bridge from one area into an
 
 But other jumps are more 0 to 1 jumps. Effectively running a small or medium team is very different than running a large department. Effectively designing a small internal application is very different than designing a company-wide microservice architecture. And these jumps are far harder because much of the knowledge comes from doing, and the ability to do often requires being in the right position.
 
-I've been fortunate to work at a number of smaller understaffed companies where I could drift into this kind of work. For example, I ended up as both architect and project manager on a major initiative when my co-leader (who I had worked with before) saw me taking the lead, thought I was doing great, and decided he had more important work to do. So now I can point to that experience and say "I've done that, and I got awards for doing so." So while that worked out great for me, it's not an easy way that anyone can demonstrate their capabilities.
+I've been fortunate to work at a number of smaller, understaffed companies where I could drift into this kind of work. For example, I ended up as both architect and project manager on a major initiative when my co-leader (who I had worked with before) saw me taking the lead, thought I was doing great, and decided he had more important work to do. So now I can point to that experience and say "I've done that, and I got awards for doing so." So while that worked out great for me, it's not an easy way that anyone can demonstrate their capabilities.
 
 And even in that work, my head knowledge exceeds what I've applied. There are industry standards for APIs that I know about but have never done. So when some hiring manager goes and writes out a job description wanting architects who have done this practice and that practice and this other practice, I don't exactly have the right experience.
 
 # Difficulty of what to learn
 
-At some point, I realized that there's basically an infinite amount to learn and improve. I can get better at almost any skill, and there's countless skills that would make me better at what I do. The question becomes: Where do I focus my energy?
+At some point, I realized that there's basically an infinite amount to learn and improve. I can get better at almost any skill, and there are countless skills that would make me better at what I do. The question becomes: Where do I focus my energy?
 
 * On shoring up my weaknesses?
 * On amplifying my strengths?
@@ -110,4 +110,4 @@ As with many complex issues, there aren't many silver bullets here. But here are
 
 The purpose of the last point is to achieve mastery of the concept independent of the implementation. By the 5th or 6th software language, the concept of a loop is really clear, even if one language has `while` and another doesn't. It also makes compare and contrast far easier -- how does C++'s value vs. reference system compare to the de facto reference approach used by many modern languages? How does having a `const` keyword change how one programs? Or, in the case of JavaScript, how does it turn out to have a `const` keyword in an object-based language that doesn't prevent the object from being changed?
 
-_Finally, think deeply about the feedback you receive and seek out feedback from multiple thoughtful sources._
+_Finally, think deeply about the feedback you receive, and seek out feedback from multiple thoughtful sources._
