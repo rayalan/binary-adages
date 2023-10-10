@@ -31,7 +31,7 @@ I want to work somewhere where there's a deep commitment by leadership to engine
 
 * It does not mean that engineering sacrifices are never made. Sometimes there really are critical market windows or a commitment made by someone in sales or other pressing emergencies.
 
-### A primary contributor to engineering: Culture, strategy, process, and tech stack
+### Primary contributor to engineering: Culture, strategy, process, and tech stack
 
 Some of my best work is when I'm connecting business objectives and company values through engineering culture and strategy all the way through to process that drives the day-to-day developer experience.
 
