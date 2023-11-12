@@ -20,7 +20,7 @@ For me, this is part of [100x engineering](https://www.stxnext.com/blog/software
 
 * [What others say about me](./profile-interview-answers#what-would-others-say-about-you)
 * [How to best leverage my strengths](./profile-target-position)
-* [Highlighted projects](./profile-roles-n-achievements#spotlight-project-billing-system-overhaul)
+* [Highlighted projects](./profile-experience-showcase#spotlight-project-billing-system-overhaul)
 
 
 ```mermaid
@@ -101,7 +101,7 @@ I don't just spot flaws and problems; I create the necessary structure around me
 
 ## Example: Project definition
 
-At the beginning of what would become [the billing project](./profile-roles-n-achievements#spotlight-project-billing-system-overhaul), someone conducted stakeholder interviews to find out the requirements. And there were a lot of requirements. But I noticed something -- most of the requirements were based on the behavior of the existing behavior, and that people had answered the goal as if the goal was to maintain exactly the same behavior that the current system had.
+At the beginning of what would become [the billing project](./profile-experience-showcase#spotlight-project-billing-system-overhaul), someone conducted stakeholder interviews to find out the requirements. And there were a lot of requirements. But I noticed something -- most of the requirements were based on the behavior of the existing behavior, and that people had answered the goal as if the goal was to maintain exactly the same behavior that the current system had.
 
 But because we were building a new system, replicating the existing behavior of a legacy home-grown system would be challenging and expensive. Additionally, some of the behaviors just seemed weird -- was it really better, for instance, that most billing operations couldn't be handled by the representatives answering the phone, and instead got passed to other representatives who did the work later? Did sales really like the way that the discount code system worked, or was it simply the system that they had and they didn't want to lose it?
 
@@ -148,7 +148,24 @@ Having established the baseline key-value system, the dbas were able to modify t
 
 ## Example: Rapid steelmanned decisions
 
-[[ Tell story of strawman / steelmanning decisions ]]
+In another situation, I wanted to standardize a number of engineering practices in a heavily consensus-driven culture across a number of teams. There wasn't a good upfront way of knowing who cared specifically about which decision. Additionally, due to interconnected systems, teams could be unexpected impacted by a decision.
+
+I ended up introducing a three-step approach:
+
+1. I'd research and post [steelmanned](https://en.wiktionary.org/wiki/steelman) proposals, including not just the decision, but also the pros and cons of the direction.
+2. Engineers would read and respond with any strong reactions or concerns.
+3. React according to the feedback.
+
+Four of the big advantages of this preview / feedback / react cycle were:
+
+1. Establishing a culture of transparency and thoughtful discourse. By sharing my understanding and carefully engaging with differing perspectives, the engineering culture as a whole improved.
+2. By providing enough prospective into the _why_ of a decision, minor concerns or downsides rarely become sticking points. Other engineers could see the reasons driving the decision, and do their own cost-benefit analysis of their own concerns. Often downsides were raised not as blockers, but as a heads up of something that might need to be mitigated in the future, providing the team (and especially myself) with valuable input.
+3. Swiftly identify who significantly cared about a decision. Instead of it being a conversation across the entire department, engineers self-identified as concerned parties, quickly focusing the conversation.
+4. Rapidly moving many decisions forward to conclusion. In many cases, there wasn't significant dissent, at least not once the rationale was laid out. These decisions could be finalized with little overhead.
+
+This approach won't work in every scenario -- it requires people be comfortable speaking up; it won't scale past a certain point; it requires a willingness to cheerfully allow the preliminary proposals to be destroyed by the feedback upon occasion.
+
+It was, though, a quick and light-weight approach to rapidly standardizing engineering processes in a consensus-oriented culture while encouraging initiative, feedback, and openness.
 
 > He is organized.  His teams are organized.  Everything is documented and well prepared.  Hands down the best project managers that I have ever worked with.
 >
@@ -157,6 +174,8 @@ Having established the baseline key-value system, the dbas were able to modify t
 > _Anonymous coworker praise_
 
 # Relationally-oriented leadership
+
+_There are no technical problems, only people problems._ This is one of my favorite witticisms. Major engineering efforts are not primarily about being good with computers, they are about influencing and organizing people over the long haul.
 
 > Attitude, oddly enough. Alan is always positive and thoughtful, with good ideas to offer on any topic. He's tactful in delivery of feedback, and makes allies easily.
 >

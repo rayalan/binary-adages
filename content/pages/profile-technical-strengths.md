@@ -40,9 +40,10 @@ The main databases I've worked with:
 
 # Platforms
 
+* _Distributed computing architecture_ (10+ years): For years, I've worked with designing distributed architectures, databases and data pipelines, handling challenges such as connectivity outages, balancing centralized sources of truths with the resulting data bottlenecks.
 * _Google Cloud Platform_: My introduction to true cloud computing (as opposed to on-premises virtual machines).
-* _Servers (Linux, 11 years)_: Almost everything I've ever written has run in a Linux-like environment of some sort or another.
-* _Cross-platform (11 years)_: Much of my career has been spent writing software that will work interchangably across platforms, typically either abstracting out operating system-specific differences or writing system-specific specializations.)
+* _Servers (Linux, 10+ years)_: Almost everything I've ever written has run in a Linux-like environment of some sort or another.
+* _Cross-platform (10+ years)_: Much of my career has been spent writing software that will work interchangably across platforms, typically either abstracting out operating system-specific differences or writing system-specific specializations.)
 * _Embedded (QNX, assorted environments, 7 years)_: Writing mission-critical software in a memory-constrained environment for police cars and trucking navigation presents some unique challenges.
 * _MacOS (2 years)_: I led a team in taking a dead application (all previous institutional knowledge had left the company), reestablishing best practices such as CI/CD, and doing a bit of kernel extension programming.
 * _Windows (2 years)_: Two key projects stand out here - an AI-based image detection system as well as a radio control algorithm for police communications.

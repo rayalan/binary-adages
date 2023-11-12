@@ -26,9 +26,9 @@ If so, let's [talk](https://www.linkedin.com/in/alan-ray-3513aa14/).
 
 # Who am I
 
+* [Experience showcase]({filename}/pages/experience-showcase.md) - examples of the value I bring.
 * [Professional strengths]({filename}/pages/profile-professional-strengths.md).
 * [Technical strengths]({filename}/pages/profile-technical-strengths.md), including skills.
-* [Prior roles and achievements]({filename}/pages/profile-roles-n-achievements.md).
 * [Work environments that amplify my skills]({filename}/pages/profile-best-environment.md).
 
 # Are we a match?
