@@ -6,7 +6,7 @@ layout: page
 
 [TOC]
 
-My goal is to be at places where I'll invest tens of thousands of hours. What kind of place do I want to put that kind of effort into?
+My goal is to work for organizations where I'll invest tens of thousands of hours. What kind of place do I want to put that kind of effort into?
 
 Every company is different: engineering cultures differ wildly, job descriptions are often a bit vague or out of date, and even jobs with identical titles and descriptions can be almost unrecognizably different. Beyond the basics (like competent, friendly coworkers), here's what I'm looking for in an ideal position[^position].
 
@@ -31,13 +31,13 @@ I want to work somewhere where there's a deep commitment by leadership to engine
 
 * It does not mean that engineering sacrifices are never made. Sometimes there really are critical market windows or a commitment made by someone in sales or other pressing emergencies.
 
-### Primary contributor to engineering: Culture, strategy, process, and tech stack
+### Primary contributor to engineering: culture, strategy, process, and tech stack
 
 Some of my best work is when I'm connecting business objectives and company values through engineering culture and strategy all the way through to process that drives the day-to-day developer experience.
 
-Does engineering have an ambition of every developer shipping code multiple times a day yet having code reviews on every pull request? Then someone better figure out how to do code reviews in a way that doesn't disrupt developers (because they are churning out their own code) and yet results in lightning-fast pull requests (because otherwise requests get stuck in the queue and developers get slowed down by the cognitive load of hopping between their many open requests).
+Does engineering have an ambition of every developer shipping code multiple times a day, yet having code reviews on every pull request? Then someone better figure out how to do code reviews in a way that doesn't disrupt developers (because they are churning out their own code) and yet results in lightning-fast pull requests (because otherwise requests get stuck in the queue and developers get slowed down by the cognitive load of hopping between their many open requests).
 
-Does the business place more value on being fast to market or having a state-of-the-art user interface? The answer to that should influence how engineering interacts with user experience as well as what kind of training is expected of developers.
+Does the business place more value on being fast to market or on having a state-of-the-art user interface? The answer to that should influence how engineering interacts with user experience as well as what kind of training is expected of developers.
 
 Does the company expect to frequently move developers between teams? Then there probably needs to be a common tech stack across all teams; otherwise, developers are going to get tripped up by constantly changing technologies.
 
@@ -104,5 +104,5 @@ An ideal position for me also includes:
 
 * _Remote work environment_
 * _Generous PTO_ - so I at least have the illusion that I might take time off.
-* _Flexible working hours_ - it's not much fun to be nickle and diming PTO just because I need to run an errand or swing by the bank during business hours.
+* _Flexible working hours_ - it's not much fun to be nickel and diming PTO just because I need to run an errand or swing by the bank during business hours.
 

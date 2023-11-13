@@ -9,7 +9,7 @@ status: published
 >
 > _Hypothetical pragmatic engineer, on the fastest solution._
 
-Suppose you and a friend are doing a small startup, coding away on a prototype. It's late at night at the local coffeeshop. Your co-founder -- Janet -- wants to see your prototype feature page so she can grab some screenshots for some fund raising efforts. What's the fastest way to share so you can get back to coding?
+Suppose you and a friend are doing a small startup, coding away on a prototype. It's late at night at the local coffeeshop. Your co-founder -- Janet -- wants to see your prototype feature page so she can grab some screenshots for some fundraising efforts. What's the fastest way to share so you can get back to coding?
 
 _Why, host the website on 0.0.0.0 and point Janet at your public ip address, of course._
 
@@ -19,15 +19,15 @@ _Why, host the website on 0.0.0.0 and point Janet at your public ip address, of 
 
 And that's how quickly one moves into the complexity of juggling speed vs. sustainability. It might be reasonable to argue that any particular custom website publicly open for a few minutes at any particular coffeeshop isn't a particularly high risk. Then again, what's the plan if a ransomware attack finds an opening and encrypts the disk? How much does the startup have backed up?
 
-The problem, of course, is that this decision likely isn't just for a few minutes now. It's likely to become a habit. `0.0.0.0` gets added to a configuration script somewhere and forgotten about. The startup is successful, adds in a few more employees. The startup gets a VPN. Everybody's busy, nobody thinks about why it is so easy to see each other's work. And then one day, someone makes some other misconfiguration. Or perhaps a vulnerability in the underlying web application framework is discovered. Maybe the surface area of the attack hasn't quite reached critical mass. Maybe it will take one more step -- maybe someone puts a version of the prototype on the web for an important customer to try out -- before all individual vulnerabilities tie together to create a exploitable hole. But the risk is accumulating.
+The problem, of course, is that this decision likely isn't just for a few minutes now. It's likely to become a habit. `0.0.0.0` gets added to a configuration script somewhere and forgotten about. The startup is successful, adds in a few more employees. The startup gets a VPN. Everybody's busy, nobody thinks about why it is so easy to see one another's work. And then one day, someone makes some other misconfiguration. Or perhaps a vulnerability in the underlying web application framework is discovered. Maybe the surface area of the attack hasn't quite reached critical mass. Maybe it will take one more step -- maybe someone puts a version of the prototype on the web for an important customer to try out -- before all individual vulnerabilities tie together to create a exploitable hole. But the risk is accumulating.
 
 # Tradeoffs
 
-Security isn't the only non-functional requirement that has this trade-off. Here's a few more:
+Security isn't the only non-functional requirement that has this trade-off. Here are a few more:
 
-- _Maintability_: As long as there's no employee turn-over, the team can move faster by not writing down institutional knowledge. And much of the documentation becomes outdated almost as soon as the commit is merged.
+- _Maintainability_: As long as there's no employee turnover, the team can move faster by not writing down institutional knowledge. And much of the documentation becomes outdated almost as soon as the commit is merged.
 
-- _Testability_: How much of the code needs to be tested? How much do the expectations of third-party libraries need to be tested? On an agile fast moving team, how much of that code will actually last long enough for tests to matter? Will the right things even be tested?
+- _Testability_: How much of the code needs to be tested? How much do the expectations of third-party libraries need to be tested? On an Agile, fast-moving team, how much of that code will actually last long enough for tests to matter? Will the right things even be tested?
 
 - _Permanence_: How long is the solution intended to last anyway? Maybe the whole goal is to prove to investors that this idea has legs. In that case, vendor lock-in really doesn't matter. But if the idea really does have legs, will the company have the discipline to go back and create a longer-term solution? When the company is worth millions, will anyone even remember those vendor-specific dependencies or the risk they pose to the company?[^graveyard]
 
@@ -55,7 +55,7 @@ flowchart TD
 subgraph System
   a[The first features]
   b[An initial UI layer]
-  c[A second UI for bulk uploades]
+  c[A second UI for bulk uploads]
   d[Scripts for backing up and restoring]
   e[Data processing for a new vendor]
   f[Data processing for another incompatible vendor]
@@ -72,7 +72,7 @@ f --> d
 e --> d
 ```
 
-And now every time anyone changes anything, there are side-effects. The whole system might come down just because some developer updated the way the system interacts with the propriety system and that has an unexpected side-effect on another data system which cascades into a rendering layer that wasn't properly isolated.
+And now every time anyone changes anything, there are side-effects. The whole system might come down just because some developer updated the way the system interacts with the proprietary system and that has an unexpected side effect on another data system, which cascades into a rendering layer that wasn't properly isolated.
 
 Hrm, that's not looking so promising. What if we start off with a different architecture? Maybe using light-weight lambdas? Maybe we get a first pass of a system like this:
 
@@ -88,7 +88,7 @@ subgraph APIs
 end
 
 subgraph Data storage
-  mq>Message Queue]
+  mq>Message queue]
   db[(Data storage)]
 end
 
@@ -121,7 +121,7 @@ But how is this approach going to scale? If this is the first feature, what's it
 
 # So what
 
-I don't believe there are any easy answers. There's no upfront architecture that matches every step in a application's life journey, from prototype to first release to massive hit to being sunset. Nor is ChatGPT going to introduce a "refactor architecture" button anytime soon.
+I don't believe there are any easy answers. There's no upfront architecture that matches every step in a application's life journey, from prototype to first release to massive hit to sunset. Nor is ChatGPT going to introduce a "refactor architecture" button anytime soon.
 
 But I do believe there are a few guiding principles. Here are two:
 
@@ -129,7 +129,7 @@ But I do believe there are a few guiding principles. Here are two:
 
 Business leadership needs to understand and budget for changing non-functional requirements. Architectural choices should be tightly calibrated against the business objectives. If the company wants a prototype for internal purposes, it may not need any formal architecture. But when it becomes a paid service that needs 24-7 reliability, that prototype architecture won't work any more.
 
-Business leadership also need to understand that by and large, the cost is an unknown. When the decision is made to build for aesthetics and not worry about load time, the non-functional requirement becomes "load time doesn't really matter as long as nobody complains." After a year of developing, what will it take to achieve highly responsive load times of sub-200 milliseconds? Is it just a matter of optimizing a few routes? Or perhaps adding a cache? Or will the whole data pipeline need to be redesigned? Perhaps the choice of a single page application is too slow for this problem, and a new approach is needed?
+Business leadership also need to understand that, by and large, the cost is an unknown. When the decision is made to build for aesthetics and not worry about load time, the non-functional requirement becomes "load time doesn't really matter as long as nobody complains." After a year of developing, what will it take to achieve highly responsive load times of sub-200 milliseconds? Is it just a matter of optimizing a few routes? Or perhaps adding a cache? Or will the whole data pipeline need to be redesigned? Perhaps the choice of a single-page application is too slow for this problem, and a new approach is needed?
 
 This understanding isn't easy; business leadership often focuses on tangibles like features, monthly active users, and revenue. But it's essential for them to understand that every non-functional requirement adds complexity, and changing the non-functional requirements typically adds a cost that must be paid.[^debt]
 
@@ -139,7 +139,7 @@ This understanding isn't easy; business leadership often focuses on tangibles li
 
 One of the great strengths of well-functioning Agile is that it gives teams the power to execute. Handoffs between humans are inherently slow, and eliminating them is one of the best ways to make everything move faster.
 
-The problem is that modern software engineering has a lot of domain-specific knowledge. How many software engineers are top notch security engineers? Kubernetes specialists? With Helm and Terraform knowledge? What about the CI/CD system? Internationalization? And fluent in diagnostics through OpenTelemetry and the ELK stack?
+The problem is that modern software engineering has a lot of domain-specific knowledge. How many software engineers are top-notch security engineers? Kubernetes specialists? With Helm and Terraform knowledge? What about the CI/CD system? Internationalization? And fluent in diagnostics through OpenTelemetry and the ELK stack?
 
 And this specialization means some sort of coordination is required. I'm a huge fan of [Team Topologies](https://teamtopologies.com/key-concepts) which reverse engineers [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law). That is, instead of how a company works being decided by its org chart, the org chart is decided by how the company should work.
 
