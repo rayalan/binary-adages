@@ -150,15 +150,27 @@ After a few years, we got near the point were most of the hundreds of machines w
 
 _What was one lesson you learned from this project?_ Sometimes, a solution can last too long. Looking back, I suspect that the success and comfort of configuration as code through Ansible kept the engineering from adopting more modern practices such as Terraform or various cloud architectures. There were a lot of factors going into the decision to stick with Ansible, of course. And one doesn't want to abandon a working technology just because something cooler came out. But in hindsight, I wish I'd kept up more with alternatives and worked harder to move away from Ansible sooner.
 
+## Sustaining high-availability high-volume APIs and data pipelines
+
+Sometimes the important work isn't a concrete project, but growing people and systems across projects in significant ways.
+
+__The setup__:
+
+Coming soon.
+
 ## Monolith to Microservices
+
+__The setup__:
+
+Coming soon.
 
 Problem description
 What happened / Achievements
 Lessons Learned
 
-## Resurrecting a legacy app
 
-## Navigation
+# Solver Showcase
+
 ## Always listening police radios
 
 _The problem_: I was developing the radio control software for a computer that would be installed in police cars. When officers were in the field, it was essential that their radios worked. Officers carried short-distance radios, and relied on car-based installations to relay messages across the city. However, if more than one car acted as a rely, the transmissions interfere, rendering the communication unintelligible. So it was essential to always have exactly one police car acting as the relay, no matter how many police cars were on the scene. And if the car that was relaying messages drove away, another car needed to step in and relay messages.
@@ -167,20 +179,31 @@ Conveniently, another engineering team had provided me with a clear protocol for
 
 ### Outcomes
 
-My job was to implement
+Unfortunately, the provided protocol assumed that radios transmitted messages instantly and constantly listened for incoming messages. My testing of the actual hardware revealed that the actual radios took around 50ms to power up to transmit the message and another 10ms or so to cool down. During this 60ms transmission window, the radio was completely blind to incoming messages. This meant that two cars could both send a message and neither would be aware that the other one had sent a message.
 
-When officers are in the field, they need to be able to reliably
+Once I had assessed the problem, I redesigned the protocol from scratch with an algorithm so that cars that thought they were the car responsible for relaying messages had a retry mechanism with a gradual backoff (similar to TCP/IP packets). This approach had the effect of rapidly deconflicting multiple cars that had simultaneously decided that they were responsible for relaying messages.
+
+After the protocol was redesigned, I explained the problem and my solution to the project managers. This was non-trivial as there was a fair amount of bureaucratic overhead to make sure everything complied with the government regulations as well as the contract. For example, because of the officers' reliance on this radio relay behavior, it was important that the solution be robust and not have rare failure scenarios. In the end, I persuaded everyone that my solution was a good one[^captheorem] and it would go on to pass accreditation and be put on the road in actual police cars.
+
+[^captheorem] The hardest part of the conversation was helping people understand that events were (a) not instantaneous, and (b) it wasn't possible to align event timings or guarantee the same event orderings for all cars. Basically, an application of the [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) except applied to a dynamic network of police cars instead of a distributed database.
 
 ## Truck Logistics - HAZMAT-based navigational guidance
+
+Coming soon.
 
 ### Outcomes
 
 ## Operationalizing machine learning model
 
+Coming soon.
+
 ## Cutting edge CI/CD system
 
+Coming soon.
 
 ## Legacy application resurrection
+
+Coming soon.
 
 # Team Growth Showcase
 
