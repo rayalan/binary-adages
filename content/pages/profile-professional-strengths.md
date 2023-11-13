@@ -20,7 +20,7 @@ For me, this is part of [100x engineering](https://www.stxnext.com/blog/software
 
 * [What others say about me](./profile-interview-answers#what-would-others-say-about-you)
 * [How to best leverage my strengths](./profile-target-position)
-* [Highlighted projects](./profile-experience-showcase#spotlight-project-billing-system-overhaul)
+* [Highlighted projects](./profile-experience-showcase#spotlight-billing-system-overhaul)
 
 
 ```mermaid
@@ -101,7 +101,7 @@ I don't just spot flaws and problems; I create the necessary structure around me
 
 ## Example: Project definition
 
-At the beginning of what would become [the billing project](./profile-experience-showcase#spotlight-project-billing-system-overhaul), someone conducted stakeholder interviews to find out the requirements. And there were a lot of requirements. But I noticed something -- most of the requirements were based on the behavior of the existing behavior, and that people had answered the goal as if the goal was to maintain exactly the same behavior that the current system had.
+At the beginning of what would become [the billing project](./profile-experience-showcase#spotlight-billing-system-overhaul), someone conducted stakeholder interviews to find out the requirements. And there were a lot of requirements. But I noticed something -- most of the requirements were based on the behavior of the existing behavior, and that people had answered the goal as if the goal was to maintain exactly the same behavior that the current system had.
 
 But because we were building a new system, replicating the existing behavior of a legacy home-grown system would be challenging and expensive. Additionally, some of the behaviors just seemed weird -- was it really better, for instance, that most billing operations couldn't be handled by the representatives answering the phone, and instead got passed to other representatives who did the work later? Did sales really like the way that the discount code system worked, or was it simply the system that they had and they didn't want to lose it?
 
