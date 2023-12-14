@@ -31,7 +31,7 @@ This page showcases the value I bring in three roles:
 
 # Spotlight: Billing System Overhaul
 
-__The problem__: My company was using a custom in-house billing [NOUN] that had grown up around the existing business model and was deeply intertwined with current business practices. While the system was good at what it did, it was brittle:
+__The problem__: My company was using a custom in-house billing solution that had grown up around the existing business model and was deeply intertwined with current business practices. While the system was good at what it did, it was brittle:
 
 * Testing changes prior to production was effectively impossible -- and changes hit all customers simultaneously.
 * Common software-as-a-service operations such as custom pricing or discounts were difficult at best.
@@ -51,10 +51,11 @@ And that's where the project started -- an ambition, but no project plan, no tec
 
 After selecting a third party-system (see more [here](./profile-professional-strengths#example-project-definition), my role was architect, team lead, project manager, and part-time developer. That meant my work included:
 
-* Assembling the team to communicating with stakeholders.
+* Setting and adjusting the project roadmap, both from a business and technical perspective.
+* Assembling the team and building up team practices
+* A regular cadence for updating stakeholders with progress and changes to plans.
 * Figuring out how to satisfy business requirements.
-* Architecting not just the new systems, but the transition and test plans.
-* Ensuring [INSERT DETAIL HERE].
+* Architecting not just the new systems, but the plans for transitioning from the old system -- and the plans to validate those transition plans.
 * Training the team on new approaches such as microservices and gradual, controlled data transitions.
 * Solving thorny problems such as idempotent webhook handling and ensuring transaction visibility to customer service.
 
@@ -70,7 +71,7 @@ I built strong relationships with stakeholders, especially accounting and custom
 
 At their annual award ceremony, customer service would go on to create their first (and to my knowledge, the only ever) inter-department award for my team for having partnered well with them in transitioning between systems. The ongoing relationships would go on to help define future work, even after the initial project was complete, resulting in more responsive development.
 
-Technically, the project solidified a number of new capabilities at the company, including highly modular microservices, telemetry, idempotent wehhook processes pushing errors to developers, and controlled migrations. The work proved to be easily extensible: in the future, several key projects (such as [this one](./profile-professional-strengths#driven)) would take weeks rather than the months they would have taken in the old system. Common operations such as price adjustments moved from being major all-hands-on-deck events to being 1-2 day operations that a single developer could do through normal build/test/release processes.
+Technically, the project solidified a number of new capabilities at the company, including highly modular microservices, telemetry, idempotent webhook processes pushing errors to developers, and controlled migrations. The work proved to be easily extensible: in the future, several key projects (such as [this one](./profile-professional-strengths#driven)) would take weeks rather than the months they would have taken in the old system. Common operations such as price adjustments moved from being major all-hands-on-deck events to being 1-2 day operations that a single developer could do through normal build/test/release processes.
 
 _What was one lesson you learned from this project?_ At the start of the project, I was handed a clear vision for the long-term non-functional behavior. My assumption was that these outcomes were firmly established in the company culture. The executives had set them, the company had invested in significant resources in overhauling the old system, and these requirements were critical to many future business plans. I didn't anticipate once the overhaul succeeded, everyone would forget about the long-term requirements. While I had documented the non-functional requirements, I hadn't done much work to deeply embed them into the company culture. The result was that by the time I realized that there was a problem, the long-term vision had largely been lost.
 
@@ -102,9 +103,9 @@ This new web application would go on to be the only tool for controlling the alg
 
 Technically, my contributions to the success of this work included:
 
-1. Innovated after carefully understanding the problem. I realized that source control had already solved a similar problem, and convinced my team that a simple system to manage changes was not too hard for non-technical users to understand. Initially I explored the possibility of simply recording changes in Git. When that proved technically infeasible because of particulars to the project, I paired with a database expert to develop a specialized SQL [INSTANCE?] to provide the necessary change management.
+1. Innovated after carefully understanding the problem. I realized that source control had already solved a similar problem, and convinced my team that a simple system to manage changes was not too hard for non-technical users to understand. Initially I explored the possibility of simply recording changes in Git. When that proved technically infeasible because of particulars to the project, I paired with a database expert to develop a specialized SQL queries to provide the necessary change management.
 
-2. Introduced structure[D?] web applications to the company, demonstrating their efficiency, updatability, and sustainability. As a result of this, web applications would become the primary means for delivering future internal tools, and the company would go on to standardize around VueJS.
+2. Introduced structured web applications to the company, demonstrating their efficiency, updatability, and sustainability. As a result of this, web applications would become the primary means for delivering future internal tools, and the company would go on to standardize around VueJS.
 
 3. Leveraged the idea of dynamically creating databases in production in order to predict the effects of an algorithm change. This unorthodox approach was necessary because it was not possible to change that the algorithms were controlled through certain databases. However, it was possible was possible to run alternative instances of the algorithms against different databases.
 
@@ -160,14 +161,25 @@ Coming soon.
 
 ## Monolith to Microservices
 
-__The setup__:
+__The setup__: A company had a large monolith, portions of which dated back to the start of the company. Over time, the company shifted its hiring strategy and there were few developers who had the ability to work on the monolith, especially not in the critical sections that required both an eye for performance and memory management (and pointers). And the testing wasn't adequate to the outsized for the monolith played in the company's systems. The result was that developers steered clear of the monolith, which meant less familiarity, which meant even fewer developers working in it. Developers working elsewhere on important projects naturally drew the attention of management, pull attention away from the monolith and leading to further neglect. This situation, then, created significant business risk if an update or change was required, and that risk was growing with time.
 
-Coming soon.
+### Outcomes
 
-Problem description
-What happened / Achievements
-Lessons Learned
+Working as architect and technical lead, I spearheaded a number of efforts, the culmination of which was the retirement monolith.
 
+My first major effort was a spectacular failure: I made the argument to engineering leadership that the monolith needed to be properly owned and maintained; that its functionality was critical to business continuity, and that we faced significant risks as we lost expertise in maintaining and updating it. However, I'd underestimated the opportunity costs and competing business pressures, and I wasn't able to effect any lasting change.
+
+My second effort was pairing with another developer on a very short project which served as trial run for microservices. The project was a small internal standalone web application, a perfect way to try out microservices in a tech stack that was highly familiar to most of the company's developers. This project highlight the strengths of microservices -- the ability for small teams to move very quickly. As a result of this work, there was significant support for a similar approach in future work.
+
+My next effort was more substantial -- a number of high-availability microservices, some of which were customer facing. The main goal here was to establish the practice of working with microservices and setup the supporting infrastructure such as telemetry, logging, and distributed tracing. Along with that come corresponding development practices such rapidly creating and deploying microservices. In and of itself, this step had very little impact on the monolith, perhaps moving or duplicating small amounts of functionality. But it laid the groundwork for microservices to be goto software pattern for development.
+
+Around the same time, I wrote up a plan for sunsetting the monolith. Some pieces needed to be replaced in a particular order. Some pieces could foreseeably be retired. Other parts could be pulled out as distinct services. The trickiest portions of the monolith needed to be carefully [strangled](https://microservices.io/patterns/refactoring/strangler-application.html).
+
+Once the plan was written, conceptual approval came pretty easily since the plan was now far better aligned with the technical culture -- many small projects that were far better matched to the typical skillsets of  recent hires. From there, my main effort was making sure that progress was being made on the plan. Sometimes that meant prioritizing a particular project, but most often it was sitting down with developers to talk through the particulars of some piece of work to ensure that it encompassed what was needed to continue deprecating the monolith. At other times, it meant working with product to understand what product wanted so that the necessary monolith behaviors were replicated or improved upon, but unnecessary behaviors could be slowly phased out.
+
+Thus over the course of a few years, the monolith shrank and disappeared. Instead, a number of highly available microservices offered the necessary functionality, with significantly better support in areas such as logging, telemetry, and deployment speed.
+
+_What was one lesson you learned from this project?_ Sometimes culture dictates the correct tech strategy. I read various perspectives about microservices, their advantages, their costs, their complexities. And I'm certainly not sold on microservices being right in every situations. I'm not even convinced they were the best technical solution in this situation. But in a culture that highly valued small iterative changes and hiring a particular set of skills, microservices provided a robust way to eliminate risk and create sustainable software in a way that other alternatives (say, writing another monolith in a different language) would have fallen short.
 
 # Solver Showcase
 
