@@ -199,23 +199,75 @@ After the protocol was redesigned, I explained the problem and my solution to th
 
 [^captheorem] The hardest part of the conversation was helping people understand that events were (a) not instantaneous, and (b) it wasn't possible to align event timings or guarantee the same event orderings for all cars. Basically, an application of the [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem) except applied to a dynamic network of police cars instead of a distributed database.
 
+_What was one lesson you learned from this project?_ Everything takes time to occur, whether it is the event itself or transmission. In many scenarios, events are better modeled with a start and and end time than a single time. And be very wary if multiple independent machines need guaranteed agreement upon an ordering of events; the real world can generate some very interesting edge cases such as two simultaneous radio transmissions where two different receivers each hear a different one of the transmissions. Conveniently for software developers, though, most events in software development aren't life-or-death scenarios and exact ordering doesn't actually matter.
+
 ## Truck Logistics - HAZMAT-Based Navigational Guidance
 
-Coming soon.
+__The problem__: My company wanted to sell an in-cab Infrotainment system for commercial trucking. One of the features was navigation guidance that followed the federal HAZMAT regulations. A trucker would enter their cargo classification along with details about the truck (e.g. size, number of axles) and the system would provide the best legal route to the destination. Since there were significant penalties for breaking these rules, this functionality was valuable to truckers.
+
+However, there was no HAZMAT-equipped navigational system. Instead, I got the following:
+* The source code to a navigation system which could be extended.
+* Best-effort support for the navigation system, which meant that I got help when it was easy and convenient.
+* A bunch of files describing roads across the United States and their restrictions.
+* 2 gigabytes of space in the Infotainment system to store the HAZMAT routing specifications.
+
+One of my first discoveries was that the navigation source code was exceptionally difficult to work with. The first reason is that it relied on extensive domain-specific knowledge. For example, roads were often represented as segments, which didn't correspond one-to-one with what a user would consider to be a road. Secondly, the code heavily used acronyms and abbreviations. And finally, the best-effort support meant that there wasn't help to tutor me through the basics. Oh, and nobody else in my company knew anything about this area either.
 
 ### Outcomes
 
+What would ship a few months later, though, was a reliable navigation system that followed HAZMAT regulations and had a few megabytes of space left to spare. And the process for building the regulations was repeatable, allowing me to ship several map updates in the following years. Beyond that accomplishment were three significant steps:
+
+__First, I managed to find a few key areas where my interests aligned with the navigation supply.__
+
+1. The first was a custom hook that got called for each segment (think "portion of road") to modify that segment's weight. By adjusting the weight for that segment, it would be more or less likely to be taken by the navigation system.
+2. The second was some sample code showing how to convert between segments and roads. This gave me the insight I needed to convert the road-based HAZMAT regulations into their corresponding segments.
+3. A few fixes for some bugs I found along the way.
+
+__Secondly, I wrote a custom compression algorithm.__
+
+Some initial math on the number of road segments, the number of truck configurations, and the number of restrictions showed that while the information could be stored in 2GB, it was going to be very tight. Fully compressing the files wasn't an option -- the embedded device didn't have nearly enough memory to store decompressed versions, and constantly decompressing for each segment would be too big of a hit to performance. Navigation performance was already an issue, and significant additional processor load wasn't a viable option.
+
+Instead, I took the concept of a traditional hash map, mapping from road segments to HAZMAT regulations. Then I started creatively adapting the standard hash map approach. The size of the hash map, for example, was calculated by on a territory-by-territory basis (each state of some number of territories) to be just large enough to contain all of the segments for that territory. Because the hash maps were nearly full, collisions were common. I found tricks to avoid needing to store each value separately, instead reusing values for colliding keys when the values were shared. Smart defaults were used -- if no entry was found, use the default value. In some cases, I used secondary lookup tables to better group similar entries together and avoid redundancy.
+
+__Finally, I wrote long-running Python processes to "compile" the HAZMAT regulations.__
+
+Implementing the decompression algorithm in C++ was pretty straight forward. Given a road segment, truck configuration, and cargo, open the corresponding, and start following through lookup table until one encountered the appropriate segment weight or didn't find an entry (which implied to use the smart default from that point in the table).
+
+However, creating the compressed files was another story. The navigation library came with Python bindings and I built a multi-stage sequence to extract all of the possible road segments from a territory, map those to the corresponding regulations, and then figure out which compression tricks to use on the resulting collection. The initial process was slow (on the order of months), so I parallelized processing each territory, which got the time down to about three weeks.
+
+There were other complications as well -- some territories had so many segments that the 32-bit version of Python couldn't hold all of the objects. But then 64-bit version of Python crashed due to excessive memory usage on certain steps. This situation led to my streamlining the process by removing valuable debugging and logging information. And even then, I swapped back-and-forth between the two versions of Python depending on the stage. But in the end, the compressor could handle any of the territory files.
+
+!!! note "Context"
+
+    1. For perspective, this work took place before common cloud computing solutions such as AWS or modern tooling for large-scale data processing.
+    2. There are some obvious improvements to this work -- rewriting the compression algorithm in a more efficient language certainly would have solved the memory problems, for example. However, the compression algorithm was far faster to develop in Python and the memory problems were discovered late in development. Given that they could be worked around, it was really hard to justify a significant rewrite for a process that was only going to be needed a few times.
+
+_What was one lesson you learned from this project?_ Often, the solution only needs to work; it doesn't have to be pretty or handle all possible scenarios. Swapping between the 32-bit and 64-bit versions of Python was effective, but it isn't great system design. The compression algorithm wasn't guaranteed to work on any possible territory; it was proven to work on that particular map data for the United States. More roads or different regulations or new types of trucks could have easily crossed the 2GB threshold. But none of those hypotheticals mattered for this work. And an important part of software development is understanding what needs to work, what needs to fail in a controlled manner, and what can be ignored.
+
 ## Operationalizing Machine Learning Model
 
-Coming soon.
+__The setup__: Another team had developed a machine learning model for analyzing a snapshot of customer data. Feed it a snapshot, and it would return an evaluation -- let's say thumbs up or thumbs down. Now the product for customers didn't want to evaluate single snapshots of customer data; it wanted to pass in a stream of snapshots and get a thumbs up / thumbs down for the stream as whole[^whole]. To top it off, the data stream varied by platform. So the behavior, on, say, an Android phone might be very different than the stream on a desktop computer.
 
-## Cutting-Edge CI/CD System
+[^whole]: While one approach might have been to train the learning model on more than one snapshot, that approach wasn't considered viable for variety of reasons such as complexity of training data and computational complexity.
 
-Coming soon.
+### Outcomes
 
-## Legacy Application Resurrection
+My project was to figure out how to feed the stream of snapshots into the machine learning model, and then summarize the model's output in way that quickly answered the question: Is additional human attention needed on this data stream? For this particular model, false positives were a particular concern because they could undermine customer confidence.
 
-Coming soon.
+To solve this problem, I built a conversion system with four distinct parts:
+
+- A library of sample data streams. These allowed me to see how different algorithms would likely play out with actual customers.
+- A standardization process for each platform to normalize the platform-specific data streams into a common format -- the one that the machine learning model had been trained on. By normalizing the data streams first, the rest of the process could be shared across platforms and tested/evaluated as a whole[^commonformat].
+- An algorithm with several adjustable parameters for parsing a stream of snapshots into a set of snapshots to feed into the model, and then to summarize the model's output as a up/down outcome.
+- Graphs that showed different input parameters for the algorithm and the corresponding algorithm accuracy and false positive rate.
+
+[^commonformat]: This was an architectural choice with significant trade-off. One the one-hand, it sped up development, minimized the testing resources (which were extremely limited), and standardized the system's behavior on most circumstances. On the other hand, it meant that any bugs in the platform-specific portion of the system could easily go undetected as testing focused on the behavior of the standardized system rather than the behavior of the system as a whole.
+
+The last output was particularly critical to product, as it allowed them to minimize false positives, which in many cases was more important than maximizing accuracy. It also gave product important insights into the typical behavior of the system as a whole, which helped them prioritize development priorities as well as fine-tune how customers interacted with the system to better set customer expectations. As a final benefit, the algorithm adjustment process could be easily rerun as the machine model changed. As a result, the product was able to upgrade its machine model multiple times with only a few days of development resources spent to update the system around the model.
+
+Two milestones I'm particularly proud of with this system -- first, when it released and replaced a different system, customer sentiment stayed consistent or increased. Secondly, the conversion system would go on to be used by customers for years without being significantly changed.
+
+_What was one lesson you learned from this project?_ Operationalizing the solution is part of this problem. Initially, developing the machine learning model was considered to be the hard-part and the hard work of building a conversion system that provided the expected input and then converted multiple fuzzy results to single results in way that seemed natural to humans. And because people bring their own expectations, what might be an acceptable behavior in an algorithm can be very unwelcome when encountered by a person. And since unhappy people don't tend to be recurring customers, that's very much a product problem. So it's important to view the problem from the perspective of the entire customer experience; a clever algorithm by itself isn't very useful.
 
 # Team Growth Showcase
 
