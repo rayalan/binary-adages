@@ -155,9 +155,37 @@ _What was one lesson you learned from this project?_ Sometimes, a solution can l
 
 Sometimes the important work isn't a concrete project, but growing people and systems across projects in significant ways.
 
-__The setup__:
+__The setup__: For a number of years, I had been the caretaker of an important but languishing high-volume API (billions of database records per month, millions of API calls per day) that was foundational to the company. I'd gotten the system to the point where it was incredibly stable, but it was outdated -- it had substandard logging, little telemetry, and some of the clients were known to depend on unintended "quirks" (one might say bugs) in the API implementation. And without active development, the institutional knowledge faded and eventually the end of security support meant that the last responsible moment to make a decision had arrived[^decision].
 
-Coming soon.
+[^decision]: This idea of waiting until the last responsible moment to make a decision is a favorite of mine in Agile development -- it captures both the benefit of delaying decisions to gain more understanding and avoiding unnecessary decisions while also recognizing that at some point indecision is irresponsible, leading to greater risk than making a reasonably informed opinion.
+
+At the time, I was managing a team and also doing much of the software architecture. I ended up tasking my team with the upgrade. One of my goals was not only to upgrade the API in a seamless manner, but also to use the opportunity to work with one of my newer developers and help him gain some hands on experience in migration strategies.
+
+### Outcomes
+
+At the end of the project, the old code had been successfully replaced with a modern implementation based on the company's standard approach to microservices. This meant that the common tooling such as CI/CD, logging, and telemetry now functioned with the API. Not only did this make the code ase far more accessible within the company, but it significantly improved the visibility into the system and made it far easer to deploy and revert changes.
+
+The project had been completed seamlessly with no abnormal customer interruptions. My team successfully implemented a twist on the [strangler pattern](https://microservices.io/patterns/refactoring/strangler-application.html) where we'd not only slowly strangled the old system, but also run many of the operations in both systems and done side-by-side comparisons to ensure no unexpected changes in behavior were introduced. Finally, a combination of improved error visibility in the new system, careful reading of the old code, and my institutional knowledge meant that most -- if not all -- of the undocumented quirks in the old system had become carefully documented features in the new system, complete with notes about which client versions relayed on each behavior.
+
+And I had successfully passed my knowledge and understanding on to my team; I was not the primary author on any of the code. I did my fair share of talking through problems, pointing people at examples, diagramming concepts, and reviewing code, but the actual had been successfully done by other engineers with significantly less institutional knowledge and experience than myself.
+
+_How did I get there?_
+
+Keys:
+  - Evaluated talent and hired well
+  - Enough time for the project (including learning)
+  - Careful selectino of key techniques (common micoservice, error visibility, strangulation pattern, controlled rollouts of change)
+  - Incremental development practices.
+  - Being available to coach and mentor through challenges; finding the right balance between explaining principle, actual solutions, pointing people ni the right direction, and letting people struggle.
+  - Hvaing a small amount of fault tolerance
+  - Ability to call the original system.
+  - Prioritizing the most common routes first (long-tail aproach)
+
+_What was one lesson you learned from this project?_ Great architecture isn't a design that I can execute; it is a design that a less experienced developer can successfully execute.
+
+When I was a young developer, I thought the best projects were the ones where I got to write the most complicated code. I eventually realized that I could write successfully ship extremely complex code -- and that nobody could modify or maintain it. In some cases, I couldn't decipher it if enough time had passed. And I learned that while some problems may demand complex solutions, a great developer writes code that others can easily read and modify.
+
+This project hammered that lesson home for me on a larger scale. The goal isn't just to make good software architectures; the goal is to make architectures that can be easily and reliably implemented by others, especially those with less experience. And ideally, the key decisions are hard to accidentally bypass. For example, if the architecture requires someone to explicitly declare who is not allowed to access an API, someone will forget to block access. Far better to require allowing access so that if the developer forgets, there's no information leakage.
 
 ## Monolith to Microservices
 
