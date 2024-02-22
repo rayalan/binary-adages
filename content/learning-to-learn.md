@@ -1,5 +1,5 @@
 title: Learning to Learn
-subtitle: Progress or Mobius Strip?
+subtitle: Progress or mobius strip?
 date: 2023-09-25
 category: practices and principles
 tags: growth

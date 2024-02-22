@@ -1,5 +1,5 @@
 title: Time
-subtitle: The Greatest Challenge
+subtitle: The greatest challenge
 date: 2023-09-04
 category: architecture
 tags: architecture, software

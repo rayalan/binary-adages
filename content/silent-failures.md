@@ -1,5 +1,5 @@
 title: A Tool -- Or a Puzzle?
-subtitle: Cryptic Failures
+subtitle: Cryptic failures
 date: 2023-10-30
 category: practices and principles
 tags: knowledge, uncertainty

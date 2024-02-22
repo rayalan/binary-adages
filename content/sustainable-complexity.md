@@ -1,5 +1,5 @@
 title: Sustainable Complexity
-subtitle: Juggling Tradeoffs
+subtitle: Juggling tradeoffs
 date: 2023-10-16
 category: practices and principles
 tags: uncertainty, architecture

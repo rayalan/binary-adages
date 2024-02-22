@@ -1,5 +1,5 @@
 title: Recognizing Expertise
-subtitle: Madman or Genius
+subtitle: Madman or genius
 date: 2023-09-18
 category: practices and principles
 tags: management, knowledge, uncertainty
