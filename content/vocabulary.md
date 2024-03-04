@@ -38,5 +38,7 @@ Compounding the issue is that the use of technical jargon masks the differing id
 Three quick take away from this journey for me:
 
 1. I still ask "What do you mean by _term_?" all the time. But now I ask less because I don't know what I would mean by the term, and more because I'm not sure what others mean.
-2. Knowing vocabulary has made me more conversant in a number of concepts, which has helped me be a better engineer.
+2. Knowing vocabulary has made me more conversant in a number of concepts and thus helped me be a better engineer.
 3. Naming things -- aka vocabulary -- really is one of the two hard problems of computer science.
+
+What other lessons come to mind?
