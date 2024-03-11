@@ -209,6 +209,16 @@ _"Understanding - He wants to understand the nuts and bolts of everything.  I fe
 
 _"He recognizes his team in stand ups, high fives and in presentations. Gives credit where credit is due."_
 
+# What accomplishments are you most proud of?
+
+First, my leadership and technical design migrating a [complex billing system]({filename}profile-experience-showcase.md) processing millions from a bespoke in-house system to a extensible, testable, and turnkey solution. Achieving this outcome was not only a display of technical expertise, but leadership in building the team up from scratch as well as changing how multiple departments across the company worked. And winning an award from the customer service department for how well I served them on that initiative was particularly satisfying.
+
+Secondly, cultivating a self-sufficient team that could successfully manage itself for long periods of time. Somewhere I heard that one mark of true success is eliminating the need to do your job because you've trained others to do it. One of the teams I ran got really good at self-management -- understanding the priorities of work, recognizing problems that need to be elevated, stepping in to help one another. It was deeply satisfying to see the time and energy I'd put into establishing the team pay such dividends.
+
+I'm particularly proud of these accomplishments because they are me showcasing the skill. It's easy to be critical of how others run things; it's another to be able to do better yourself. And both of these accomplishments are moments where I had an opportunity to say "If I actually lead the way I think makes good leadership, will it work?" And it's immensely satisfying to see that yes, it will work, and work well.
+
+Finally, one of my bosses -- a long-time developer and leader with decades of experience -- called me an optimist. I know that I tend to naturally see the glass as half-empty, and for a boss who had known me for years to call me an optimist was an outward acknowledgement of an attitude that I'd worked hard to cultivate.
+
 ## What have you been learning recently?
 
 Technically, I recently grabbed a [Humble bundle](https://www.humblebundle.com/books/software-architecture-oreilly-books) with 15 books on different flavors of software architecture. I'm slowly making way through all that content.
