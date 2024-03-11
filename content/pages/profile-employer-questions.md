@@ -43,6 +43,7 @@ _Understand what the company's foundational footing is like ..._
 ## Strategy
 
 * What's your strategy for staffing engineering - aim to hire exclusively top performers? A lot of average developers supported by a few exceptional ones?
+* What do you hire for? Skills? Aptitude? Attitude? Why?
 * How do you attract and retain really strong hires?
 * How do you compensate the team?
 * Do you share board slides with the team?
@@ -153,3 +154,14 @@ _These questions are about the practical day-to-day aspects of the role ..._
 
 * How do you equip employees to succeed at remote work?
 * What practices are essential to a thriving remote work environment?
+
+# Uncategorized
+
+_This bucket is questions I've come up with but haven't had a chance to fit into the right bucket._
+
+How long were you around at your last position? Did you get to see the consequences of your choices? Why or why not?
+Are you going to be around to see the consequences of your choices? Why do you say that?
+How do you avoid the Peter principle?
+How do you tell if a leader isn't working out as a leader?
+How do you tell if you have done planning right?
+What are three million-dollar problems you'd like solved in your company?
