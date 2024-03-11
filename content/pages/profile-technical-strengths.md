@@ -10,6 +10,16 @@ layout: page
 >
 > _Alan on his technical skills philosophy_
 
+# Solution Spaces
+
+* _Software as a service_: I've spent over a decade in the software-as-a-service industry, both providing a reliable service as well as quickly adapting it to the current business needs.
+* _Applications_: I've done both desktop Windows and MacOS applications along with mobile applications (mostly Android).
+* _Web applications_: I've built a variety of web applications (frontend and backend), including multiple single page applications.
+* _Embedded systems_: I spent a number of years building mission-critical applications for the automotive industry, including commercial trucking and police vehicles. Change management looks totally different in when a change potentially puts lives at risk.
+* _User experience_: As part of understanding what makes good software design, I've studied (or at least dabbled) into the realm of user experience: How can the software not just technically work, but actually be a joy to work with[^users]?
+
+[^users]: Most software actually has many users -- the end user, the company or individual making the purchase, the developers creating and maintaining a system, the sales department selling the product, and so on.
+
 # Languages
 
 These are my main languages that I've done extensive work in.
