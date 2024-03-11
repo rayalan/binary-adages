@@ -183,6 +183,49 @@ _There are no technical problems, only people problems._ This is one of my favor
 >
 > _Anonymous coworker praise_
 
+
+I've written elsewhere about [the best bosses](../my-best-managers) and how they influenced me.
+
+Here are a few more ways how I approach leadership...
+
+## Thoughtful author, presenter, conversationalist
+
+When I have something to say, I'm capable communicator, both with technical and lay audiences. One of my favorite tricks is to compare complex technical topics to ordinary experiences like doing office paperwork or feeding cupcakes to frenzied toddlers. Two of the toughest challenges for me in communicating are:
+
+1. Assessing audience trust in my claims; that is, how much do I need to show my work/reasoning for them to follow along.
+2. Skimping on context because I don't want to insult my audience. I'm quickly bored (and possibly more than a bit frustrated) when I'm being taught something I already know without a new application or twist. And not wanting to do that to my audience, sometimes I assume my audience has more of a foundation than they do.
+
+My hope is that the rest of this blog gives pretty good evidence for my ability to present my ideas with a reasonable degree of clarity and interest.
+
+## Mentor, listener
+
+Some of my worst experiences have been when I've had something to say and nobody will slow down to understand me or take me seriously. Maybe I didn't get a concept. Maybe I had a concern or a big problem. Maybe I just wasn't fitting into the expected box.
+
+Whatever the reason, the feeling of being marginalized and disregarded hurts deeply. Emotions aside (which do matter), my engineering decisions were worse, not in the least because I was trying to execute without comprehension. Worse yet, I rarely, if ever, have seen those decisions pay off for leadership[^fear].
+
+[^fear]: Along the same lines, I'm terrified that sometime I'll utter these four words to an engineer: "Just make it happen." Engineers are smart, and their concerns are, almost always, incredibly perceptive. I dread rashly jettisoning their advice because I know better and what catastrophic effects might play out. "Oh, we disabled the firewall and used `password123` because Alan said to make it happen." 🤦‍♂️
+
+    While I've learned that my fear isn't terribly rationale as I've never come close to actually saying those words, I'd like to think it at least represents a part of me that recognizes the need to listen carefully to feedback from all directions.
+
+As a result, I enjoy small settings, often one-on-one, where individual trust can be established. I find this approach offers me a number of upsides:
+
+1. I can understand each person as an individual. What are their dreams? What motivates them? What do they care about? What do they understand? What are their concerns? Larger meetings are just inefficient if they go into that much depth.
+2. It facilitates communication in both directions, minimizing the number of people that might take issue with an opinion. Being criticized is hard. Losing face is hard. Saying something unpopular is hard, especially in front of a lot of people.
+3. It minimizes the risk of exposing ignorance. While I love the "there are no stupid questions" mantra[^mantra], sometimes engineering culture or the individual level of trust isn't there. And the exchange of ideas that can happen when was is able to ask "What do you mean by ...?" is one of the most critical moments when critical communication is happening.
+4. I can leverage those individual goals and concerns when making broader changes. For example, if I know that Joe is really concerned that the new system will put them in situations where they don't feel proficient, then I can help address that in the implementation without Joe having to say "Hey, team, I don't feel proficient with what's being asked of me."
+
+[^mantra]: Actually, I dislike the phrase itself. There are plenty of stupid questions. But the concept is very accurate -- people need to be able to raise any genuine question that arises without fear of being looked down upon or thought stupid. But I haven't found a catchy phrase yet that encapsulates that nuance.
+
+The result, I find, is that I can create and sustain high-performing teams that are safe places for people to grow -- and that I can more quickly adjust the team -- or my own behavior -- because of those strong individual relationships[^alternatives]. Beyond that, strongly understanding my team and coworkers lets me tailer opportunities to their interests, connect people with aligned interests, and provide highly-applicable resources.
+
+[^alternatives]: This certainly isn't the only approach to building strong teams.
+
+[^comment]: ## Traits 3, 4, and 5
+[^comment]: Coming soon. Stay tuned.
+[^comment]: Possibilities: Straight shooter, mentor, team growth - culture + trust, lead by wondering around
+
+Here's what my co-workers have said about how this plays out for them:
+
 > Alan works quite hard and always takes time to make sure his team members understand what their responsibilities and expectations are adequately. Despite his busy schedule, Alan is very available for concerns or questions.
 >
 > _Anonymous coworker praise_
@@ -210,25 +253,25 @@ _There are no technical problems, only people problems._ This is one of my favor
 >
 > _Anonymous coworker praise_
 
-      Communication
-        Technical
-        Non-technical
-      Straight shooter
-      Mentoring
-      Team growth
-      Lead by wandering around
-
 > Alan is good at delegating work amongst team-members...Alan has a knack for assigning tasks in a way that allows the team to be independently productive and have freedom in our work.
 
 > He really cares about his team members as people and is genuinely open to working with them through their individual concerns and goals.
 
-# Pragmatic goal-oriented initiative
+# Pragmatic goal-oriented initiator
 
 > Go after the ball.
 >
 > _My dad, best soccer (and life) advice ever_
 
+When I played soccer as a child, my dad observed that a lot of children waited around for the ball to get near them -- but he taught me to go after the ball. And I learned that, often, I could be the first one there if I hustled.
+
+My team could then move the ball up the field.
+
+Even if I wasn't first, I could force the other side to hurry and make a choice. Sometimes I'd intercept the ball. Sometimes they'd make a poor pass or kick it out of bounds. And sometimes they'd make a great play. But I learned that forcing the other side to make a quick decision was far better than letting them look for the best possible opportunity.
+
 ## Driven
+
+I carry this idea into work -- problems don't solve themselves, especially not thorny or tough ones. And my willingness to jump in, learn, understand, and then present a structured direction is often invaluable.
 
 > Tenacious.
 >
@@ -238,9 +281,7 @@ _There are no technical problems, only people problems._ This is one of my favor
 >
 > _Alan's coworkers about him_
 
-My co-workers consistently acknowledge that I bring movement and momentum to projects. When I played soccer as a child, my dad observed that a lot of children waited around for the ball to get near them -- but he taught me to go after the ball. And I learned that often, I could be the first one there and my team could then move the ball up the field. But even if I wasn't first, it turns out that forcing the other side to make a hurried choice is far better than letting them wait for the ideal moment to move.
-
-I carry this idea into work -- problems don't solve themselves, especially not thorny or tough ones. And my willingness to jump in, learn, understand, and then present a structured direction is often invaluable.
+My co-workers consistently acknowledge that I bring movement and momentum to projects.
 
 One time, for example, my company was in negotiations with a critical vendor about some software changes they wanted made. The vendor had leverage (unfortunately), but negotiations seemed to be going well and we expected to have about a year to make the changes. Then something went badly wrong and we had six weeks to make all the changes or be dropped by the vendor (which wasn't an acceptable option for the company). And now suddenly a problem that had vaguely been on my radar for "sometime in the next year" became an "all hands on deck" crisis.
 
