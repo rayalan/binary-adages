@@ -25,10 +25,10 @@ So what now?
 
 * We could look for signs of credibility. Does he have a university degree? Or some training certificates? Do other experts recognize his knowledge in some way?
 * We could ask about past results - has he done this sort of work in the past? What kind of results has he had?
-* We could rely on our own experience. Are have we seen this practice anywhere? How did it work out?
+* We could rely on our own experience. Have we seen this practice anywhere? How did it work out?
 * We could ask our business connections if they've heard of particle physicists increasing business profits; have they hired anyone like this?
 
-References are a bit tricky these days. If Joe is at all smart, he'll likely cherry-pick contacts who think the world of him. And then there's the question of the stranger's judgement: Would they actually recognize business-revolutionizing particle physics?
+References are a bit tricky these days. If Joe is at all smart, he'll likely cherry-pick contacts who think the world of him. And then there's the question of the strangers' judgement: Would they actually recognize business-revolutionizing particle physics?
 
 Self-experience is clearly a better approach -- after all, most of what I know has been taught to me by others. And I'm still striving to [learn]({filename}/pages/unlinked.md), which usually means either:
 
@@ -42,9 +42,9 @@ Certification is a tricky beast. On the one hand, it's a fairly objective[^fair]
 [^fair]: Not be confused with _objectively fair_.
 
 * Plenty of accused criminals and scam artists have excellent qualifications. See, for example, [Elizabeth Holmes](https://en.wikipedia.org/wiki/Elizabeth_Holmes), [Bernie Madoff](https://en.wikipedia.org/wiki/Bernie_Madoff) , or [Sam Bankman-Fried](https://en.wikipedia.org/wiki/Sam_Bankman-Fried).
-* In many fields such as software development, self-taught individuals are just as skilled if not more so than accredited ones.
+* In many fields, such as software development, self-taught individuals are just as skilled if not more so than accredited ones.
 * There can be quite a gap between an individual's academic ability and their day-to-day performance. My scores on a number of graduate school engineering exams were significantly better than my actual understanding of electromagnetic fields.
-* The lack of certification doesn't say much -- in many software fields, many qualified people can do the work, or learn to do the work (thanks Google + StackOverflow) without ever earning the credential.
+* The lack of certification doesn't say much -- in many software fields, many qualified people can do the work, or learn to do the work (thanks Google + StackOverflow), without ever earning the credential.
 
 But the big problem is this:
 
@@ -56,7 +56,7 @@ Let's say I have a problem and a certified AWS expert. The AWS expert is likely 
 
 But is that the right solution for my company? Should I commit to having a permanent AWS expert on staff? What ramifications will that have on the company's ability to update the product? Or make it accessible in remote locations?
 
-Perhaps the problem could be solved differently with a chemist. Or by marketing acquiring a telegenic eight year old and livestreaming her using the product. Or by overhauling the manufacturing process.
+Perhaps the problem could be solved differently with a chemist. Or by marketing acquiring a telegenic eight-year-old and livestreaming her using the product. Or by overhauling the manufacturing process.
 
 And certification says nothing about a person's ability to assess a problem in the broader business context and make a good decision.
 

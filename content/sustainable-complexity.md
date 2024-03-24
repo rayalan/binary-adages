@@ -9,15 +9,15 @@ status: published
 >
 > _Hypothetical pragmatic engineer, on the fastest solution._
 
-Suppose you and a friend are doing a small startup, coding away on a prototype. It's late at night at the local coffeeshop. Your co-founder -- Janet -- wants to see your prototype feature page so she can grab some screenshots for some fundraising efforts. What's the fastest way to share so you can get back to coding?
+Suppose you and a friend are doing a small startup, coding away on a prototype. It's late at night at the local coffee shop. Your co-founder -- Janet -- wants to see your prototype feature page so she can grab some screenshots for some fundraising efforts. What's the fastest way to share so you can get back to coding?
 
-_Why, host the website on 0.0.0.0 and point Janet at your public ip address, of course._
+_Why, host the website on 0.0.0.0 and point Janet at your public IP address, of course._
 
-(My apologies for the heart attack I probably just gave to any security minded folks[^security].)
+(My apologies for the heart attack I probably just gave to any security-minded folks[^security].)
 
-[^security]: For those who don't know, the 0.0.0.0 mask makes the site accessible to anyone who can reach the computer. A small startup operating out of a coffeeshop likely doesn't have a VPN or other airgap, making the website -- and any associated vulnerabilities -- accessible to anyone on the coffeeshop's network -- or anyone who has compromised the network.
+[^security]: For those who don't know, the 0.0.0.0 mask makes the site accessible to anyone who can reach the computer. A small startup operating out of a coffee shop likely doesn't have a VPN or other airgap, making the website -- and any associated vulnerabilities -- accessible to anyone on the coffee shop's network -- or anyone who has compromised the network.
 
-And that's how quickly one moves into the complexity of juggling speed vs. sustainability. It might be reasonable to argue that any particular custom website publicly open for a few minutes at any particular coffeeshop isn't a particularly high risk. Then again, what's the plan if a ransomware attack finds an opening and encrypts the disk? How much does the startup have backed up?
+And that's how quickly one moves into the complexity of juggling speed vs. sustainability. It might be reasonable to argue that any particular custom website publicly open for a few minutes at any particular coffee shop isn't a particularly high risk. Then again, what's the plan if a ransomware attack finds an opening and encrypts the disk? How much does the startup have backed up?
 
 The problem, of course, is that this decision likely isn't just for a few minutes now. It's likely to become a habit. `0.0.0.0` gets added to a configuration script somewhere and forgotten about. The startup is successful, adds in a few more employees. The startup gets a VPN. Everybody's busy, nobody thinks about why it is so easy to see one another's work. And then one day, someone makes some other misconfiguration. Or perhaps a vulnerability in the underlying web application framework is discovered. Maybe the surface area of the attack hasn't quite reached critical mass. Maybe it will take one more step -- maybe someone puts a version of the prototype on the web for an important customer to try out -- before all individual vulnerabilities tie together to create a exploitable hole. But the risk is accumulating.
 
@@ -72,7 +72,7 @@ f --> d
 e --> d
 ```
 
-And now every time anyone changes anything, there are side-effects. The whole system might come down just because some developer updated the way the system interacts with the proprietary system and that has an unexpected side effect on another data system, which cascades into a rendering layer that wasn't properly isolated.
+And now every time anyone changes anything, there are side effects. The whole system might come down just because some developer updated the way the system interacts with the proprietary system and that has an unexpected side effect on another data system, which cascades into a rendering layer that wasn't properly isolated.
 
 Hrm, that's not looking so promising. What if we start off with a different architecture? Maybe using light-weight lambdas? Maybe we get a first pass of a system like this:
 
@@ -117,11 +117,11 @@ bc <--> db
 
 So this looks pretty manageable at first. Maybe a bit more complex, but not bad. At least there are clearly defined interface layers.
 
-But how is this approach going to scale? If this is the first feature, what's it going to look like after a second feature? A third? A tenth? Even this pretty simple mockup with a few APIs, a few backend behaviors, a database, and a message queue for coordinating is starting to look like [serverless spaghetti](https://medium.com/codex/managing-serverless-spaghetti-c2fb1a7db73e). Sure, each piece can be modified, built, tested, and deployed individually. But because it is their orchestrated unified behavior that matters, a change to any part can disrupt the whole. Moving the interconnection from within a giant monolith to being distributed across a serverless architecture hasn't actually solved the problem; it's just transformed where the complexity lies.
+But how is this approach going to scale? If this is the first feature, what's it going to look like after a second feature? A third? A tenth? Even this pretty simple mockup with a few APIs, a few back-end behaviors, a database, and a message queue for coordinating is starting to look like [serverless spaghetti](https://medium.com/codex/managing-serverless-spaghetti-c2fb1a7db73e). Sure, each piece can be modified, built, tested, and deployed individually. But because it is their orchestrated unified behavior that matters, a change to any part can disrupt the whole. Moving the interconnection from within a giant monolith to being distributed across a serverless architecture hasn't actually solved the problem; it's just transformed where the complexity lies.
 
 # So what
 
-I don't believe there are any easy answers. There's no upfront architecture that matches every step in a application's life journey, from prototype to first release to massive hit to sunset. Nor is ChatGPT going to introduce a "refactor architecture" button anytime soon.
+I don't believe there are any easy answers. There's no up-front architecture that matches every step in an application's life journey, from prototype to first release to massive hit to sunset. Nor is ChatGPT going to introduce a "refactor architecture" button anytime soon.
 
 But I do believe there are a few guiding principles. Here are two:
 

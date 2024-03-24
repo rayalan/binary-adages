@@ -7,9 +7,9 @@ status: published
 
 Annual performance reviews are one of those staples of American corporations. As far as I can tell, they haven't changed much in decades.
 
-Sometimes they're done semiannually. More recently it's popular to do the "360 degree" reviews to get feedback from peers and direct reports, not just one's boss. They're typically linked to compensation adjustments and promotions. Occasionally their integrated with practices such as [stack ratings](https://insight.kellogg.northwestern.edu/article/performance-review-ranking-system-best), making it easy for employers to cull the "bottom" performers[^mystery].
+Sometimes they're done semiannually. More recently it's popular to do the "360-degree" reviews to get feedback from peers and direct reports, not just one's boss. They're typically linked to compensation adjustments and promotions. Occasionally, they're integrated with practices such as [stack ratings](https://insight.kellogg.northwestern.edu/article/performance-review-ranking-system-best), making it easy for employers to cull the "bottom" performers[^mystery].
 
-[^mystery]: Stank rankings seem like a terrible idea because one is incentivizes people to be the best person on a terrible team. I'm sure that there is more to it than that, but a bit of marketing to make the upsides more obvious would go a long way. After all, engineers are generally known for understanding complex systems and problem solving; does one really want them gaming the performance evaluation system?
+[^mystery]: Stack rankings seem like a terrible idea because one is incentivized to be the best person on a terrible team. I'm sure that there is more to it than that, but a bit of marketing to make the upsides more obvious would go a long way. After all, engineers are generally known for understanding complex systems and problem solving; does one really want them gaming the performance evaluation system?
 
 > Can we do better than the traditional performance review?
 
@@ -28,7 +28,7 @@ As is often the case, it's worth asking "What's the purpose of performance revie
 
 # The struggles
 
-At their worst, employee reviews become a performative dance where the question of "How much does my boss like me?" gets translated in a corporate justification. If the employee is liked, then corresponding weight is given to the employee's accolades. A disliked employee finds more attention given to their short-comings. And given the complexity of software development, it's pretty easy to justify either perspective.
+At their worst, employee reviews become a performative dance where the question of "How much does my boss like me?" gets translated in a corporate justification. If the employee is liked, then corresponding weight is given to the employee's accolades. A disliked employee finds more attention given to their shortcomings. And given the complexity of software development, it's pretty easy to justify either perspective.
 
 Nobody wants to say this; it's the stuff of law suits and HR nightmares. But it can be really easy to create a review system that sanitizes the manager's opinion rather than giving real feedback.
 
@@ -36,8 +36,8 @@ What else can go wrong?
 
 * Many (most?) people aren't good at tracking trends over time. This gives many reviews a heavy recency bias. (And there's often very little training on this topic.)
 * Many people lack the full picture when they give feedback. For example, suppose I notice that John seems courteous but distant when I interact with him. Is that because he's busy prioritizing more important work? Is that because he doesn't want to help me more? Is that because he has a different baseline for what friendly looks like?
-* People are often implicitly pressured to not give critical feedback. People may avoid high-quality criticism for a number of reasons, from a fear of feedback being blown out of proportion in the review to a fear of breaking social expectations.
-* 360-style reviews often allow employees to choose their peer reviewers. Given the impact reviews can have on performance and compensation, there's heavy incentive to select those who seem most likely to give a positive review -- not necessarily those that will give the most thoughtful feedback.
+* People are often implicitly pressured not to give critical feedback. People may avoid high-quality criticism for a number of reasons, from a fear of feedback being blown out of proportion in the review to a fear of breaking social expectations.
+* 360-style reviews often allow employees to choose their peer reviewers. Given the impact reviews can have on performance and compensation, there's heavy incentive to select those who seem most likely to give a positive review -- not necessarily those who will give the most thoughtful feedback.
 
 # The ideal system(s)
 
