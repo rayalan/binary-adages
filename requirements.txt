@@ -1,5 +1,5 @@
 beautifulsoup4==4.11.1
-#ghp-import==2.1.0
+ghp-import==2.1.0
 invoke==1.7.1
 markdown==3.4.1
 #md-mermaid==0.1.1

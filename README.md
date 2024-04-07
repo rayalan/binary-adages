@@ -23,8 +23,7 @@ And to publish the blog:
 
     pelican -s publishconf.py
     ghp-import output -b gh-pages
-    git push git@github:rayalan/rayalan.github.io.git gh-pages:master
-
+    git push git@github.com:rayalan/rayalan.github.io.git gh-pages:master
 
 Resources
 ---------
