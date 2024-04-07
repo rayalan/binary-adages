@@ -13,23 +13,23 @@ layout: page
 # Solution Spaces
 
 * _Software as a service_: I've spent over a decade in the software-as-a-service industry, both providing a reliable service as well as quickly adapting it to the current business needs.
-* _Applications_: I've done both desktop Windows and MacOS applications along with mobile applications (mostly Android).
+* _Applications_: I've done both desktop Windows and MacOS applications, along with mobile applications (mostly Android).
 * _Web applications_: I've built a variety of web applications (frontend and backend), including multiple single page applications.
-* _Embedded systems_: I spent a number of years building mission-critical applications for the automotive industry, including commercial trucking and police vehicles. Change management looks totally different in when a change potentially puts lives at risk.
-* _User experience_: As part of understanding what makes good software design, I've studied (or at least dabbled) into the realm of user experience: How can the software not just technically work, but actually be a joy to work with[^users]?
+* _Embedded systems_: I spent a number of years building mission-critical applications for the automotive industry, including commercial trucking and police vehicles. Change management looks totally different when a change potentially puts lives at risk.
+* _User experience_: As part of understanding what makes good software design, I've studied (or at least dabbled in) the realm of user experience: How can the software not just technically work, but actually be a joy to work with[^users]?
 
 [^users]: Most software actually has many users -- the end user, the company or individual making the purchase, the developers creating and maintaining a system, the sales department selling the product, and so on.
 
 # Languages
 
-These are my main languages that I've done extensive work in.
+These are my main languages in which I've done extensive work.
 
 * _Python (15+ years)_: I've done a bit of everything, including web servers, meta programming, C/C++ interfaces, and GUIs. My go-to language for one-off work, as well as my favorite language. There are a few features in v3 (like typing) that I want to learn better.
 * _TypeScript (5 years)_: My favorite way to do web-based work, as the typing vastly improves the readability of code while reducing stupid mistakes like remembering whether that variable can be `null` or not.
 * _SQL (13+ years)_: While I can't compete with a guru, I can hold my own on querying, especially with Google by my side.
 * _C, C++ (14 years)_: I've used this extensively, especially for embedded or performance-sensitive work, including my fair share of macros[^macros] and templates. There are a few changes in the last few years (such as lambdas) that I haven't used much.
 * _JavaScript (8 years)_: It's hard to do much with the web without this language.
-* _Bash/Shell (15+ years)_: While this isn't my favorite language by a long shot, I've been working with shell scripts for a long term, whether debugging someone else's work or just doing something quick to solve a problem.
+* _Bash/Shell (15+ years)_: While this isn't my favorite language by a long shot, I've been working with shell scripts for a long time, whether debugging someone else's work or just doing something quick to solve a problem.
 
 [^macros]: Yes, macros are evil. But sometimes they are a necessary evil.
 
@@ -45,15 +45,15 @@ The main databases I've worked with:
 
 * _MySQL (12+ years)_: I've interfaced with MySQL-flavored databases for much of my work. Fantastic for transaction problems; solves most problems reasonably well.
 * _Redis (8+ years)_: Probably my favorite database, as it is a fantastic multi-purpose high-speed database, especially if persistence isn't important: message queue, caching, temporary storage, and more.
-* _InfluxDB (3 years)_: I stood up and maintained a multi-terabyte instance as part of an in-house telemetry stack. Learned a lot about time series as well as the upside of having an expert dba.
+* _InfluxDB (3 years)_: I stood up and maintained a multi-terabyte instance as part of an in-house telemetry stack. Learned a lot about time series as well as the upside of having an expert DBA.
 * _BigCloud (1 year)_: So far, it's a very convenient but limited version of MySQL.
 
 # Platforms
 
-* _Distributed computing architecture_ (10+ years): For years, I've worked with designing distributed architectures, databases and data pipelines, handling challenges such as connectivity outages, balancing centralized sources of truths with the resulting data bottlenecks.
+* _Distributed computing architecture_ (10+ years): For years, I've worked with designing distributed architectures, databases, and data pipelines; handling challenges such as connectivity outages; and balancing centralized sources of truth with the resulting data bottlenecks.
 * _Google Cloud Platform_: My introduction to true cloud computing (as opposed to on-premises virtual machines).
 * _Servers (Linux, 10+ years)_: Almost everything I've ever written has run in a Linux-like environment of some sort or another.
-* _Cross-platform (10+ years)_: Much of my career has been spent writing software that will work interchangably across platforms, typically either abstracting out operating system-specific differences or writing system-specific specializations.)
+* _Cross-platform (10+ years)_: Much of my career has been spent writing software that will work interchangably across platforms, typically either abstracting out operating system-specific differences or writing system-specific specializations.
 * _Embedded (QNX, assorted environments, 7 years)_: Writing mission-critical software in a memory-constrained environment for police cars and trucking navigation presents some unique challenges.
 * _MacOS (2 years)_: I led a team in taking a dead application (all previous institutional knowledge had left the company), reestablishing best practices such as CI/CD, and doing a bit of kernel extension programming.
 * _Windows (2 years)_: Two key projects stand out here - an AI-based image detection system as well as a radio control algorithm for police communications.

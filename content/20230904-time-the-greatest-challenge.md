@@ -28,7 +28,7 @@ And don't get me started on trying to write tests that involve time. Benchmarks 
 
 # State
 
-And then there's the problem of state. Almost every system has some form of persistent state - e.g., settings, save games, profiles, collected data. And this persistent state needs to be maintained across updates. All too often this state goes back years (e.g., Windows maintaining MS-DOS compatibility) or cannot be abandoned (imagine if your bank account periodically reset itself to zero[^zero]).
+And then there's the problem of state. Almost every system has some form of persistent state: settings, save games, profiles, collected data. And this persistent state needs to be maintained across updates. All too often this state goes back years (e.g., Windows maintaining MS-DOS compatibility) or cannot be abandoned (imagine if your bank account periodically reset itself to zero[^zero]).
 
 [^zero]: Actually, for some people, overdraft coverage plus a periodically resetting bank account could be a feature. But banks probably wouldn't like it.
 

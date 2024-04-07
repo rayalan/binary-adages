@@ -11,7 +11,7 @@ status: published
 >
 > _Joel Spolsky?_
 
-A long time ago, someone[^article] --[Joel Spolsky](https://www.joelonsoftware.com/), if I recall correctly -- who made a basic point about being in a software business:
+A long time ago, someone[^article] --[Joel Spolsky](https://www.joelonsoftware.com/), if I recall correctly -- made a basic point about being in a software business:
 
 [^article]: I can't find the original article; the article on Lisp I reference later is related, but not the one I'm thinking of.
 
@@ -43,11 +43,11 @@ But since writing machine instructions on punch cards isn't fast, a whole indust
 
 [^faster]: I'd categorize security as a form of correct software -- software that can be abused for nefarious purposes isn't correct software. Likewise, since the cost of developers is one of the main costs of development, writing software faster is one of the main ways to reduce costs.
 
-[^except]: There is exception to this claim that comes to mind, which I'll address a bit later.
+[^exception]: There is exception to this claim that comes to mind, which I'll address a bit later.
 
 # Is development faster? A shifting goalpost
 
-In the years since I've read that article, I've often encountered the the ideas of speed and agility. In fact, I've never met a software executive who wanted engineering to ship features slower or take longer to fix a bug[^marketing].
+In the years since I've read that article, I've often encountered the ideas of speed and agility. In fact, I've never met a software executive who wanted engineering to ship features slower or take longer to fix a bug[^marketing].
 
 [^marketing]: Emphasis on engineering taking longer; I've certainly seen marketing or other business reasons for a feature getting delayed.
 
@@ -55,25 +55,24 @@ _So has software development gotten faster?_
 
 I don't know -- trying to answer that question is beyond the scope of this article. But there are at least three trends the push in the opposite direction:
 
-* Increased expectations
+* Increased expectations.
 * Software as a service and vendor lock-in.
-* Short-term change with long-term costs
+* Short-term change with long-term costs.
 
 And I want to posit a fourth emergent problem:
 
-> Expecting frictionless agility from friction-based tooling
+> Expecting frictionless agility from friction-based tooling.
 
-In the rest of this article, I'll breakdown these three trends pushing against faster development, and then explore the emergent problem in the next entry.
+In the rest of this article, I'll break down these three trends pushing against faster development and then explore the emergent problem in the next entry.
 
 # Increased expectations
 
-As technology has advanced, expectation have increased for software. For example:
+As technology has advanced, expectations have increased for software. For example:
 
 * Customers expect responsive designs that adapt to their device rather than everyone running a universal 640x480 resolution.
-* Developers expect meaningful compiler
-errors, not cryptic "program encountered an error somewhere" messages.
+* Developers expect meaningful compiler errors, not cryptic "program encountered an error somewhere" messages.
 * Gamers expect to easily connect with their online friends, not fight through hours of network configuration menus.
-* Designers expect to fresh the look of an application after a few years when it is looking tired.
+* Designers expect to refresh the look of an application after a few years when it is looking tired.
 * Sales expects to be able to create sandbox environments for their prospective enterprise customers to try out.
 
 On top of that, software has become ubiquitous everywhere - doctors and dentists have them, truckers have them, police officers have them, plumbers have them. And that means software needs to be accessible to almost anyone, not experts who have dedicated their lives to using computers.
@@ -84,17 +83,17 @@ All of these increased expectations makes software harder and slower to develop.
 
 # Software-as-a-service and vendor lock-in
 
-Every business wants recurring customers. But this creates some weird incentives -- if I invent a lightbulb that never burns out, how many of them can I sell?
+Every business wants recurring customers. But this creates some weird incentives -- if I invent a light bulb that never burns out, how many of them can I sell?
 
-Maybe 5 per person? Maybe more if I can identify an industrial use for them? But ultimately, the longevity of my lightbulb will cap how many of them I can sell. And so it's far more profitable for my lightbulb to last longer than my competitors' bulbs...but not forever.
+Maybe 5 per person? Maybe more if I can identify an industrial use for them? But ultimately, the longevity of my lightbulb will cap how many of them I can sell. And so it's far more profitable for my light bulb to last longer than my competitors' bulbs...but not forever.
 
-In many cases, software has hit a similar point. How much better can a document writing be? How much better can presentation software be? How much better can home budgeting software be? The reality is that in most cases, the incremental improvements just don't justify the upgrade price.
+In many cases, software has hit a similar point. How much better can document writing be? How much better can presentation software be? How much better can home budgeting software be? The reality is that in most cases, the incremental improvements just don't justify the upgrade price.
 
-And so many companies, being run by sensible people, have moved to software-as-a-service. And since these companies are interested in loosing customers, they're motivated in making it hard to leave. Not so hard that companies won't sign-up. Sometimes it is forcing people to call rather than being able to cancel a service online. Sometimes it is Apple's walled garden. Sometimes it is the friction of adapting one's internal systems.
+And so many companies, being run by sensible people, have moved to software-as-a-service. And since these companies aren't interested in losing customers, they're motivated to make it hard to leave, but not so hard that customers won't sign up. Sometimes it is forcing people to call rather than being able to cancel a service online. Sometimes it is Apple's walled garden. Sometimes it is the friction of adapting one's internal systems.
 
 Whatever the case, it creates friction to change.
 
-For example, suppose that my company is currently using GitHub and someone discovers that we will shift software three times as fast if do reviews after code is merged. How quickly can we roll out that change?
+For example, suppose that my company is currently using GitHub and someone discovers that we will ship software three times as fast if do reviews after code is merged. How quickly can we roll out that change?
 
 Not very fast. GitHub's offering is fundamentally rooted in the assumption that pull requests and reviews happen prior to merging. So I basically have three options:
 
@@ -109,22 +108,22 @@ None of these are great solutions -- (1) and (2) are time consuming and expensiv
 Finally, a lot of software engineering is driven by short-term needs.
 
 * The key question is often: How quickly can this feature ship? Time is money, after all.
-* Performance reviews often cover six -- or possibly twelve months -- not the cumulative effects of years of decisions.
+* Performance reviews often cover six or possibly twelve months -- not the cumulative effects of years of decisions.
 * People rarely stay at a company -- let alone a single position -- for more than a few years.
 
-Almost by definition, this creates a situation where there is very little incentive for engineers to make decisions with long-term ramifications in mind. And bizarrely, I'm incentivized to hope that my predecessor left some easy to resolve problems so that I can chalk up some easy wins[^wins].
+Almost by definition, this creates a situation where there is very little incentive for engineers to make decisions with long-term ramifications in mind. And bizarrely, I'm incentivized to hope that my predecessor left some easy-to-resolve problems so that I can chalk up some easy wins.
 
-I've certainly put others in this situation. In one scenario, for example, I introduced [waf](https://waf.io/book/) as a non-makefile solution for complex build patterns. At the time, it was a fantastic solution. But as the company shifted directions over the years, there wasn't much need for a cross-language Makefile alternative that excelled at minimizing local build times with excellent dependency graphs. The result was that waf slowed down development -- too expensive and time consuming to remove, but also too complicated and convoluted for developers to easily make their desired changes.
+I've certainly put others in this situation. In one scenario, for example, I introduced [waf](https://waf.io/book/) as a non-Makefile solution for complex build patterns. At the time, it was a fantastic solution. But as the company shifted directions over the years, there wasn't much need for a cross-language Makefile alternative that excelled at minimizing local build times with excellent dependency graphs. The result was that waf slowed down development -- too expensive and time consuming to remove, but also too complicated and convoluted for developers to easily make their desired changes.
 
-There's even a common architectural anti-pattern that results from this -- [Lava Flow](https://exceptionnotfound.net/lava-flow-the-daily-software-anti-pattern/).
+There's even a common architectural anti-pattern that results from this -- [lava flow](https://exceptionnotfound.net/lava-flow-the-daily-software-anti-pattern/).
 
-And while Lava Flows can happen in many different ways, here's a common large-scale pattern I've observed:
+And while lava flows can happen in many different ways, here's a common large-scale pattern I've observed:
 
 1. Observe that a current framework or library is difficult to develop in.
-2. Proposes a new approach that will be far easer and faster to develop in.
+2. Propose a new approach that will be far easier and faster to develop in.
 3. Develop a cost comparison showing that for six months of developer effort, we can save years and years of labor.
 4. Because backporting all of our existing systems is too time consuming, we'll only backport a few key systems and do the rest on an as-needed basis.
-5. Management signs off effort.
+5. Management signs off on the effort.
 6. The initiative mostly succeeds[^succeeds], although only about 70% of the porting gets done and some promised functionality ends up getting cut for scope.
 7. Priorities shift, personnel changes, and someone notices that there's a framework or library that's difficult to develop in...
 8. Repeat the process.
@@ -133,17 +132,17 @@ And while Lava Flows can happen in many different ways, here's a common large-sc
 >
 > _Alan, assessing actual vs. expected benefit_
 
-[^succeeds]: Let's assume success. Such projects can be a complete diaster too, of course.
+[^succeeds]: Let's assume success. Such projects can be a complete disaster, too, of course.
 
 # So what
 
-A cynic might look at this evidence and ask: Do companies really believe that speed of deliver is essential to their success?
+A cynic might look at this evidence and ask: Do companies really believe that speed of delivery is essential to their success?
 
 Yes, practices such as DevOps, continuous integration, continuous deployment, infrastructure as code, and feature flags are all big steps forward. All too often, though, pressures[^pressures] such as increased expectations, limited tooling options, and short-term business needs overwhelm the ability to quickly pivot.
 
-[^pressures]: This list isn't exhaustive either. Software validation (i.e. testing) and personnel turnover are at least two more areas that push against rapid development.
+[^pressures]: This list isn't exhaustive either. Software validation (i.e., testing) and personnel turnover are at least two more areas that push against rapid development.
 
-And perhaps the cynic has a point -- after all, most public companies are setup to reward quarterly or yearly profits, not decades of sustained profit. Likewise, when was the last time an employee offer included a significant bonus for hitting a decade-long performance metric? How many performance metrics even last a decade?
+And perhaps the cynic has a point -- after all, most public companies are set up to reward quarterly or yearly profits, not decades of sustained profit. Likewise, when was the last time an employee offer included a significant bonus for hitting a decade-long performance metric? How many performance metrics even last a decade?
 
-But suppose a company really wanted to hone the speed-to-market as a competitive advantage. What might they do? That's what I'll consider in [part 2]({filename}frictionless-change-part-2.md).
+But suppose a company really wanted to hone speed to market as a competitive advantage. What might they do? That's what I'll consider in [part 2]({filename}frictionless-change-part-2.md).
 

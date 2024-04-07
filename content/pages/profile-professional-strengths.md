@@ -14,7 +14,7 @@ layout: page
 >
 > _Alan, three sentences on what he does best._
 
-Some of biggest accomplishments in my career are what wasn't done. Proposals that were abandoned when it became clear that the projects were far more complex than anticipated. Plans for months that were trimmed down to weeks because the core need could be met far more simply. Complex algorithms replaced with a bit of syntactic sugar around existing tooling.
+Some of the biggest accomplishments in my career are what wasn't done. Proposals that were abandoned when it became clear that the projects were far more complex than anticipated. Plans for months that were trimmed down to weeks because the core need could be met far more simply. Complex algorithms replaced with a bit of syntactic sugar around existing tooling.
 
 For me, this is part of [100x engineering](https://www.stxnext.com/blog/software-development-productivity-100x-engineering/). This page recaps the strengths I bring beyond just technical proficiency. These pages may also be useful context if you haven't already seen them:
 
@@ -28,9 +28,9 @@ For me, this is part of [100x engineering](https://www.stxnext.com/blog/software
 mindmap
   Alan
     Critical problem analysis: macro to micro
-    Structure: processes, plans and solutions
+    Structure: processes, plans, and solutions
     Relationally-oriented leadership
-    Pragmatic goal-oriented initiative
+    Pragmatic, goal-oriented initiator
 ```
 
 # Critical problem analysis, macro to micro
@@ -39,9 +39,9 @@ mindmap
 >
 > _Alan's algorithm complexity analysis instructor_
 
-Two of my favorite college classes were algorithm complexity analysis (e.g., Big-O notation) and a graduate game theory class that looked at various proposals such as charging for e-mail, figuring out how much each e-mail would have to cost before spam would cease to be profitable[^profit].
+Two of my favorite college classes were algorithm complexity analysis (e.g., Big-O notation) and a graduate game theory class that looked at various proposals, such as charging for e-mail and figuring out how much each e-mail would have to cost before spam would cease to be profitable[^profit].
 
-[^profit]: It turned out to be a surprisingly high number -- dollars, if I recall correctly -- and would effectively break many legitimate uses of e-mail. This perhaps explains why pay based e-mail systems haven't taken off -- and why spam remains a nuisance.
+[^profit]: It turned out to be a surprisingly high number -- dollars, if I recall correctly -- and would effectively break many legitimate uses of e-mail. This perhaps explains why pay-based e-mail systems haven't taken off -- and why spam remains a nuisance.
 
 Both classes rewarded my ability to understand a system and find edge cases. What's the worst that an algorithm can perform? Well, design just the right set of inputs to maximally thwart what it is trying to do.
 
@@ -53,7 +53,7 @@ From engineering process plans to system design documents to individual function
 
 At a macro level, it's questions like:
 
-* If the goal is to just evaluate a bunch of images, why not read those images in from the data pipeline into their own isolated system? Because given the stated business objectives, we don't need all the proposed complexity for tying the results back into the data pipeline, including being able to correct the results downstream when they are initially incorrect.
+* If the goal is to just evaluate a bunch of images, why not read those images in from the data pipeline into their own isolated system? Given the stated business objectives, we don't need all the proposed complexity for tying the results back into the data pipeline, including being able to correct the results downstream when they are initially incorrect.
 * This plan seems to assume all our teams have the same processes for the same kind of work, but is that really true?
 * Why doesn't the system have fallback error handling? Do we really expect it is reasonable for developers to always spot and handle any place that an error might occur?
 * Didn't we just release a document that says developer time is the most precious resource the company has? What's the cost-benefit analysis on requiring more detailed tickets from developers? Who is actually going to be using the new ticket information? How will we know if it isn't going to be useful?
@@ -70,7 +70,7 @@ In one case, I was discussing user experience decisions, and trying to work out 
 >
 > _Anonymous coworker praise_
 
-In another case, we had a very sensitive system where we weren't sure of all the problems that might occur in the system or how to handle them. However, there would be tens of thousands of daily calls, and any mis-handled call could result in significant problems for customer service, as well as negative publicity.
+In another case, we had a very sensitive system where we weren't sure of all the problems that might occur in the system or how to handle them. However, there would be tens of thousands of daily calls, and any mishandled call could result in significant problems for customer service, as well as negative publicity.
 
 What I realized, though, is that the calls didn't have to be handled by the system if it encountered an edge case. So we built in behavior that, if the system hit one of these scenarios, it would add the scenario to a list along with a bit of descriptive text about what went wrong, and a human would go in and handle the situation manually. (We already needed to build this kind of manual tooling for humans to handle other cases.) Whenever developers hit something they thought was rare and hard to code for, I told them to make it another manually handled case. The plan then became this:
 
@@ -134,13 +134,13 @@ I quickly realized the potential this system had for our work -- combined with a
 
 (In fact, my team eventually became a bit concerned that my answer for too many problems was "use metadata." As I recall, they were particularly unimpressed by my suggestion that long JSON strings could be split up and written to multiple keys, and then later reassembled.)
 
-Having experienced the speed and ease of development that the team had experienced from this metadata system, I wanted to give that capability to all developers. For context, at the time, we were working entirely in a relational database, and schema changes were a slow and error-prone process that developers avoided. And for various reasons, spinning up a document-oriented database like, say, MongoDb, wasn't an option.
+Having experienced the speed and ease of development that the team had experienced from this metadata system, I wanted to give that capability to all developers. For context, at the time, we were working entirely in a relational database, and schema changes were a slow and error-prone process that developers avoided. And for various reasons, spinning up a document-oriented database like, say, MongoDB, wasn't an option.
 
-Over the next few months, I worked with dbas to create a similar metadata system in our technologies. And then I worked with developers to create an easy to use wrapper so that metadata was easy to use and came with clear transactional guarantees.
+Over the next few months, I worked with DBAs to create a similar metadata system in our technologies. And then I worked with developers to create an easy-to-use wrapper so that metadata was easy to use and came with clear transactional guarantees.
 
 The work paid off, and developers on several different projects were able to rapidly implement features using the new capability. Not only that, but shortly after that, we ran into a situation where we needed to perform high-volume one-time writes of key-value pairs -- except that the keys weren't necessarily unique.
 
-Having established the baseline key-value system, the dbas were able to modify the system to have a high-volume version that supported repetitive keys. This variation allowed developers to leverage a known interface and quickly adapt to the unexpectedly high throughput.
+Having established the baseline key-value system, the DBAs were able to modify the system to have a high-volume version that supported repetitive keys. This variation allowed developers to leverage a known interface and quickly adapt to the unexpectedly high throughput.
 
 > Alan thinks deeply and critically about workflow processes and how to improve/smooth those.
 >
@@ -148,7 +148,7 @@ Having established the baseline key-value system, the dbas were able to modify t
 
 ## Example: Rapid steelmanned decisions
 
-In another situation, I wanted to standardize a number of engineering practices in a heavily consensus-driven culture across a number of teams. There wasn't a good upfront way of knowing who cared specifically about which decision. Additionally, due to interconnected systems, teams could be unexpected impacted by a decision.
+In another situation, I wanted to standardize a number of engineering practices in a heavily consensus-driven culture across a number of teams. There wasn't a good upfront way of knowing who cared specifically about which decision. Additionally, due to interconnected systems, teams could be unexpectedly impacted by a decision.
 
 I ended up introducing a three-step approach:
 
@@ -159,11 +159,11 @@ I ended up introducing a three-step approach:
 Four of the big advantages of this preview / feedback / react cycle were:
 
 1. Establishing a culture of transparency and thoughtful discourse. By sharing my understanding and carefully engaging with differing perspectives, the engineering culture as a whole improved.
-2. By providing enough prospective into the _why_ of a decision, minor concerns or downsides rarely become sticking points. Other engineers could see the reasons driving the decision, and do their own cost-benefit analysis of their own concerns. Often downsides were raised not as blockers, but as a heads up of something that might need to be mitigated in the future, providing the team (and especially myself) with valuable input.
-3. Swiftly identify who significantly cared about a decision. Instead of it being a conversation across the entire department, engineers self-identified as concerned parties, quickly focusing the conversation.
+2. By providing enough prospective into the _why_ of a decision, minor concerns or downsides rarely become sticking points. Other engineers could see the reasons driving the decision, and do their own cost-benefit analysis of their own concerns. Often downsides were raised not as blockers, but as a heads-up of something that might need to be mitigated in the future, providing the team (and especially myself) with valuable input.
+3. Swiftly identifying who significantly cared about a decision. Instead of it being a conversation across the entire department, engineers self-identified as concerned parties, quickly focusing the conversation.
 4. Rapidly moving many decisions forward to conclusion. In many cases, there wasn't significant dissent, at least not once the rationale was laid out. These decisions could be finalized with little overhead.
 
-This approach won't work in every scenario -- it requires people be comfortable speaking up; it won't scale past a certain point; it requires a willingness to cheerfully allow the preliminary proposals to be destroyed by the feedback upon occasion.
+This approach won't work in every scenario -- it requires people be comfortable speaking up; it won't scale past a certain point; it requires a willingness to cheerfully allow the preliminary proposals to be destroyed by feedback upon occasion.
 
 It was, though, a quick and light-weight approach to rapidly standardizing engineering processes in a consensus-oriented culture while encouraging initiative, feedback, and openness.
 
@@ -177,7 +177,7 @@ It was, though, a quick and light-weight approach to rapidly standardizing engin
 
 _There are no technical problems, only people problems._ This is one of my favorite witticisms. Major engineering efforts are not primarily about being good with computers, they are about influencing and organizing people over the long haul.
 
-> Attitude, oddly enough. Alan is always positive and thoughtful, with good ideas to offer on any topic. He's tactful in delivery of feedback, and makes allies easily.
+> Alan is always positive and thoughtful, with good ideas to offer on any topic. He's tactful in delivery of feedback, and makes allies easily.
 >
 > Highly communicative and easy to talk to.
 >
@@ -190,7 +190,7 @@ Here are a few more ways how I approach leadership...
 
 ## Thoughtful author, presenter, conversationalist
 
-When I have something to say, I'm capable communicator, both with technical and lay audiences. One of my favorite tricks is to compare complex technical topics to ordinary experiences like doing office paperwork or feeding cupcakes to frenzied toddlers. Two of the toughest challenges for me in communicating are:
+When I have something to say, I'm a capable communicator, both with technical and lay audiences. One of my favorite tricks is to compare complex technical topics to ordinary experiences like doing office paperwork or feeding cupcakes to frenzied toddlers. Two of the toughest challenges for me in communicating are:
 
 1. Assessing audience trust in my claims; that is, how much do I need to show my work/reasoning for them to follow along.
 2. Skimping on context because I don't want to insult my audience. I'm quickly bored (and possibly more than a bit frustrated) when I'm being taught something I already know without a new application or twist. And not wanting to do that to my audience, sometimes I assume my audience has more of a foundation than they do.
@@ -211,12 +211,12 @@ As a result, I enjoy small settings, often one-on-one, where individual trust ca
 
 1. I can understand each person as an individual. What are their dreams? What motivates them? What do they care about? What do they understand? What are their concerns? Larger meetings are just inefficient if they go into that much depth.
 2. It facilitates communication in both directions, minimizing the number of people that might take issue with an opinion. Being criticized is hard. Losing face is hard. Saying something unpopular is hard, especially in front of a lot of people.
-3. It minimizes the risk of exposing ignorance. While I love the "there are no stupid questions" mantra[^mantra], sometimes engineering culture or the individual level of trust isn't there. And the exchange of ideas that can happen when was is able to ask "What do you mean by ...?" is one of the most critical moments when critical communication is happening.
+3. It minimizes the risk of exposing ignorance. While I love the "there are no stupid questions" mantra[^mantra], sometimes engineering culture or the individual level of trust isn't there. And the exchange of ideas that can happen when one is able to ask "What do you mean by ...?" is one of the most critical moments when critical communication is happening.
 4. I can leverage those individual goals and concerns when making broader changes. For example, if I know that Joe is really concerned that the new system will put them in situations where they don't feel proficient, then I can help address that in the implementation without Joe having to say "Hey, team, I don't feel proficient with what's being asked of me."
 
 [^mantra]: Actually, I dislike the phrase itself. There are plenty of stupid questions. But the concept is very accurate -- people need to be able to raise any genuine question that arises without fear of being looked down upon or thought stupid. But I haven't found a catchy phrase yet that encapsulates that nuance.
 
-The result, I find, is that I can create and sustain high-performing teams that are safe places for people to grow -- and that I can more quickly adjust the team -- or my own behavior -- because of those strong individual relationships[^alternatives]. Beyond that, strongly understanding my team and coworkers lets me tailer opportunities to their interests, connect people with aligned interests, and provide highly-applicable resources.
+The result, I find, is that I can create and sustain high-performing teams that are safe places for people to grow -- and that I can more quickly adjust the team -- or my own behavior -- because of those strong individual relationships[^alternatives]. Beyond that, strongly understanding my team and coworkers lets me tailor opportunities to their interests, connect people with aligned interests, and provide highly-applicable resources.
 
 [^alternatives]: This certainly isn't the only approach to building strong teams.
 
@@ -257,7 +257,7 @@ Here's what my co-workers have said about how this plays out for them:
 
 > He really cares about his team members as people and is genuinely open to working with them through their individual concerns and goals.
 
-# Pragmatic goal-oriented initiator
+# Pragmatic, goal-oriented initiator
 
 > Go after the ball.
 >
@@ -283,9 +283,9 @@ I carry this idea into work -- problems don't solve themselves, especially not t
 
 My co-workers consistently acknowledge that I bring movement and momentum to projects.
 
-One time, for example, my company was in negotiations with a critical vendor about some software changes they wanted made. The vendor had leverage (unfortunately), but negotiations seemed to be going well and we expected to have about a year to make the changes. Then something went badly wrong and we had six weeks to make all the changes or be dropped by the vendor (which wasn't an acceptable option for the company). And now suddenly a problem that had vaguely been on my radar for "sometime in the next year" became an "all hands on deck" crisis.
+One time, for example, my company was in negotiations with a critical vendor about some software changes they wanted made. The vendor had leverage (unfortunately), but negotiations seemed to be going well, and we expected to have about a year to make the changes. Then something went badly wrong and we had six weeks to make all the changes or be dropped by the vendor (which wasn't an acceptable option for the company). And now, suddenly, a problem that had vaguely been on my radar for "sometime in the next year" became an "all hands on deck" crisis.
 
-I planned to ship the changes in three weeks, figuring we'd need the remainder of the six weeks to make any unforeseen adjustments. The first couple days I was digging into documentation while one of my best engineers prototyped out a solution. By mid-week, I'd put together a document outlining the plan, what work was needed from various teams, recruited the necessary people to this project, and was walking through the plan with executives and team members. I made sure the whole engineering team understood that (a) this project was the priority -- pull whatever resources were needed, and (b) we could deviate from standard practices (e.g., being able to test everything in staging) -- let me know what they needed. I added a bit of light-weight process -- a daily standup, a day-to-day Slack channel, and a stakeholder channel. And I let the developers go at it.
+I planned to ship the changes in three weeks, figuring we'd need the remainder of the six weeks to make any unforeseen adjustments. The first couple of days I spent digging into documentation while one of my best engineers prototyped out a solution. By mid-week, I'd put together a document outlining the plan, specified what work was needed from various teams, recruited the necessary people to this project, and was walking through the plan with executives and team members. I made sure the whole engineering team understood that (a) this project was the priority -- pull whatever resources were needed, and (b) we could deviate from standard practices (e.g., being able to test everything in staging) -- let me know what they needed. I added a bit of light-weight process -- a daily standup, a day-to-day Slack channel, and a stakeholder channel. And I let the developers go at it.
 
 Much of my remaining work was approving painful shortcuts and communicating them to stakeholders and impacted parties. For example, if a customer called in and expected such-n-such support from customer service, it wouldn't be possible because of these changes. So executives needed to know what trade-offs were being made, and customer service needed to understand how these accounts would behave after the changes.
 

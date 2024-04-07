@@ -42,7 +42,7 @@ _Understand what the company's foundational footing is like ..._
 
 ## Strategy
 
-* What's your strategy for staffing engineering - aim to hire exclusively top performers? A lot of average developers supported by a few exceptional ones?
+* What's your strategy for staffing engineering? Do you aim to hire exclusively top performers? A lot of average developers supported by a few exceptional ones?
 * What do you hire for? Skills? Aptitude? Attitude? Why?
 * How do you attract and retain really strong hires?
 * How do you compensate the team?
@@ -99,7 +99,7 @@ _If [culture eats strategy for lunch](https://www.thealternativeboard.com/blog/c
 * Who decides what to build? How does that process work? How long has that process been followed?
 * What's a new skill or technology that you explored recently that didn't pan out. What happened?
 * Why is engineering structured the way it is? What are the pros and cons of the current structure?
-* When was the last time it changed? What led to it being changed?
+* When was the last time the engineering structure changed? What led to it being changed?
 
 ## Personal Experiences
 
@@ -159,9 +159,9 @@ _These questions are about the practical day-to-day aspects of the role ..._
 
 _This bucket is questions I've come up with but haven't had a chance to fit into the right bucket._
 
-How long were you around at your last position? Did you get to see the consequences of your choices? Why or why not?
-Are you going to be around to see the consequences of your choices? Why do you say that?
-How do you avoid the Peter principle?
-How do you tell if a leader isn't working out as a leader?
-How do you tell if you have done planning right?
-What are three million-dollar problems you'd like solved in your company?
+* How long were you around at your last position? Did you get to see the consequences of your choices? Why or why not?
+* Are you going to be around to see the consequences of your choices? Why do you say that?
+* How do you avoid the Peter principle?
+* How do you tell if a leader isn't working out as a leader?
+* How do you tell if you have done planning right?
+* What are three million-dollar problems you'd like solved in your company?

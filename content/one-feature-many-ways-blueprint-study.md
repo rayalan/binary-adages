@@ -63,7 +63,7 @@ Captain of Industry takes an entirely different approach. In addition to a bluep
 
 The planning layer also supports cut and paste, so it's easy to design a layout when one isn't sure about the final size, and then relocate that layout into the available space once everything is planned out.
 
-Because terrain matters for more in Captain of Industry than other games, there are some effective limitations on how big a useful blueprint can be. But there's no forced limitations such as in Satisfactory.
+Because terrain matters for more in Captain of Industry than other games, there are some effective limitations on how big a useful blueprint can be. But there's no forced limit such as in Satisfactory.
 
 Of the three, Captain of Industry's implementation is the best, but primarily because of another feature: The planning layer.
 
@@ -71,7 +71,7 @@ Of the three, Captain of Industry's implementation is the best, but primarily be
 
 Three lessons stand out to me:
 
-1. When I can't think of an alternate implementation, it probably means I have tunneled vision on a particular implementation.
+1. When I can't think of an alternate implementation, it probably means I have tunnel vision on a particular implementation.
 2. Features don't stand alone; they interact with the other features. Satisfactory's limited blueprint sizes or manual connections would be intolerable in Dyson Sphere Program, for example.
 3. Some features are just good ideas. All three games, for example, would heavily benefit from a planning layer. But the cost might be too high for the benefit given the different contexts.
 

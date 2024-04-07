@@ -33,7 +33,7 @@ Here are three different stories of when software projects have gone badly haywi
 
 I was project manager and architect on a project to replace a brittle legacy in-house system with a modern third-party solution. Many of the project requirements were non-functional requirements -- easily modifiable, maintainable by any developer rather than specialized database experts, testable in a non-production environment, able to make incremental changes without impacting all users -- the sorts of usual goodness one wants from software systems.
 
-After investigating the options, researching the existing code, listening to coworkers, and doing a few prototypes, I had a plan. The basic idea was to build a microservice with its own standalone data storage. This microservice would interface with the 3rd-party solution, which would do the bulk of the work, as well as our other systems. This approach allowed the microservice to isolate the solution from everything else, and by virtue of having a well-designed microservice, we'd pick up the non-functional requirements along the way.
+After investigating the options, researching the existing code, listening to coworkers, and doing a few prototypes, I had a plan. The basic idea was to build a microservice with its own standalone data storage. This microservice would interface with the third-party solution, which would do the bulk of the work, as well as our other systems. This approach allowed the microservice to isolate the solution from everything else, and by virtue of having a well-designed microservice, we'd pick up the non-functional requirements along the way.
 
 Now the company had a brilliant database architect named Kaden. And he had a vision for the database as a well-connected, well-designed monolith -- a single database fully interconnected with foreign keys. The legacy system already had tables in the database, and the new solution could designed to be compatible with those tables. (For context, Kaden was also the original designer of the legacy system, and it was very much his baby.)
 
@@ -87,9 +87,9 @@ But the money ... it wasn't a complete waste. Instead, it provided me with a ver
 * _Make problems visible early._ I did the right thing by pushing the project risk up the chain. Management did need to know that the project lacked adequate resources.
 * _I can do user experience work._ I saw UX as a field that required special talent -- expertise that I completely lacked and shouldn't try to acquire. In hindsight, I already had the skills at that point in my career to make the right choices when it came to system design and information architecture. But I didn't trust myself because I saw UX as too "other." In the end, I'd end up making many of those decisions myself anyway, based on input from my team.
 * _Money can be both available and not available._ Sometimes money is available for certain expenditures (like hiring consultants), but can't be easily transferred where it would be most useful. For example, I would have loved to spend the same amount of money to pay one of the company's user experience practitioners for overtime for a few months. But I don't think the company would have swung for that approach, even though the money spent would have been the same and the outcome far more useful for the project.
-* _Don't delegate to the point of abdication_. Because the people writing the contract had far more experience in this area and were busy -- and I felt inadequate, I didn't ask the questions I should have as project leader: What was going to be the end result? Why was it going to be useful? How would this address the concerns I raised? Could the work be structured more incrementally and perhaps aborted if it wasn't proving useful?
-* _Be quick to acknowledge missteps_. Because I had approved spending the money, it was really hard for me to admit it wasn't a productive expenditure. By not being more vocal, I implicitly sent the signal that this kind of expenditure had been productive.
-* _Even for executives, spending money is a form of commitment_. In the weeks before the consultants were hired, I was struggling to get adequate time with the executives to understand their concerns and get their input on the project. But once the check was written to the consultants, the executives made time to be available to the consultants. I'd been aware of this principle from sales, but I anticipated that creating and launching a six-figure software development project counted as full commitment. In hindsight, the executives likely did not see the salary cost of the project as a real commitment -- that salary was going to get paid no matter what work the developers were doing. But the check to consultants represented a different kind of expenditure.
+* _Don't delegate to the point of abdication._ Because the people writing the contract had far more experience in this area and were busy -- and I felt inadequate -- I didn't ask the questions I should have as project leader: What was going to be the end result? Why was it going to be useful? How would this address the concerns I raised? Could the work be structured more incrementally and perhaps aborted if it wasn't proving useful?
+* _Be quick to acknowledge missteps._ Because I had approved spending the money, it was really hard for me to admit it wasn't a productive expenditure. By not being more vocal, I implicitly sent the signal that this kind of expenditure had been productive.
+* _Even for executives, spending money is a form of commitment._ In the weeks before the consultants were hired, I was struggling to get adequate time with the executives to understand their concerns and get their input on the project. But once the check was written to the consultants, the executives made time to be available to the consultants. I'd been aware of this principle from sales, but I anticipated that creating and launching a six-figure software development project counted as full commitment. In hindsight, the executives likely did not see the salary cost of the project as a real commitment -- that salary was going to get paid no matter what work the developers were doing. But the check to consultants represented a different kind of expenditure.
 * _Companies view money differently than individuals._ Making this kind of misstep with one's personal finances could likely be a catastrophe. But for a business expecting to spend high six figures on a project, even this kind of snafu is basically a rounding error.
 
 Looking back, I still view the whole effort to be a failure on my part. But I also view it as a very expensive personal education in project management ... just one that doesn't come with a diploma.
@@ -143,11 +143,11 @@ _Answer: "Here is the one thing I might say to you, and I say it carefully becau
 
 Commentary: This feedback is pretty apt at capturing both my strengths and how they can simultaneously be a liability.
 
-_Answer: "I think Alan would do well to focus on streamlining his communications.  At times his work (e.g. Confluence pages, emails) could be cut by half (or more) in length to make the topics more understandable."_
+_Answer: "I think Alan would do well to focus on streamlining his communications.  At times his work (e.g., Confluence pages, emails) could be cut by half (or more) in length to make the topics more understandable."_
 
 Commentary: It's not lost on me in the middle of a (_checks word counter_) 5000+-word document that I still aim first for thoroughness and nuanced completeness. I think I've gotten a lot better at writing summaries with links to more specifics -- for example, I've deliberately aimed for short [about](./about) and [profile](./profile-hidden) pages here.
 
-_Answer: "I think Alan at times leans towards being overly philosophical, to the point where it's difficult at times to ascertain what the problem is at hand he's attempting to solve, or what's ""the ask."" I think this can cause him to struggle at times to build a coalition for change."_
+_Answer: "I think Alan at times leans towards being overly philosophical, to the point where it's difficult at times to ascertain what the problem is at hand he's attempting to solve, or what's 'the ask.' I think this can cause him to struggle at times to build a coalition for change."_
 
 Commentary: My natural tendency is to see the whole picture, see the problem, see the solution, and simply dictate the ask and the direction. Unsurprisingly, such an approach comes across as critical and authoritarian. So somewhere along the line I developed a strategy of backing the conversation up - do we share the some philosophical presumptions? Do we see the situation on the ground? Do we see the same set of solutions? Do we see the same tradeoffs for the various solutions? But such an approach certainly can seem overly philosophical. And as one coworker pointed out to me, there are many engineers who just wanted to be pointed in a concrete direction.
 
@@ -189,7 +189,7 @@ _"Compassion and he is driven to serve all well. Alan will hash it out til the c
 
 _"Productivity.  The amount of work Alan is able to put out would be incredible if he was a rank-and-file employee relatively free to focus on tasks.  The fact that he's tied up at least half to two-thirds of his time in meetings (if not more, some weeks, looking at his calendar) and is able to __still__ be highly productive is mind-boggling."_
 
-_"Project management; Alan is great at taking a complex challenge and guiding it to completion. His documentation, goal setting, day-to-day problem solving and communication are all solid, which leads to successful projects with good buy-in from everyone involved."_
+_"Project management; Alan is great at taking a complex challenge and guiding it to completion. His documentation, goal setting, day-to-day problem solving, and communication are all solid, which leads to successful projects with good buy-in from everyone involved."_
 
 _"Analytical skill.  Alan is second-to-none as a troubleshooter, problem solver, and deep thinker."_
 
@@ -207,13 +207,13 @@ _"He is organized. His teams are organized. Everything is documented and well pr
 
 _"Understanding - He wants to understand the nuts and bolts of everything.  I feel this is how he is so good at managing his projects.  He learns every aspect behind every decision being made."_
 
-_"He recognizes his team in stand ups, high fives and in presentations. Gives credit where credit is due."_
+_"He recognizes his team in stand ups, high fives, and in presentations. Gives credit where credit is due."_
 
 # What accomplishments are you most proud of?
 
-First, my leadership and technical design migrating a [complex billing system]({filename}profile-experience-showcase.md) processing millions from a bespoke in-house system to a extensible, testable, and turnkey solution. Achieving this outcome was not only a display of technical expertise, but leadership in building the team up from scratch as well as changing how multiple departments across the company worked. And winning an award from the customer service department for how well I served them on that initiative was particularly satisfying.
+First, my leadership and technical design migrating a [complex billing system]({filename}profile-experience-showcase.md) processing millions of invoices a year from a bespoke in-house system to a extensible, testable, and turnkey solution. Achieving this outcome not only required a display of technical expertise, but also leadership in building the team up from scratch as well as changing how multiple departments across the company worked. And winning an award from the customer service department for how well I served them on that initiative was particularly satisfying.
 
-Secondly, cultivating a self-sufficient team that could successfully manage itself for long periods of time. Somewhere I heard that one mark of true success is eliminating the need to do your job because you've trained others to do it. One of the teams I ran got really good at self-management -- understanding the priorities of work, recognizing problems that need to be elevated, stepping in to help one another. It was deeply satisfying to see the time and energy I'd put into establishing the team pay such dividends.
+Secondly, cultivating a self-sufficient team that could successfully manage itself for long periods of time. Somewhere I've heard that one mark of true success is eliminating the need to do your job because you've trained others to do it. One of the teams I ran got really good at self-management -- understanding the priorities of work, recognizing problems that need to be elevated, and stepping in to help one another. It was deeply satisfying to see the time and energy I'd put into establishing the team pay such dividends.
 
 I'm particularly proud of these accomplishments because they are me showcasing the skill. It's easy to be critical of how others run things; it's another to be able to do better yourself. And both of these accomplishments are moments where I had an opportunity to say "If I actually lead the way I think makes good leadership, will it work?" And it's immensely satisfying to see that yes, it will work, and work well.
 
@@ -221,7 +221,7 @@ Finally, one of my bosses -- a long-time developer and leader with decades of ex
 
 ## What have you been learning recently?
 
-Technically, I recently grabbed a [Humble bundle](https://www.humblebundle.com/books/software-architecture-oreilly-books) with 15 books on different flavors of software architecture. I'm slowly making way through all that content.
+Technically, I recently grabbed a [Humble Bundle](https://www.humblebundle.com/books/software-architecture-oreilly-books) with 15 books on different flavors of software architecture. I'm slowly making way through all that content.
 
 I found _[How to Measure Anything](https://www.amazon.com/How-Measure-Anything-Intangibles-Business/dp/1118539273)_ highly impactful to how I thought about measuring software development, so I also recently picked up _[How to Measure Anything in Cybersecurity Risk](https://www.amazon.com/How-Measure-Anything-Cybersecurity-Risk/dp/1119892309)_. As someone who has often been frustrated by the vagaries of risk assessment and the ROI tradeoffs between various approaches, I'm looking forward to getting a fresh perspective, and perhaps one that can be applied to other areas with high uncertainty and seemingly intangible goals.
 
@@ -232,11 +232,11 @@ The witty answer: _I don't. If it ain't broke, don't fix it._ Every place I've w
 That said, I do have a number of practices that help me keep up:
 
 * _Tangential learning._ While most of my research time goes into looking for targeted solutions to immediate problems, these resources often reference concepts or trends that I'm not familiar with. I use this as a prompt to learn more about a new trend or direction.
-* _[Thoughtworks TechRadar](https://www.thoughtworks.com/en-us/radar)_. This semi-annual snapshot of the tech landscape is a great way to follow trends.
-* Resumes and interviewing. For over a decade, I've been involved in hiring processes. I get to hear from candidates what they have worked on, answer their questions, and see what skills they put on their resume. While this approach suffers from selection bias (e.g., only people with certain skills apply), it still gives a lot of insight into trends.
-* _The annual Stack Overflow [Developer Survey](https://survey.stackoverflow.co/2023/)_. This is very high level, but does show major trends.
+* _[Thoughtworks TechRadar](https://www.thoughtworks.com/en-us/radar)._ This semi-annual snapshot of the tech landscape is a great way to follow trends.
+* Resumes and interviewing. For over a decade, I've been involved in hiring processes. I get to hear from candidates what they have worked on, answer their questions, and see what skills they put on their resumes. While this approach suffers from selection bias (e.g., only people with certain skills apply), it still gives a lot of insight into trends.
+* _The annual Stack Overflow [Developer Survey](https://survey.stackoverflow.co/2023/)._ This is very high level, but does show major trends.
 * _Coworkers_. I love to compare notes and thoughts with coworkers. Between their own interests, research, and backgrounds, I learn an incredible amount about trends. This is doubly true when talking to engineers in related but slightly different specialties, like data or machine learning.
-- _[Hacker News](https://news.ycombinator.com/)_. This is always a source of interesting ideas, often from areas I don't specialize in.
+- _[Hacker News](https://news.ycombinator.com/)._ This is always a source of interesting ideas, often from areas I don't specialize in.
 
 # Professional expertise
 
@@ -253,24 +253,24 @@ At the same time, package management and bundling has so many negatives:
 * Doing it right is a necessity, but adds no value to software.
 * Documentation and guidance is often vague or just outright missing.
 * Error messages are usually unhelpful for determining the actual problem.
-* The actual work is often the intersection of many technologies (e.g., yarn, tsc, webpack, and a few plugins). This amplifies the instruction problem because nobody is using the exact same setup.
+* The actual work is often the intersection of many technologies (e.g., Yarn, tsc, Webpack, and a few plugins). This amplifies the instruction problem because nobody is using the exact same setup.
 * There are a lot of legacy complications -- such as why am I still specifying whether I want common modules or ES modules in the year 2023?
 * Malicious packages are a security attack vector, which just adds to the joy.
 * Packages use packages which use packages, creating dependency collisions, more security headaches (because packages need to update their dependencies), and gigabytes of node_modules data.
 * The giant node_modules directories have secondary effects on CI/CD, such as reducing build speed while also making caching hard.
 * Unless one has a really good test suite (which is time consuming and easy to get wrong), package upgrades introduce a nerve-wracking question: Has anything subtly changed about the behavior of the program?
 
-All together, packaging and bundling is a pain, especially for any sort of combination with many tools that need to play together well. The fact that there are a couple other attempts to solve the packaging problem (e.g., yarn, pnpm) merely adds to the chaos.
+All together, packaging and bundling is a pain, especially for any sort of combination with many tools that need to play together well. The fact that there are a couple other attempts to solve the packaging problem (e.g., Yarn, pnpm) merely adds to the chaos.
 
 ## What are the benefits and the drawbacks of working in an Agile environment?
 
 I see three big upsides to an Agile environment:
 
-* _Rapid delivery of value_. Software doesn't sit on the shelf gathering dust; it generates value for the business.
-* _Faster feedback_. Software gets used, which exposes problems or pain points.
-* _Improved responsiveness to business priorities_. Business needs change rapidly, and rather than trying to predict the next two years, Agile development can quickly pivot and change priorities.
+* _Rapid delivery of value._ Software doesn't sit on the shelf gathering dust; it generates value for the business.
+* _Faster feedback._ Software gets used, which exposes problems or pain points.
+* _Improved responsiveness to business priorities._ Business needs change rapidly, and rather than trying to predict the next two years, Agile development can quickly pivot and change priorities.
 
-The big downside for Agile development is that it can lack adequate long-term focus. Some engineering problems, especially non-functional requirements, take a well-designed plan executed over the long term. Agile tends to avoid this kind of planning.  Likewise, constantly doing the immediately expedient solution can easily build up tech debt and gradually drag the team down. At the same time, the best solution for the company is not necessarily a series of iterations away from the current solution. Agile excels at finding the locally optimal solution, but often misses far more globally optimal approaches.
+The big downside for Agile development is that it can lack adequate long-term focus. Some engineering problems, especially non-functional requirements, take a well-designed plan executed over the long term. Agile tends to avoid this kind of planning. Likewise, constantly doing the immediately expedient solution can easily build up tech debt and gradually drag the team down. At the same time, the best solution for the company is not necessarily a series of iterations away from the current solution. Agile excels at finding the locally optimal solution, but often misses far more globally optimal approaches.
 
 The second downside of some Agile implementations is that they are overly rigid. Agile is intended to be, well, agile and adapt to the specifics of the situation. When it doesn't do that (e.g., "we can't do that because it isn't Agile"), Agile can become an anchor. Rather than serving to help teams excel, the Agile process itself adds stress. For example, teams who take commitments extremely seriously may find themselves stressing out at the end of every sprint.
 
