@@ -73,10 +73,10 @@ One of the most successful collaborations I had was with an information architec
 
 1. We ended up hammering out the key concepts together
 2. He'd implement or change the layouts.
-   * Often, the worked stopped here because the underlying information was already available to the page; it just needed to be displayed.
+    * Often, this step completed the worked because the underlying information was already available to the page; it just needed to be displayed.
 3. He'd mark any places where he didn't know how to get the information he wanted.
 4. I'd implement the code that provided the necessary information.
-  * Often, the work stopped here.
+    * Often, this step completed the work because the design and formatting was already in place.
 5. If necessary, he'd go back and do a second formatting pass, especially if the information wasn't exactly in the format he'd anticipated.
 
 Why did this strategy work so well? Because it was often a 0 person handoff process, sometimes a 1 person process, and occasionally a 2 person process.
