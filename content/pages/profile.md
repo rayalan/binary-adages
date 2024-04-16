@@ -51,7 +51,7 @@ These metrics derive from and summarize some of my technical and leadership succ
 * __2 gigabytes__ - available space for storing commercial hazmat restrictions for all Canadian and United States roads.
 * __Billions__ - number of monthly database rows written
 
---> LINK ALL OF THESE
+[^content]: Link all of these to stories.
 
 # Fun fact
 

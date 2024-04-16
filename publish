@@ -1,0 +1,10 @@
+#!/bin/env bash
+set -euo pipefail
+
+echo "Building site..."
+pelican -s publishconf.py
+echo "Updating gh-pages branch..."
+ghp-import output -b gh-pages
+echo "Updating site..."
+git push git@github.com:rayalan/rayalan.github.io.git gh-pages:master
+echo "Blog published!"

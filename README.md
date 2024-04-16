@@ -25,6 +25,10 @@ And to publish the blog:
     ghp-import output -b gh-pages
     git push git@github.com:rayalan/rayalan.github.io.git gh-pages:master
 
+or just run:
+
+    ./publish
+
 Resources
 ---------
 
