@@ -64,7 +64,7 @@ No doubt that this is a hard problem -- that is, in part why there are so many s
 
 The idea of modularity and well-established patterns extends beyond security and data protection. For example, if one is shipping a new feature, there need to be metrics -- is the feature working as expected? Is anyone using it? Does anyone like it?
 
-In a fast turnaround environment, the way that these questions {{{VERB}}} can't be recreated each time. Instead, the very act of writing a new feature should add the necessary dashboards and metrics. When I write code like this:
+In a fast turnaround environment, the way that these questions are answered can't be recreated each time. Instead, the very act of writing a new feature should add the necessary dashboards and metrics. When I write code like this:
 
 ```
 if FEATURE_FLAG_COOL_NEW_THING:

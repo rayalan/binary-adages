@@ -5,19 +5,19 @@ category: software design
 tags: user experience, system design, incentives
 status: published
 
-The other day I reached out to a top tier monitoring platform with a "peculiarity" about how one of their widgets performed. In a fairly standard scenario, a particular widget behavior linked to the wrong dashboard -- yet everything about their documentation and dashboard interfaces suggested I was using the product in the expected way.
+The other day I reached out to a top-tier monitoring platform with a "peculiarity" about how one of their widgets performed. In a fairly standard scenario, a particular widget behavior linked to the wrong dashboard -- yet everything about their documentation and dashboard interfaces suggested I was using the product in the expected way.
 
 For those not familiar with the industry, the first layer of customer service at such companies tends to be [ID-10T check](https://en.wikipedia.org/wiki/User_error): Is the power on? Did you read the documentation? Did you read all the documentation? Do you understand how the product is supposed to work?
 
-I'm not unsympathetic; I've asked and received my own fair share of question where the problem was user error and a basic Google search would have turned up the answer. My solution to having an extended back-n-forth with tier I support is to carefully write my questions with reproducible cases, expected behaviors, actual behaviors, and applicable documentation. Basically, a classic bug report, except instead of saying "This is a bug", I center the question around "How do I achieve the result I want?" Usually this bypasses most of the prepared prompts and demonstrates sufficient knowledge of the product that my question gets immediately bumped to the system experts.
+I'm not unsympathetic; I've asked and received my own fair share of questions where the problem was user error and a basic Google search would have turned up the answer. My solution to having an extended back-and-forth exchange with tier I support is to carefully write my questions with reproducible cases, expected behaviors, actual behaviors, and applicable documentation. Basically, a classic bug report, except instead of saying "This is a bug," I center the question around "How do I achieve the result I want?" Usually this bypasses most of the prepared prompts and demonstrates sufficient knowledge of the product that my question gets immediately bumped to the system experts.
 
 So I did that here. I carefully linked to the widget in question. I showed the two different scenarios, one which worked as expected and the other of which completely didn't work. And I linked to the documentation and the UI, neither of which suggested the observed behavior was anything remotely like what I should expect.
 
-And I got reply describing an answer to a problem involving 404s (something I completely had not mentioned) and pointing me at some irrelevant documentation. In short, tier I either didn't read my question at all, or sent me back the standard response from some randomly selected keywords.
+And I got a reply describing an answer to a problem involving 404s (something I completely had not mentioned) and pointing me at some irrelevant documentation. In short, tier I either didn't read my question at all, or sent me back the standard response from some randomly selected keywords.
 
 Ugh.
 
-For the reader's amusement, when the system experts got back with me, they agreed that the behavior was undocumented, dysfunctional, and best all, already known by them. Someday, improvements might be a priority on their roadmap.
+For the reader's amusement, when the system experts got back with me, they agreed that the behavior was undocumented, dysfunctional, and best of all, already known by them. Someday, improvements might be a priority on their roadmap.
 
 # Can we do better?
 
@@ -25,7 +25,7 @@ Clearly, this experience wasn't the best. It isn't the experience I want as a cu
 
 So how could we do better? If, at least on paper, both the customer and the provider would like a different experience, could we make one that works?
 
-One answer would be contracts with a clause like "If you ask us a question that is answered in documentation, you'll pay $500. For every documentation hole or legitimate bug you find, we'll credit you $500." That could work, but is likely to lead to a lot of wrangling over whether something is a documentation gap or a legitimate bug. That's probably not the synergistic back-n-forth that either party wants.
+One answer would be contracts with a clause like "If you ask us a question that is answered in documentation, you'll pay $500. For every documentation hole or legitimate bug you find, we'll credit you $500." That could work, but is likely to lead to a lot of wrangling over whether something is a documentation gap or a legitimate bug. That's probably not the synergistic back-and-forth collaboration that either party wants.
 
 # Discoverability
 
@@ -34,7 +34,7 @@ The issue, I believe, is discoverability. If it is easier and faster for me to a
 1. Make it harder and more painful to ask experts a question.
 2. Make it far faster and easier to discover the answer in the service or documentation than to ask an expert.
 
-# A gameplan
+# A game plan
 
 Let's pretend we're running a provider and our ambition is to provide an amazing user experience through discoverability and highly responsive customer support. What's our strategy?
 
@@ -45,23 +45,23 @@ This means that every common question needs to be ruthlessly turned into a disco
 * If I'm in the system and want to know what a widget can do, I need to be able to easily discover that.
 * If I'm writing a project plan and want to know what a widget can do, I need to be able to easily discover that.
 * If I want to know the best way to achieve an outcome, I need to be able to discover that.
-* If I want to know if my question already has answer, I need to be able to quickly discover that.
+* If I want to know if my question already has an answer, I need to be able to quickly discover that.
 
 To support this, we'll want to hire customer service representatives from fields such as product design, user experience, and software development.
 
 The key outcome of every customer question is not "How do we answer this question?" It is:
 
-> How do we make the answer so discoverable that nobody every asks this again?
+> How do we make the answer so discoverable that nobody ever asks this again?
 
 # The concept
 
 So instead of having a traditional customer service department, we'll integrate customer interactions with a group focused on product usability, from interested prospects to long-term users. With this scope, the group should have the ability to guide discoverability through product design, user interfaces, and documentation.
 
-As one example, consider a company taking the [playground idea](https://www.typescriptlang.org/play/) to the next level: Every feature had links to a playground environment with realistic dummy data that demonstrated the capability.
+As one example, consider a company taking the [playground idea](https://www.typescriptlang.org/play/) to the next level: every feature had links to a playground environment with realistic dummy data that demonstrated the capability.
 
 Solving this space is still a hard problem. While fast rapid iterations works for many software solutions, there's often weak integration between code and documentation, or between user interfaces and explanations of behaviors, or between products and the explanations. Many companies struggle with information architecture, organizing their documentation in ways that users do not quickly understand[^four].
 
-[^four]: I've found the [four kinds of documentation](https://www.writethedocs.org/videos/eu/2017/the-four-kinds-of-documentation-and-why-you-need-to-understand-what-they-are-daniele-procida/) to be a fantastic idea, and wish far more companies used that as guiding principle.
+[^four]: I've found the [four kinds of documentation](https://www.writethedocs.org/videos/eu/2017/the-four-kinds-of-documentation-and-why-you-need-to-understand-what-they-are-daniele-procida/) to be a fantastic idea, and I wish far more companies used that as guiding principle.
 
 # Troublemakers
 

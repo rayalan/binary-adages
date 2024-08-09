@@ -7,7 +7,7 @@ status: published
 
 _Retry connection?_
 
-Two of my "favorite" words. My home internet connection was out. I checked the outage map, there were some vague lines suggesting something or another in my area might be out. A few hours later, the internet was back on.
+Two of my "favorite" words. My home internet connection was out. I checked the outage map; there were some vague lines suggesting something or another in my area might be out. A few hours later, the internet was back on.
 
 _Retry connection?_
 
@@ -37,15 +37,15 @@ The whole experience is a lesson in (bad) user experience.
 
 __The principle:__ [Visibility of System Status](https://www.nngroup.com/articles/visibility-system-status/).
 
-__The reality:__ There's no visibility of system status. There was no way to independently validate anything the representative was telling me. In fact, at one point, I asked the representative for my modem id just to confirm that the user wasn't just reading rote answers from note cards.
+__The reality:__ There's no visibility of system status. There was no way to independently validate anything the representative was telling me. In fact, at one point, I asked the representative for my modem ID just to confirm that the user wasn't just reading rote answers from note cards.
 
 Getting information was painful with long delays. What's particularly ironic is that my provider has a monthly data cap. So some part of their system is absolutely aware of when and how many bytes I'm using.
 
-__The principle:__ [Match between the system and the real World](https://www.nngroup.com/articles/ten-usability-heuristics/).
+__The principle:__ [Match between the system and the real world](https://www.nngroup.com/articles/ten-usability-heuristics/).
 
 __The reality:__ Why can't I access this information myself from my phone? Why do I even need to call my internet provider to find out if my cable modem has a signal connection to the world?
 
-Are they really expecting the average customer to have a way to connect their laptop directly a cable modem to bypass a router? Yes, I can do it. I also work in the software industry, have far more computers than the average person, and years worth of random tech equipment I've collected for one reason or another. But it's not like the latest MacBookPro comes with a CAT-5 connection.
+Are they really expecting the average customer to have a way to connect their laptop directly a cable modem to bypass a router? Yes, I can do it. I also work in the software industry, have far more computers than the average person, and years worth of random tech equipment I've collected for one reason or another. But it's not like the latest MacBook Pro comes with a CAT-5 connection.
 
 __The principle:__ [Help users recognize, diagnose, and recover from errors](https://www.nngroup.com/articles/ten-usability-heuristics/).
 
@@ -65,17 +65,15 @@ And this care-free attitude? It's probably a good business decision.
 
 My internet doesn't go out very often. There aren't many providers, and some of them have worse reputations. Changing providers is a disruptive experience with little guarantee of upside. So I'm unlikely to change providers and likely to keep paying them.
 
-Ironically, I know they have all the data they need to make this experience far better: I have a monthly data quota. They can tell me how much data I've used after a day or two delay. so somewhere, some part of their system is aware of how much internet traffic is coming from my modem. Some part of their system is aware of whether or not my cable modem is connected. And these systems could be connected together to provide a more-or-less realtime account view.
+Ironically, I know they have all the data they need to make this experience far better: I have a monthly data quota. They can tell me how much data I've used after a day or two delay. so somewhere, some part of their system is aware of how much internet traffic is coming from my modem. Some part of their system is aware of whether or not my cable modem is connected. And these systems could be connected together to provide a more-or-less real-time account view.
 
-Would it be easy? Maybe not. It could be their systems aren't real-time currently. Maybe they have a mix of systems that don't easily talk to each other.
+Would it be easy? Maybe not. It could be their systems aren't real-time currently. Maybe they have a mix of systems that don't easily talk to one another.
 
-In short, it is likely expensive to do what I'm suggesting. So given little upside, why make a substantial investment?
-
-In short, terrible UX is likely a very good business decision.
+In short, it is likely expensive to do what I'm suggesting. So given little upside, why make a substantial investment? Terrible UX is likely a very good business decision.
 
 # So what
 
-I don't like this answer. I don't want low quality experiences to be a good business decisions.
+I don't like this answer. I don't want low-quality experiences to be good business decisions.
 
 Yet if I extrapolate this logic out, a principle suggests itself:
 
